@@ -1,0 +1,53 @@
+"katsuyu_physical_composition"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+	"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+	"FightRecapLevel"				"1"
+	"AbilityTextureName"			"katsuyu_physical_composition"
+	
+	// Precache
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+
+	}
+
+	
+	// Cast Range
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastRange"				"500"
+
+	// Stats
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityModifierSupportValue"	"0.5"	// Primarily about the summon
+	
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"damage_reduction_percentage"			"10 20"
+		}
+
+	}
+	
+	"Modifiers"
+    {
+      "katsuyu_composition_buff"
+      {
+      	"Passive"				"1"
+      	"IsBuff"			"1"
+      	"IsHidden"			"1"
+		"Properties"
+		{
+			"MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE" "%damage_reduction_percentage"
+		}
+
+      }
+    }
+}

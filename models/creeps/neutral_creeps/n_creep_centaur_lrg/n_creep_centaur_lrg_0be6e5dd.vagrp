@@ -1,0 +1,1065 @@
+AnimationGroupResourceData_t
+{
+	uint32 m_nFlags = 0x00000000
+	CResourceString m_name = ""
+	ExternalReference m_localHAnimArray[5] =
+	[
+		resource:"models/creeps/neutral_creeps/n_creep_centaur_lrg/0be6e5dd/nibi_ani.vanim"
+		resource:"models/creeps/neutral_creeps/n_creep_centaur_lrg/0be6e5dd/nibi_idle.vanim"
+		resource:"models/creeps/neutral_creeps/n_creep_centaur_lrg/0be6e5dd/nibi_run.vanim"
+		resource:"models/creeps/neutral_creeps/n_creep_centaur_lrg/0be6e5dd/nibi_die.vanim"
+		resource:"models/creeps/neutral_creeps/n_creep_centaur_lrg/0be6e5dd/nibi_attack.vanim"
+	]
+	ExternalReference m_includedGroupArray[0] =
+	[
+	]
+	ExternalReference m_directHSeqGroup = NULL
+	Struct m_decodeKey = AnimationKeyResourceData_t
+	{
+		CResourceString m_name = ""
+		Struct m_boneArray[65] =
+		[
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Object001"
+				int32 m_parent = -1
+				Vector m_pos = (0.000000, 0.000000, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone08"
+				int32 m_parent = -1
+				Vector m_pos = (-0.714873, -0.000000, 218.511993)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone05"
+				int32 m_parent = 1
+				Vector m_pos = (0.000000, 30.850800, -29.816700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle23"
+				int32 m_parent = 2
+				Vector m_pos = (-0.134618, 26.467600, 57.973301)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone36"
+				int32 m_parent = 2
+				Vector m_pos = (18.610600, 55.001400, 36.482800)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone37"
+				int32 m_parent = 4
+				Vector m_pos = (0.976273, 51.034801, 12.175000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle13"
+				int32 m_parent = 5
+				Vector m_pos = (3.935320, 46.263000, 12.829800)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone42"
+				int32 m_parent = 5
+				Vector m_pos = (5.580460, 110.666000, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle12"
+				int32 m_parent = 7
+				Vector m_pos = (10.066400, 58.778500, 9.372710)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone38"
+				int32 m_parent = 7
+				Vector m_pos = (13.943000, 126.973999, -13.583500)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle14"
+				int32 m_parent = 9
+				Vector m_pos = (11.019500, 82.102402, 5.751310)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone39"
+				int32 m_parent = 9
+				Vector m_pos = (13.408300, 166.496994, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle15"
+				int32 m_parent = 11
+				Vector m_pos = (8.244350, 80.804604, 9.840060)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone40"
+				int32 m_parent = 11
+				Vector m_pos = (17.628599, 179.531998, 14.474700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle16"
+				int32 m_parent = 13
+				Vector m_pos = (18.292900, 91.818398, 19.298901)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone41"
+				int32 m_parent = 13
+				Vector m_pos = (29.387400, 197.962997, 38.060799)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle17"
+				int32 m_parent = 15
+				Vector m_pos = (27.163799, 66.638100, 9.452790)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone27"
+				int32 m_parent = 2
+				Vector m_pos = (-18.478001, 55.001400, 36.482800)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone28"
+				int32 m_parent = 17
+				Vector m_pos = (-0.976273, 51.034801, 12.175000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle06"
+				int32 m_parent = 18
+				Vector m_pos = (-0.583632, 46.263000, 12.829700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone29"
+				int32 m_parent = 18
+				Vector m_pos = (-5.580440, 110.666000, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle07"
+				int32 m_parent = 20
+				Vector m_pos = (-6.714740, 58.778500, 9.372620)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone30"
+				int32 m_parent = 20
+				Vector m_pos = (-13.942900, 126.973999, -13.583600)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle08"
+				int32 m_parent = 22
+				Vector m_pos = (-7.667830, 82.102402, 5.751190)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone31"
+				int32 m_parent = 22
+				Vector m_pos = (-13.408300, 166.496994, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle09"
+				int32 m_parent = 24
+				Vector m_pos = (-4.892680, 80.804604, 9.839900)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone32"
+				int32 m_parent = 24
+				Vector m_pos = (-17.628599, 179.531998, 14.474600)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle10"
+				int32 m_parent = 26
+				Vector m_pos = (-14.941300, 91.818497, 19.298700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone33"
+				int32 m_parent = 26
+				Vector m_pos = (-29.387400, 197.962997, 38.060902)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle11"
+				int32 m_parent = 28
+				Vector m_pos = (-23.812099, 66.638100, 9.452700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone13"
+				int32 m_parent = 2
+				Vector m_pos = (-55.587898, 19.911100, -13.616200)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle18"
+				int32 m_parent = 30
+				Vector m_pos = (-24.268801, 2.028570, 31.687099)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle27"
+				int32 m_parent = 30
+				Vector m_pos = (-24.268801, 2.028570, -40.143299)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone14"
+				int32 m_parent = 30
+				Vector m_pos = (0.000000, 0.000000, -60.093700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone15"
+				int32 m_parent = 33
+				Vector m_pos = (0.000000, 49.608799, -27.954901)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone16"
+				int32 m_parent = 34
+				Vector m_pos = (0.000000, -33.999802, -61.057201)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle04"
+				int32 m_parent = 35
+				Vector m_pos = (-2.489080, -16.176300, -18.724701)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone18"
+				int32 m_parent = 2
+				Vector m_pos = (55.838902, 19.911100, -13.616200)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle21"
+				int32 m_parent = 37
+				Vector m_pos = (23.630800, 2.028550, 31.687099)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle25"
+				int32 m_parent = 37
+				Vector m_pos = (23.630800, 2.028570, -40.143299)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone23"
+				int32 m_parent = 37
+				Vector m_pos = (0.000000, 0.000000, -60.093700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone24"
+				int32 m_parent = 40
+				Vector m_pos = (0.000000, 49.608799, -27.954901)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone19"
+				int32 m_parent = 41
+				Vector m_pos = (0.000000, -33.999802, -61.057201)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle03"
+				int32 m_parent = 42
+				Vector m_pos = (6.760220, -16.176300, -18.724800)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone07"
+				int32 m_parent = 1
+				Vector m_pos = (0.000000, -27.043100, -29.816700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle22"
+				int32 m_parent = 44
+				Vector m_pos = (-0.134611, 22.654800, -6.658260)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle20"
+				int32 m_parent = 44
+				Vector m_pos = (-0.134623, -31.188900, 39.255901)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone25"
+				int32 m_parent = 44
+				Vector m_pos = (55.838902, -28.790400, -1.412230)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle19"
+				int32 m_parent = 47
+				Vector m_pos = (23.630800, -2.398550, 19.483200)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle26"
+				int32 m_parent = 47
+				Vector m_pos = (23.630800, -2.398540, -52.347198)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone26"
+				int32 m_parent = 47
+				Vector m_pos = (-11.228600, 11.488200, -94.910797)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone20"
+				int32 m_parent = 50
+				Vector m_pos = (12.140600, -37.042301, -67.133003)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle02"
+				int32 m_parent = 51
+				Vector m_pos = (5.848260, -18.774099, -17.990801)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone09"
+				int32 m_parent = 44
+				Vector m_pos = (-55.587898, -28.790400, -1.412230)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle01"
+				int32 m_parent = 53
+				Vector m_pos = (-24.268801, -2.398530, 19.483200)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle28"
+				int32 m_parent = 53
+				Vector m_pos = (-24.268801, -2.398540, -52.347301)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone10"
+				int32 m_parent = 53
+				Vector m_pos = (11.228600, 11.488200, -94.910797)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone11"
+				int32 m_parent = 56
+				Vector m_pos = (-12.140600, -37.042301, -67.132896)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle05"
+				int32 m_parent = 57
+				Vector m_pos = (-1.577130, -18.774099, -17.990700)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone04"
+				int32 m_parent = 44
+				Vector m_pos = (0.000000, -60.379398, 27.604799)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle24"
+				int32 m_parent = 59
+				Vector m_pos = (-0.134627, -17.132700, 15.694800)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "BlizParticle29"
+				int32 m_parent = 59
+				Vector m_pos = (-0.134628, -49.001400, -10.797800)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone45"
+				int32 m_parent = 59
+				Vector m_pos = (23.344200, -44.386200, 28.927999)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone43"
+				int32 m_parent = 59
+				Vector m_pos = (-25.302700, -44.386200, 28.927999)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone01"
+				int32 m_parent = 59
+				Vector m_pos = (0.000000, -62.564999, -11.553200)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+		]
+		Struct m_userArray[0] =
+		[
+		]
+		CResourceString m_morphArray[0] =
+		[
+		]
+		Struct m_IKChainArray[0] =
+		[
+		]
+		int32 m_nChannelElements = 130
+		Struct m_dataChannelArray[2] =
+		[
+			AnimResourceDataChannel_t
+			{
+				CResourceString m_szChannelClass = "BoneChannel"
+				CResourceString m_szVariableName = "Position"
+				int32 m_nFlags = 0
+				int32 m_nType = 3
+				CResourceString m_szGrouping = ""
+				CResourceString m_szDescription = ""
+				CResourceString m_szElementNameArray[65] =
+				[
+					"Object001"
+					"Bone08"
+					"Bone05"
+					"BlizParticle23"
+					"Bone36"
+					"Bone37"
+					"BlizParticle13"
+					"Bone42"
+					"BlizParticle12"
+					"Bone38"
+					"BlizParticle14"
+					"Bone39"
+					"BlizParticle15"
+					"Bone40"
+					"BlizParticle16"
+					"Bone41"
+					"BlizParticle17"
+					"Bone27"
+					"Bone28"
+					"BlizParticle06"
+					"Bone29"
+					"BlizParticle07"
+					"Bone30"
+					"BlizParticle08"
+					"Bone31"
+					"BlizParticle09"
+					"Bone32"
+					"BlizParticle10"
+					"Bone33"
+					"BlizParticle11"
+					"Bone13"
+					"BlizParticle18"
+					"BlizParticle27"
+					"Bone14"
+					"Bone15"
+					"Bone16"
+					"BlizParticle04"
+					"Bone18"
+					"BlizParticle21"
+					"BlizParticle25"
+					"Bone23"
+					"Bone24"
+					"Bone19"
+					"BlizParticle03"
+					"Bone07"
+					"BlizParticle22"
+					"BlizParticle20"
+					"Bone25"
+					"BlizParticle19"
+					"BlizParticle26"
+					"Bone26"
+					"Bone20"
+					"BlizParticle02"
+					"Bone09"
+					"BlizParticle01"
+					"BlizParticle28"
+					"Bone10"
+					"Bone11"
+					"BlizParticle05"
+					"Bone04"
+					"BlizParticle24"
+					"BlizParticle29"
+					"Bone45"
+					"Bone43"
+					"Bone01"
+				]
+				int32 m_nElementIndexArray[65] =
+				[
+					0
+					1
+					2
+					3
+					4
+					5
+					6
+					7
+					8
+					9
+					10
+					11
+					12
+					13
+					14
+					15
+					16
+					17
+					18
+					19
+					20
+					21
+					22
+					23
+					24
+					25
+					26
+					27
+					28
+					29
+					30
+					31
+					32
+					33
+					34
+					35
+					36
+					37
+					38
+					39
+					40
+					41
+					42
+					43
+					44
+					45
+					46
+					47
+					48
+					49
+					50
+					51
+					52
+					53
+					54
+					55
+					56
+					57
+					58
+					59
+					60
+					61
+					62
+					63
+					64
+				]
+				uint32 m_nElementMaskArray[65] =
+				[
+					0x00000001
+					0x00000001
+					0x00000001
+					0x00000002
+					0x00000002
+					0x00000004
+					0x00000004
+					0x00000008
+					0x00000008
+					0x00000010
+					0x00000010
+					0x00000020
+					0x00000020
+					0x00000040
+					0x00000040
+					0x00000080
+					0x00000080
+					0x00000100
+					0x00000100
+					0x00000200
+					0x00000200
+					0x00000400
+					0x00000400
+					0x00000800
+					0x00000800
+					0x00001000
+					0x00001000
+					0x00002000
+					0x00002000
+					0x00004000
+					0x00004000
+					0x00008000
+					0x00008000
+					0x00010000
+					0x00010000
+					0x00020000
+					0x00020000
+					0x00040000
+					0x00040000
+					0x00080000
+					0x00080000
+					0x00100000
+					0x00100000
+					0x00200000
+					0x00200000
+					0x00400000
+					0x00400000
+					0x00800000
+					0x00800000
+					0x01000000
+					0x01000000
+					0x02000000
+					0x02000000
+					0x04000000
+					0x04000000
+					0x08000000
+					0x08000000
+					0x10000000
+					0x10000000
+					0x20000000
+					0x20000000
+					0x40000000
+					0x40000000
+					0x80000000
+					0x80000000
+				]
+			}
+			AnimResourceDataChannel_t
+			{
+				CResourceString m_szChannelClass = "BoneChannel"
+				CResourceString m_szVariableName = "Angle"
+				int32 m_nFlags = 0
+				int32 m_nType = 4
+				CResourceString m_szGrouping = ""
+				CResourceString m_szDescription = ""
+				CResourceString m_szElementNameArray[65] =
+				[
+					"Object001"
+					"Bone08"
+					"Bone05"
+					"BlizParticle23"
+					"Bone36"
+					"Bone37"
+					"BlizParticle13"
+					"Bone42"
+					"BlizParticle12"
+					"Bone38"
+					"BlizParticle14"
+					"Bone39"
+					"BlizParticle15"
+					"Bone40"
+					"BlizParticle16"
+					"Bone41"
+					"BlizParticle17"
+					"Bone27"
+					"Bone28"
+					"BlizParticle06"
+					"Bone29"
+					"BlizParticle07"
+					"Bone30"
+					"BlizParticle08"
+					"Bone31"
+					"BlizParticle09"
+					"Bone32"
+					"BlizParticle10"
+					"Bone33"
+					"BlizParticle11"
+					"Bone13"
+					"BlizParticle18"
+					"BlizParticle27"
+					"Bone14"
+					"Bone15"
+					"Bone16"
+					"BlizParticle04"
+					"Bone18"
+					"BlizParticle21"
+					"BlizParticle25"
+					"Bone23"
+					"Bone24"
+					"Bone19"
+					"BlizParticle03"
+					"Bone07"
+					"BlizParticle22"
+					"BlizParticle20"
+					"Bone25"
+					"BlizParticle19"
+					"BlizParticle26"
+					"Bone26"
+					"Bone20"
+					"BlizParticle02"
+					"Bone09"
+					"BlizParticle01"
+					"BlizParticle28"
+					"Bone10"
+					"Bone11"
+					"BlizParticle05"
+					"Bone04"
+					"BlizParticle24"
+					"BlizParticle29"
+					"Bone45"
+					"Bone43"
+					"Bone01"
+				]
+				int32 m_nElementIndexArray[65] =
+				[
+					65
+					66
+					67
+					68
+					69
+					70
+					71
+					72
+					73
+					74
+					75
+					76
+					77
+					78
+					79
+					80
+					81
+					82
+					83
+					84
+					85
+					86
+					87
+					88
+					89
+					90
+					91
+					92
+					93
+					94
+					95
+					96
+					97
+					98
+					99
+					100
+					101
+					102
+					103
+					104
+					105
+					106
+					107
+					108
+					109
+					110
+					111
+					112
+					113
+					114
+					115
+					116
+					117
+					118
+					119
+					120
+					121
+					122
+					123
+					124
+					125
+					126
+					127
+					128
+					129
+				]
+				uint32 m_nElementMaskArray[65] =
+				[
+					0x00000001
+					0x00000001
+					0x00000001
+					0x00000002
+					0x00000002
+					0x00000004
+					0x00000004
+					0x00000008
+					0x00000008
+					0x00000010
+					0x00000010
+					0x00000020
+					0x00000020
+					0x00000040
+					0x00000040
+					0x00000080
+					0x00000080
+					0x00000100
+					0x00000100
+					0x00000200
+					0x00000200
+					0x00000400
+					0x00000400
+					0x00000800
+					0x00000800
+					0x00001000
+					0x00001000
+					0x00002000
+					0x00002000
+					0x00004000
+					0x00004000
+					0x00008000
+					0x00008000
+					0x00010000
+					0x00010000
+					0x00020000
+					0x00020000
+					0x00040000
+					0x00040000
+					0x00080000
+					0x00080000
+					0x00100000
+					0x00100000
+					0x00200000
+					0x00200000
+					0x00400000
+					0x00400000
+					0x00800000
+					0x00800000
+					0x01000000
+					0x01000000
+					0x02000000
+					0x02000000
+					0x04000000
+					0x04000000
+					0x08000000
+					0x08000000
+					0x10000000
+					0x10000000
+					0x20000000
+					0x20000000
+					0x40000000
+					0x40000000
+					0x80000000
+					0x80000000
+				]
+			}
+		]
+	}
+	Struct m_retarget = AnimationRetargetData_t
+	{
+		int32 m_bEnableRetarget = 0
+		int32 m_nRetargetStyle = 0
+		Struct m_element[0] =
+		[
+		]
+		Struct m_chain[0] =
+		[
+		]
+		CResourceString m_replicated[0] =
+		[
+		]
+	}
+	CResourceString m_szScripts[0] =
+	[
+	]
+}

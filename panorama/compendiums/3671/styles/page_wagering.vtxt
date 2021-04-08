@@ -1,0 +1,70 @@
+#page_cover
+{
+	flow-children: none;
+}
+
+#coins_won
+{
+	position: 174px 120px 0;
+}
+
+#you_have_won
+{
+	margin-top: 164px;
+	width: 322px;
+	height: 36px;
+	color: #cbc7bd;
+	font-size: 20;
+	text-align: center;
+	z-index: 1;
+	}
+
+#coin_display
+{
+	margin-top: 178px;
+	width: 322px;
+    color: gradient( linear, 0% 0%, 0% 100%, from( #aee35d ), to( #6d9d23 ));
+	font-size: 72;
+	text-align: center;
+	z-index: 1;
+    text-shadow: 4px 4px 100px #000000;
+    font-weight: bold;
+}
+
+#comp_coins
+{
+	position: 0px 257px 0;
+	width: 322px;
+	height: 36px;
+	color: #cbc7bd;
+	font-size: 14;
+	text-align: center;
+	z-index: 1;
+}
+
+#coins_bg
+{
+	width: 322px;
+	height: 304px;
+}
+
+
+#ruler_top
+{
+	position: 26px 435px 0;
+}
+#description
+{
+	position: 76px 454px 0;
+	font-size: 14;
+}
+#description2
+{
+	position: 76px 554px 0;
+	font-size: 14;
+}
+#description3
+{
+	position: 76px 654px 0;
+	font-size: 14;
+}

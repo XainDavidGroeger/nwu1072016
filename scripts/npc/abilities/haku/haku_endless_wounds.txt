@@ -1,0 +1,79 @@
+"haku_endless_wounds"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"AbilityTextureName"			"haku_endless_wounds"
+	
+		"precache"
+		{
+
+		}
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"ms_slow_per_stack"				"-1"
+		}
+		"02"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"threshold"						"20 35 50 65"
+		}
+		"03"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"duration"		"5"
+		}
+		"04"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"stacks_per_attack"		"4"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_haku_endless_needles_caster"
+		{
+			"Passive"                   "1"
+            "IsHidden"                  "1"
+        
+           "OnAttackLanded"
+           {
+	              "RunScript"
+	              {
+	                "ScriptFile"  "heroes/haku/endless_wounds.lua"
+	                "Function"    "applyStacksAttack"
+	                "target"	  "TARGET"
+	              }
+        	}
+		}
+
+		"modifier_haku_endless_needles_victim"
+		{
+            "IsHidden"                  "0"
+            "IsPurgable"                "0"
+            "IsDebuff"					"1"
+          	"Properties"
+			{
+				"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"	"%ms_slow_per_stack"
+			}
+
+			"OnCreated"
+			{
+				"RunScript"
+				{
+					"ScriptFile"	"heroes/haku/endless_wounds.lua"
+					"Function"		"applyEffect"
+				}
+			}
+		}
+
+	}
+}

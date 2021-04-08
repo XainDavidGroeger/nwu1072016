@@ -1,0 +1,12 @@
+#page_insidecover
+{
+	flow-children: none;
+}
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 673px;
+	height: 757px;
+}
+

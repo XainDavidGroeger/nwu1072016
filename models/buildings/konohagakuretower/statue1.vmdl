@@ -1,0 +1,96 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/buildings/konohagakuretower/statue1.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/buildings/konohagakuretower/statue1.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[0] =
+	[
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[1] =
+		[
+			"Cylinder01"
+		]
+		int16 m_nParent[1] =
+		[
+			-1
+		]
+		float32 m_boneSphere[1] =
+		[
+			100.852043
+		]
+		uint32 m_nFlag[1] =
+		[
+			0x0003FD80
+		]
+		Vector m_bonePosParent[1] =
+		[
+			(-3.290060, 0.184329, 0.000000)
+		]
+		Quaternion m_boneRotParent[1] =
+		[
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+		]
+	}
+	int16 m_remappingTable[2] =
+	[
+		0
+		0
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

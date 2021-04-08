@@ -1,0 +1,84 @@
+"item_kunai"
+{
+  // General
+  //-------------------------------------------------------------------------------------------------------------
+  "BaseClass"           "item_datadriven"
+  "ID"              "9838"  
+  "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+  "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_TREE"
+  "Model"             "models/props_gameplay/red_box.vmdl" 
+  "Effect"            "particles/generic_gameplay/dropped_item.vpcf"
+  "AbilityTextureName"      "item_kunai"
+  "AbilityUnitDamageType"         "DAMAGE_TYPE_PHYSICAL"   
+  "FightRecapLevel"       "1"
+  
+  // Stats    
+  //-------------------------------------------------------------------------------------------------------------
+  "AbilityCastRange"        "350"
+  "AbilityCastPoint"        "0.0"
+  "AbilityCooldown"       "4.0"
+  "AbilityManaCost"       "0"
+  "ItemShareability"      "ITEM_NOT_SHAREABLE"
+  "ItemBaseLevel"         "1"
+  "ItemDeclarations"        "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+  
+  // Item Info
+  //-------------------------------------------------------------------------------------------------------------
+  "ItemCost"            "200"
+  "ItemShopTags"         ""
+  "ItemQuality"         "component"  
+  "ItemAliases"         "quelling blade;"
+  	 "SideShop"            "1"
+  
+
+   "precache"
+    {
+
+    }
+
+  "AbilitySpecial"
+  {
+     "01"
+      {
+        "var_type"            "FIELD_FLOAT"
+        "bonus_damage_melee"        "40.0"
+      }
+       "02"
+      {
+        "var_type"            "FIELD_FLOAT"
+        "bonus_damage_range"        "15.0"
+      }
+  }
+  
+  "OnSpellStart"
+  {
+
+    "RunScript"
+    {
+      "ScriptFile"    "items/kunai.lua"
+      "Function"      "cutTree"
+      "Target"      "TARGET"
+    }
+  }
+  
+  "Modifiers"
+  {
+    "modifier_item_dagon_datadriven"
+    {
+      "Passive"     "1"
+      "IsHidden"      "1"
+      "Attributes"    "MODIFIER_ATTRIBUTE_MULTIPLE"
+      
+      "OnAttackLanded"
+      {
+        "RunScript"
+        {
+          "ScriptFile"  "items/kunai.lua"
+          "Function"    "kunaiBuff"
+          "Target"      "TARGET"
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,4 @@
+#page_backcover
+{
+	flow-children: none;
+}

@@ -1,0 +1,164 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CRenderMesh"
+	m_sceneObjects = 
+	[
+		{
+			_class = "CSceneObjectData"
+			m_vMinBounds = 
+			[
+				-3.267180,
+				-159.641983,
+				-11.843400,
+			]
+			m_vMaxBounds = 
+			[
+				27.849197,
+				159.572983,
+				148.582993,
+			]
+			m_drawCalls = 
+			[
+				{
+					_class = "CMaterialDrawDescriptor"
+					m_nPrimitiveType = "RENDER_PRIM_TRIANGLES"
+					m_nBaseVertex = 0
+					m_nVertexCount = 464
+					m_nStartIndex = 0
+					m_nIndexCount = 648
+					m_nStartInstance = 0
+					m_nInstanceCount = 0
+					m_flUvDensity = 49.847050
+					m_nFlags = "MESH_DRAW_FLAGS_USE_COMPRESSED_NORMAL_TANGENT"
+					m_vTintColor = 
+					[
+						1.000000,
+						1.000000,
+						1.000000,
+					]
+					m_indexBuffer = 
+					{
+						_class = "RenderBufferBinding_t"
+						m_hBuffer = 0
+						m_nBindOffsetBytes = 0
+					}
+					m_material = resource:"materials/props/metalfence/metalfence.vmat"
+					m_vertexBuffers = 
+					[
+						{
+							m_hBuffer = 0
+							m_nBindOffsetBytes = 0
+						},
+					]
+				},
+			]
+			m_vTintColor = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+		},
+	]
+	m_morphSet = null
+	m_constraints = 
+	[
+	]
+	m_skeleton = 
+	{
+		_class = "CRenderSkeleton"
+		m_bones = 
+		[
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Metal Fence 02"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.000000,
+					-1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-0.000000,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-0.497086,
+						-11.493034,
+						76.038391,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						158.225967,
+						11.642536,
+						68.293396,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 215.764740
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Metal Fence 01"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.000000,
+					-1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-0.000000,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-0.034500,
+						-12.291008,
+						68.369797,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						159.607468,
+						15.558187,
+						80.213196,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 218.489761
+			},
+		]
+		m_boneParents = 
+		[
+		]
+		m_nFlags = "RenderSkeletonData_t::FLAG_BLEND_WEIGHT_COUNT_SHIFT"
+		m_nBoneWeightCount = 3
+	}
+	m_attachments = 
+	[
+	]
+	m_hitboxsets = 
+	[
+	]
+}

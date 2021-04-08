@@ -1,0 +1,184 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/kankuro/karasu.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/kankuro/puppet3_36b8b908.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[1] =
+	[
+		resource:"models/kankuro/karasu_dc577c7b.vagrp"
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[12] =
+		[
+			"Object001"
+			"Object11"
+			"Object10"
+			"Object12"
+			"Object08"
+			"Object07"
+			"Object03"
+			"Object02"
+			"Object05"
+			"Object01"
+			"Object06"
+			"Object04"
+		]
+		int16 m_nParent[12] =
+		[
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+		]
+		float32 m_boneSphere[12] =
+		[
+			0.000000
+			37.127052
+			65.838425
+			114.378891
+			37.264053
+			65.975510
+			70.749374
+			70.724663
+			84.658638
+			101.968895
+			84.176689
+			101.305000
+		]
+		uint32 m_nFlag[12] =
+		[
+			0x0003FCE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+		]
+		Vector m_bonePosParent[12] =
+		[
+			(0.000000, 0.000000, 0.000000)
+			(-6.807568, 0.721755, 48.329651)
+			(-6.807580, 0.721752, 48.329651)
+			(-6.807573, 0.721778, 48.329597)
+			(-6.807564, 0.721755, 48.329643)
+			(-6.807560, 0.721855, 48.329651)
+			(-6.964709, 0.731754, 48.329597)
+			(-6.565949, 0.742155, 48.329597)
+			(-6.807585, 0.721754, 48.329597)
+			(-6.807600, 0.721756, 48.329597)
+			(-6.807576, 0.721754, 48.329597)
+			(-6.807571, 0.721756, 48.329597)
+		]
+		Quaternion m_boneRotParent[12] =
+		[
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+		]
+	}
+	int16 m_remappingTable[23] =
+	[
+		0
+		7
+		6
+		11
+		10
+		9
+		8
+		3
+		5
+		4
+		2
+		1
+		7
+		6
+		11
+		10
+		9
+		8
+		3
+		5
+		4
+		2
+		1
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

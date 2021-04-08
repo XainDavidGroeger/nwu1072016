@@ -1,0 +1,200 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/buildings/gedomazo/gedo_mazo.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/buildings/gedomazo/gedo_mazo.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[0] =
+	[
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[14] =
+		[
+			"GameBaBy_ShiWei4"
+			"bone_new0"
+			"bone_new6"
+			"bone_new20"
+			"bone_new1"
+			"bone_new14"
+			"bone_new13"
+			"GameBaBy_ShiWei3"
+			"bone_new12"
+			"bone_new11"
+			"bone_new5"
+			"bone_new4"
+			"bone_new19"
+			"bone_new2"
+		]
+		int16 m_nParent[14] =
+		[
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+			-1
+		]
+		float32 m_boneSphere[14] =
+		[
+			901.359070
+			261.275055
+			44.390892
+			48.443027
+			150.012726
+			137.708038
+			160.231354
+			156.402695
+			129.706100
+			96.533470
+			127.143822
+			92.629524
+			42.048393
+			141.736801
+		]
+		uint32 m_nFlag[14] =
+		[
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+		]
+		Vector m_bonePosParent[14] =
+		[
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+			(-91.715881, 0.000000, 119.385002)
+		]
+		Quaternion m_boneRotParent[14] =
+		[
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+		]
+	}
+	int16 m_remappingTable[28] =
+	[
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

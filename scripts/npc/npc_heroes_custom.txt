@@ -1,0 +1,960 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_medusa" //anko
+	{
+	  "override_hero"   "npc_dota_hero_medusa"
+	  "Model"           "models/anko/anko.vmdl"
+	  "Ability1"        "anko_giant_snake"
+	  "Ability2"        "anko_senei_jyashu"
+	  "Ability3"        "anko_senei_ta_jashu"
+	  "Ability4"        "anko_sojasosai_no_jutsu"      
+	  //"ModelScale"		"0.80"
+	  //"LoadoutScale"	"0.80" 
+	  "ModelScale"    "1.00"
+	  "LoadoutScale"  "1.00" 
+	  "ItemSlots"
+	  { }
+	  "ArmorPhysical"   "0.000000"
+	  "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+	  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+	  "AttackAnimationPoint"		"0.4"
+	  "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+	  "AttackDamageMin"   "26"
+	  "AttackDamageMax"   "36"
+	  "AttackRate"    "1.700000"
+	  "Role"      "Disabler,Initiator,Durable,Nuker"
+	  "Rolelevels"  "2,2,2,1"
+	
+	  "AttackRange"				"100"
+	  "MovementSpeed"			"290"
+	  "AttributeBaseStrength" "21" // Base strength
+	  "AttributeStrengthGain" "2.7" // Strength bonus per level.
+	  "AttributeBaseIntelligence" "18" // Base intelligence
+	  "AttributeIntelligenceGain" "1.5" // Intelligence bonus per level.
+	  "AttributeBaseAgility" "18" // Base agility
+	  "AttributeAgilityGain" "1.6" // Agility bonus per level.
+	
+	  "Gender"      "female"
+	  "Village"			"kirigakure"
+	}	
+		"npc_dota_hero_lion" //gaara
+		{
+		  "override_hero"   "npc_dota_hero_lion"
+		  "Model" 			"models/gaara/gaara.vmdl"
+		  "Ability1"         "gaara_sabaku_kyuu"
+		  "Ability2"         "gaara_ryuusa_bakuryu" 
+		  "Ability3"         "gaara_suna_no_yoroi" 
+		  "Ability4"         "gaara_sabaku_taiso"
+		  //"ModelScale"		"0.35"
+		  //"LoadoutScale"		"0.35" 
+		  "ModelScale"		"0.42"
+		  "LoadoutScale"		"0.42" 
+
+		  "Role"			"Disabler,Support,Nuker"
+		  "Rolelevels"	"2,3,2"
+		  "ArmorPhysical"		"1.000000"
+		  "AttackDamageMin"   "22"
+		  "AttackDamageMax"   "29"
+		  "AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		  "AttackRate"    "1.700000"
+		  "StatusHealth"    "145"
+ 		  "StatusHealthRegen"   "0.300000"
+		  "AttackAnimationPoint"   "0.4"
+		  "AttackRange"				"600"
+		  "MovementSpeed"			"295"
+		  "AttributeBaseStrength" "18" // Base strength
+		  "AttributeStrengthGain" "1.6" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "24" // Base intelligence
+		  "AttributeIntelligenceGain" "3.25" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "14" // Base agility
+		  "AttributeAgilityGain" "1" // Agility bonus per level.
+		  
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Gender"			"male"
+	  	  "Village"			"sunagakure"
+
+
+
+		}
+		"npc_dota_hero_centaur" //guy
+		{
+		  "override_hero"   "npc_dota_hero_centaur"
+		  "Model" 			"models/guy/gai.vmdl"
+		  "Ability1"        "guy_dynamic_entry_new"
+
+		  "Ability2"        "guy_leaf_strong_whirlwind" 
+		  "Ability3"        "guy_strong_fist" 
+		  "Ability4"        "guy_seventh_gate_open"
+		  "AttributePrimary" 		"DOTA_ATTRIBUTE_AGILITY"
+			//"ModelScale"		"0.93"
+			//"LoadoutScale"		"0.93" 
+			"ModelScale"		"1.1"
+			"LoadoutScale"		"1.1" 
+		  "AttackAnimationPoint"   "0.4"
+
+		  "Role"			"Carry,Initiator"
+		  "Rolelevels"	"2,1"
+
+		  "AttackDamageMin"   "29"
+		  "AttackDamageMax"   "32"
+		  "AttackRate"    "1.600000"
+		  "ArmorPhysical"		"0"
+		  "AttackRange"				"128"
+		  "StatusHealth"    "145"
+ 		  "StatusHealthRegen"   "0.300000"
+		  "MovementSpeed"			"305"
+		  "AttributeBaseStrength" "22" // Base strength
+		  "AttributeStrengthGain" "1.9" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "17" // Base intelligence
+		  "AttributeIntelligenceGain" "1.7" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "24" // Base agility
+		  "AttributeAgilityGain" "2" // Agility bonus per level.
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Village"			"konoha"
+	  	  "Gender"			"male"
+		}
+	"npc_dota_hero_drow_ranger" //Haku
+	{
+	  "override_hero"   "npc_dota_hero_drow_ranger"
+	  "Ability1"        "haku_crippling_senbon"
+	  "Ability2"        "haku_needles"
+	  "Ability3"        "haku_endless_wounds" 
+	  "Ability4"        "haku_ice_mirrors"
+	  "ModelScale"		"2.7"
+	  "LoadoutScale"	"2.7" 
+	
+	  "Model" 		"models/haku_new/haku.vmdl"
+	  "ItemSlots"
+	  { }
+	    "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+	  "ArmorPhysical"   "1.000000"
+	  "AttributePrimary"    "DOTA_ATTRIBUTE_INTELLECT"
+	    "AttackDamageMin"   "19"
+	    "Role"      "Support,Carry,Nuker,Disabler"
+	    "Rolelevels"  "3,1,1,1"
+	    "AttackDamageMax"   "23"
+	    "AttackRate"    "1.700000"
+	  "AttackAnimationPoint"		"0.4"
+	 // "AttackRate"				"1.0"
+	  "AttackRange"				"600"
+	  "ProjectileModel"   "particles/units/heroes/haku/maiden_base_attack.vpcf"
+	  "ProjectileSpeed"  "1200"
+	  "MovementSpeed"			"295"
+	  "AttributeBaseStrength" "17" // Base strength
+	  "AttributeStrengthGain" "1.6" // Strength bonus per level.
+	  "AttributeBaseIntelligence" "23" // Base intelligence
+	  "AttributeIntelligenceGain" "2.6" // Intelligence bonus per level.
+	  "AttributeBaseAgility" "19" // Base agility
+	  "AttributeAgilityGain" "1.9" // Agility bonus per level.
+	  "Village"			"kirigakure"
+	  "Gender"      "male"  
+	}	
+		"npc_dota_hero_doom_bringer" //hidan
+		{
+		  "override_hero"   "npc_dota_hero_doom_bringer"
+	 	  "ItemSlots"
+	  	  { }
+		"Model" 			"models/hidan/tesst.vmdl"
+	  	  "Village"			"yugakure_scarred"
+	  	  "Gender"			"male"
+		  "AbilityLayout"	"5"
+	  	  "Ability1"        "hidan_cull_the_weak"
+		  "Ability2"        "hidan_taunt" 
+		  "Ability3"        "hidan_jashins_blessing" 
+		  "Ability4"        "hidan_self_pain"
+		  "Ability5"        "hidan_death_possession_blood"
+		  "Ability6"        ""
+		 "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+		// "ModelScale"		"0.8"
+		// "LoadoutScale"		"0.8" 
+		 "ModelScale"		"0.93"
+		 "LoadoutScale"		"0.93"
+		 "Role"			"Disabler,Initiator,Durable,Nuker"
+		"Rolelevels"	"2,2,2,1"
+		   "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+		 "AttackDamageMin"   "24"
+		  "AttackDamageMax"   "28"
+		  "AttackRate"    "1.700000"
+		  
+		  "AttackAnimationPoint"   "0.4"
+		  "AttackRange"				"100"
+
+		  "MovementSpeed"			"290"
+		  "AttributeBaseStrength" "27" // Base strength
+		  "AttributeStrengthGain" "2.4" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "17" // Base intelligence
+		  "AttributeIntelligenceGain" "1.4" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "15" // Base agility
+		  "AttributeAgilityGain" "1.1" // Agility bonus per level.
+		}
+	"npc_dota_hero_antimage" //itachi
+	{
+		"override_hero"			"npc_dota_hero_antimage"
+		"Model"					"models/itachi_new/itachi.vmdl"
+		"Ability1"				"itachi_tsukiyomi"
+		"Ability2"				"itachi_dust_crow_genjustsu"
+		"Ability3"				"itachi_sharingan"
+		"Ability4"				"itachi_amateratsu"
+	
+		//"ModelScale"		"0.75"
+		//"LoadoutScale"		"0.75" 
+		"ModelScale"		"0.78"
+		"LoadoutScale"		"0.78" 
+	
+		// Unit attribute
+		"AttackRange"					"100"
+		"AttackAnimationPoint"			"0.4"
+	
+		"Role"			"Carry,Escape,Nuker"
+		"Rolelevels"	"3,3,1"
+	
+		"AttackDamageMin"   "18"
+		"AttackDamageMax"   "28"
+		"AttackRate"    "1.700000"
+		"ArmorPhysical"		"1.000000"
+	    // Movement
+	    //----------------------------------------------------------------
+		"MovementSpeed"					"300"
+		"StatusHealth"    "145"
+	  	"StatusHealthRegen"   "0.300000"
+	    // Attibutes
+	    //----------------------------------------------------------------
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"20"
+		"AttributeStrengthGain"			"1.2"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeIntelligenceGain"		"1.6"
+		"AttributeBaseAgility"			"22"
+		"AttributeAgilityGain"			"2.6"
+	
+		"ItemSlots"	{ }
+		"Village"			"konoha_scarred"
+		"Gender"			"male"
+	}
+	"npc_dota_hero_earthshaker" //jiroubo
+			{
+			  "override_hero"   "npc_dota_hero_earthshaker"
+			  "Model" 			"models/jiroubo/jiroubo.vmdl"
+		 	  "ItemSlots"
+		  	  { }
+		  	    "StatusHealth"    "145"
+	  			"StatusHealthRegen"   "0.300000"
+		  	  "AttackDamageMin"   "22"
+			  "AttackDamageMax"   "22"
+			  "AttackRate"    "1.700000"
+			  "ArmorPhysical"		"1.000000"
+			  	"Role"			"Support,Initiator,Disabler,Nuker"
+			"Rolelevels"	"1,3,2,1"
+		  	  "Village"			"otogakure"
+		  	  "Gender"			"male"
+			}
+		"npc_dota_hero_beastmaster" //kakashi
+		{
+		  "override_hero"   "npc_dota_hero_beastmaster"
+		  "Model" 			"models/kakashi/kaka.vmdl"
+		  //"ModelScale"		"0.72"
+		  //"LoadoutScale"		"0.72"
+		  "ModelScale"		"0.84"
+		  "LoadoutScale"		"0.84" 
+		  "Ability1"        "kakashi_doton"
+		  "Ability2"        "kakashi_sharingan" 
+		  "Ability3"        "kakashi_bunshin" 
+		  "Ability4"        "kakashi_empty"
+		  "Ability5"        "kakashi_chidori"
+			"AttackDamageMin"   "31"
+		  "AttackDamageMax"   "38"
+		  "Role"			"Carry,Support,Escape,Disabler,Initiator"
+		"Rolelevels"	"2,1,1,1,2"
+		  "AttackRate"    "1.700000"
+		    "StatusHealth"    "145"
+  		"StatusHealthRegen"   "0.300000"
+		  "ArmorPhysical"		"1.000000"
+		  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+		  "AttackAnimationPoint"   "0.4"
+		  "AttackRange"				"100"
+		  "MovementSpeed"			"305"
+		  "AttributeBaseStrength" "22" // Base strength
+		  "AttributeStrengthGain" "2.9" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "19" // Base intelligence
+		  "AttributeIntelligenceGain" "1.8" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "18" // Base agility
+		  "AttributeAgilityGain" "2.0" // Agility bonus per level.
+		  
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Village"			"konoha"
+	  	  "Gender"			"male"
+		}
+	"npc_dota_hero_warlock" //kankuro
+	{
+	  "override_hero"   "npc_dota_hero_warlock"
+	  "Model"           "models/kankuro/kankuro.vmdl"
+	  "Ability1"        "kankuro_summon_kuroari"
+	  "Ability2"        "kankuro_summon_karasu"
+	  "Ability3"        "kankuro_kugusta_no_jutsu"
+	  "Ability4"        "kankuro_summon_sanshouuo"      
+	  //"ModelScale"		"0.80"
+	  //"LoadoutScale"	"0.80" 
+	  "ModelScale"    "0.90"
+	  "LoadoutScale"  "0.90" 
+	  "ArmorPhysical"       "0.0"    
+	  "ItemSlots"
+	  { }
+	  "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+	  "AttributePrimary" 		"DOTA_ATTRIBUTE_INTELLECT"
+	  "AttackAnimationPoint"		"0.4"
+	  "Role"      "Support,Jungler,Pusher"
+	  "Rolelevels"  "2,1,3"
+	  "AttackDamageMin"   "21"
+	  "AttackDamageMax"   "25"
+	  "AttackRate"    "1.700000"
+	
+	  "AttackRange"				"500"
+	  "MovementSpeed"			"290"
+	  "AttributeBaseStrength" "17" // Base strength
+	  "AttributeStrengthGain" "2.1" // Strength bonus per level.
+	  "AttributeBaseIntelligence" "21" // Base intelligence
+	  "AttributeIntelligenceGain" "3" // Intelligence bonus per level.
+	  "AttributeBaseAgility" "15" // Base agility
+	  "AttributeAgilityGain" "1.25" // Agility bonus per level. 
+	  "Gender"      "male"
+	  "Village"			"kirigakure"
+	}	
+	"npc_dota_hero_windrunner" //kidoumaru
+			{
+			  "override_hero"   "npc_dota_hero_windrunner"
+			  "Model" 			"models/kidoumaru/kidoumaru.vmdl"
+		 	  "ItemSlots"
+		  	  { }
+			  "AttackDamageMin"   "24"
+			  "AttackDamageMax"   "24"
+			  "AttackRate"    "1.700000"	  	  
+			  "ArmorPhysical"		"1.000000"
+			    "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+		  	  "Village"			"otogakure"
+		  	  "Gender"			"male"
+			}
+	"npc_dota_hero_ursa" //kimimaro
+	{
+		"override_hero"			"npc_dota_hero_ursa"
+		"Model"					"models/kimi/kimi_no_cs.vmdl"
+		"Ability1"				"kimi_clematis_dance"
+		"Ability2"				"kimi_dance_of_the_willow"
+		"Ability3"				"kimi_cursed_seal"
+		"Ability5"				"attribute_bonus"
+		"Ability6"				"kimi_sawarabi_no_mai"
+	
+		"ModelScale"		"1.2"
+		"LoadoutScale"		"1.2" 
+	
+		// Unit attribute
+		"AttackRange"					"100"
+		"AttackAnimationPoint"			"0.4"
+	
+		"Role"			"Carry"
+		"Rolelevels"	"3"
+	
+		"AttackDamageMin"   "23"
+		"AttackDamageMax"   "30"
+		"AttackRate"    "1.700000"
+		"ArmorPhysical"		"0.000000"
+	    // Movement
+	    //----------------------------------------------------------------
+		"MovementSpeed"					"315"
+		"StatusHealth"    "145"
+	  	"StatusHealthRegen"   "0.300000"
+	    // Attibutes
+	    //----------------------------------------------------------------
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"17"
+		"AttributeStrengthGain"			"2"
+		"AttributeBaseIntelligence"		"17"
+		"AttributeIntelligenceGain"		"1.5"
+		"AttributeBaseAgility"			"21"
+		"AttributeAgilityGain"			"2.6"
+	
+		"ItemSlots"	{ }
+		"Village"			"otogakure"
+		"Gender"			"male"
+	}
+		"npc_dota_hero_kunkka" //kisame
+		{
+		  "override_hero"   "npc_dota_hero_kunkka"
+		  "Model" 			"models/kisame/kisame.vmdl"
+		 "Ability1"         "kisame_suikodan_no_jutsu"
+		  "Ability2"        "kisame_mizu_bunshin_no_jutsu" 
+		  "Ability3"        "kisame_samehada" 
+		  "Ability4"        "kisame_water_prison"
+		  "ArmorPhysical"	"1.000000"		  
+		  "ModelScale"		"2.20"
+		  "LoadoutScale"	"2.20" 
+		  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+		  "AttackAnimationPoint"   "0.4"
+		  "AttackDamageMin"   "29"
+		  "Role"			"Carry,Disabler,Initiator,Durable,Nuker"
+		  "Rolelevels"	"1,1,1,1,1"
+		  "AttackDamageMax"   "34"
+		  "AttackRate"    "1.700000"		
+		  "StatusHealth"    "145"
+          "StatusHealthRegen"   "0.300000"  
+		  "AttackRange"				"128"
+		  "MovementSpeed"			"300"
+		  "AttributeBaseStrength" "22" // Base strength
+		  "AttributeStrengthGain" "2.8" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "19" // Base intelligence
+		  "AttributeIntelligenceGain" "1.9" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "16" // Base agility
+		  "AttributeAgilityGain" "1.7" // Agility bonus per level.
+		  
+	 	  "ItemSlots"
+	  	  { }
+
+
+	  	  "Village"			"kirigakure_scarred"
+	  	  "Gender"			"male"
+		}
+		"npc_dota_hero_ogre_magi" //madara
+		{
+		  "override_hero"   "npc_dota_hero_ogre_magi"
+		  "Model" 			"models/madara/madara.vmdl"
+		  "Ability1"        "madara_fire_release"
+		  "Ability2"        "madara_wood_release" 
+		  "Ability3"        "madara_susano" 
+		  "Ability4"        "madara_meteor"
+		  "Ability5"        ""
+		  "Role"			"Support,Nuker,Disabler,Durable,Initiator"
+		"Rolelevels"	"2,2,2,1,1"
+		"AttackDamageMin"		"36"
+		"AttackDamageMax"		"41"
+		"AttackRate"		"1.700000"
+		  "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+		  "AttackAnimationPoint"   "0.4"
+		 // "ModelScale"		"0.93"
+		//"LoadoutScale"		"0.93"
+		  "ModelScale"		"1.15"
+		"LoadoutScale"		"1.15" 
+		 // "AttackRate"				"0.7"
+		  "AttackRange"				"100"
+		  "MovementSpeed"			"310"
+		  "AttributeBaseStrength" "22" // Base strength
+		  "AttributeStrengthGain" "2.0" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "19" // Base intelligence
+		  "AttributeIntelligenceGain" "2.4" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "15" // Base agility
+		  "AttributeAgilityGain" "1.6" // Agility bonus per level.
+		  "ArmorPhysical"		"5.000000"
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Village"			"konoha"
+	  	  "Gender"			"male"
+		}
+	"npc_dota_hero_phoenix" //Mei
+	{
+	  "override_hero"   "npc_dota_hero_phoenix"
+	  "Ability1"    "mei_komu_no_jutsu"
+	    "Ability2"    "mei_yokai_no_jutsu"
+	    "Ability3"    "mei_lava_globs"
+	    "Ability4"    "mei_pressence"
+	    "Ability5"    ""
+	    "Ability6"    ""
+	    "Ability7"    ""
+	    "Ability8"    ""
+	    "Ability9"    ""
+	    "Ability10"   "attribute_bonus"
+	  "ModelScale"		"1.0"
+	  "LoadoutScale"	"1.0" 
+	
+	  "Model" 		"models/mei/mei.vmdl"
+	  "ItemSlots"
+	  { }
+	    "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+	  "ArmorPhysical"   "1.000000"
+	  "AttributePrimary"    "DOTA_ATTRIBUTE_INTELLECT"
+	    "AttackDamageMin"   "20"
+	    "Role"      "Support,Carry,Nuker,Disabler"
+	    "Rolelevels"  "3,1,1,1"
+	    "AttackDamageMax"   "24"
+	    "AttackRate"    "1.700000"
+	  "AttackAnimationPoint"		"0.4"
+	 // "AttackRate"				"1.0"
+	  "AttackRange"				"625"
+	
+	
+	  "MovementSpeed"			"295"
+	  "AttributeBaseStrength" "16" // Base strength
+	  "AttributeStrengthGain" "1.8" // Strength bonus per level.
+	  "AttributeBaseIntelligence" "23" // Base intelligence
+	  "AttributeIntelligenceGain" "2.75" // Intelligence bonus per level.
+	  "AttributeBaseAgility" "14" // Base agility
+	  "AttributeAgilityGain" "1.4" // Agility bonus per level.
+	  "Village"			"kirigakure"
+	  "Gender"      "female"  
+	}	
+		"npc_dota_hero_dragon_knight" //naruto
+		{
+		  "override_hero"   "npc_dota_hero_dragon_knight"
+		  "Model" 			"models/naruto_new/naruto.vmdl"
+		 "Ability1"        "naruto_kage_bunshin_rasengan"
+		  "Ability2"        "naruto_kawazu_kumite" 
+		  "Ability3"        "naruto_kage_bunshin_mastery" 
+		  "Ability4"        "naruto_rasenshuriken"
+		  "ArmorPhysical"		"1.000000"
+		//"ModelScale"		"0.57"
+		//"LoadoutScale"		"0.57" 
+		"ModelScale"		"0.72"
+		"LoadoutScale"		"0.72" 
+		  "AttackAnimationPoint"   "0.4"
+		 
+		  "AttackRange"				"100"
+  "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+		  "AttackDamageMin"   "26"
+		  "AttackDamageMax"   "33"
+		  "AttackRate"    "1.700000"
+		  "Role"			"Carry,Pusher,Durable,Disabler,Initiator"
+		"Rolelevels"	"2,3,2,2,1"
+
+		  "MovementSpeed"			"305"
+		  "AttributeBaseStrength" "21" // Base strength
+		  "AttributeStrengthGain" "2.7" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "15" // Base intelligence
+		  "AttributeIntelligenceGain" "1.3" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "17" // Base agility
+		  "AttributeAgilityGain" "2.4" // Agility bonus per level.
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Village"			"konoha"
+	  	  "Gender"			"male"
+		}
+	"npc_dota_hero_axe" //neji
+			{
+			  "override_hero"   "npc_dota_hero_axe"
+			  "Model" 			"models/neji/neji.vmdl"
+			  "Ability1"         "neji_kaiten"
+			  "Ability2"         "neji_internal_bleeding" 
+			  "Ability3"         "neji_byakugan" 
+			  "Ability4"         "neji_hyaku_nijuuhachi_shou"
+			  "ArmorPhysical"		"1.000000"
+			//"ModelScale"		"0.75"
+			//"LoadoutScale"		"0.75"
+			"ModelScale"		"0.82"
+			"LoadoutScale"		"0.82" 
+			  "AttributePrimary" 		"DOTA_ATTRIBUTE_AGILITY"
+			  "AttackAnimationPoint"   "0.4"
+			    "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+			"AttackDamageMin"		"22"
+			"AttackDamageMax"		"32"
+			"AttackRate"		"1.700000"
+	
+			"Role"			"Initiator,Disabler,Carry"
+			"Rolelevels"	"3,3,1"
+	
+			  "AttackRange"				"128"
+			  "MovementSpeed"			"300"
+			  "AttributeBaseStrength" "20" // Base strength
+			  "AttributeStrengthGain" "1.8" // Strength bonus per level.
+			  "AttributeBaseIntelligence" "16" // Base intelligence
+			  "AttributeIntelligenceGain" "1.85" // Intelligence bonus per level.
+			  "AttributeBaseAgility" "22" // Base agility
+			  "AttributeAgilityGain" "2.5" // Agility bonus per level.
+			  
+		 	  "ItemSlots"
+		  	  { }
+	
+		  	  "Village"			"konoha"
+		  	  "Gender"			"male"
+			}
+	"npc_dota_hero_sven" //onoki
+	{
+		"override_hero"		"npc_dota_hero_sven"
+		"Model"					"models/onuki/onoki_model.vmdl"
+		"Ability1"			"onoki_jinton"
+		"Ability2"			"onoki_stalagmite_armor"
+		"Ability3"			"onoki_turn_to_dust"
+		"Ability4"			"onoki_kajutan_no_jutsu"
+		  "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+	
+	  //	"ModelScale"		"2.0"
+		//	"LoadoutScale"		"2.0"
+		"ModelScale"		"2.25"
+		"LoadoutScale"		"2.25" 
+		"Role"			"Support,Nuker,Disabler,Durable,Initiator"
+		"Rolelevels"	"2,2,2,1,1"
+		// Unit attribute
+		"AttackRange"					"100"
+		"ArmorPhysical"		"1.000000"
+		"AttackDamageMin"		"30"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.700000"	
+	    // Movement
+	    //----------------------------------------------------------------
+		"MovementSpeed"					"295"
+	
+	    // Attibutes
+	    //----------------------------------------------------------------
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"21"
+		"AttributeStrengthGain"			"2.3"
+		"AttributeBaseIntelligence"		"18"
+		"AttributeIntelligenceGain"		"1.95"
+		"AttributeBaseAgility"			"15"
+		"AttributeAgilityGain"			"1"
+	
+		"ItemSlots"	{ }
+		"Village"			"iwagakure"
+		"Gender"			"male"
+	}
+	
+	"npc_dota_hero_sand_king" //raikage
+		{
+		  "override_hero"   "npc_dota_hero_sand_king"
+		  "Model" 			"models/raikage/raikage.vmdl"
+		  "Ability1"        "raikage_raiton_no_yoroi"
+		  "Ability2"        "raikage_raigyaku_suihei" 
+		  "Ability3"        "raikage_lariat" 
+		  "Ability4"        "raikage_raiga_no_bomu"
+
+		//  "ModelScale"		"0.75"
+		//"LoadoutScale"		"0.75"
+		"ModelScale"		"0.80"
+		"LoadoutScale"		"0.80"  
+
+		  "ArmorPhysical"		"1.000000"
+		"AttackDamageMin"		"33"
+		"AttackDamageMax"		"35"
+		"AttackRate"		"1.700000"
+  "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+		  "Village"			"kumogakure"
+		  "Role"			"Initiator,Durable,Disabler"
+		"Rolelevels"		"3,3,2"
+		  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+		  "AttackAnimationPoint"		"0.4"
+		 // "AttackRate"				"1.0"
+		  "AttackRange"				"100"
+		  "MovementSpeed"			"300"
+		  "AttributeBaseStrength" "25" // Base strength
+		  "AttributeStrengthGain" "2.6" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "18" // Base intelligence
+		  "AttributeIntelligenceGain" "1.85" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "16" // Base agility
+		  "AttributeAgilityGain" "1.3" // Agility bonus per level.
+		  
+	 	  "ItemSlots"
+	  	  { }
+
+	  	  "Gender"			"male"
+		}
+	
+		"npc_dota_hero_phantom_assassin" //sakura
+		{
+		  "override_hero"   "npc_dota_hero_phantom_assassin"
+		  "Model" 			"models/sakura_new/sakura.vmdl"
+		  "Ability1"        "sakura_earth_slam"
+		  "Ability2"        "sakura_chakra_burst" 
+		  "Ability3"        "sakura_chakra_enhanced_strength" 
+		  "Ability4"        "sakura_inner_sakura"
+		  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+		  "ArmorPhysical"		"0.000000"
+		//"ModelScale"		"0.83"
+		//"LoadoutScale"		"0.83" 
+		"ModelScale"		"1.1"
+		"LoadoutScale"		"1.1" 
+		"AttackDamageMin"		"26"
+		"Role"			"Carry,Disabler,Initiator,Durable"
+		"Rolelevels"	"1,2,2,1"
+		"AttackDamageMax"		"36"
+		"AttackRate"		"1.700000"
+		  "AttackAnimationPoint"   "0.4"
+		 // "AttackRate"				"0.7"
+		  "AttackRange"				"100"
+		    "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+		  "MovementSpeed"			"300"
+		  "AttributeBaseStrength" "22" // Base strength
+		  "AttributeStrengthGain" "2.75" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "14" // Base intelligence
+		  "AttributeIntelligenceGain" "1.3" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "21" // Base agility
+		  "AttributeAgilityGain" "2" // Agility bonus per level.
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Village"			"konoha"
+
+	  	  "Gender"			"female"
+		}
+	"npc_dota_hero_batrider" //sarutobi
+		{
+		  "override_hero"   "npc_dota_hero_batrider"
+		  "Ability1"        "sarutobi_katon_doton_combo"
+		  "Ability2"        ""
+		  "Ability3"        ""
+		  "Ability4"        "" 
+		  "ModelScale"		"0.90"
+		  "LoadoutScale"		"0.90" 
+		  //"Model" 			""
+		  "ItemSlots"
+		  { }
+			"StatusHealth"    "145"
+			"StatusHealthRegen"   "0.300000"
+			"AttackDamageMin"		"24"
+			"AttackDamageMax"		"26"
+			"Role"			"Initiator,Disabler,Carry"
+			"Rolelevels"	"1"
+			"ArmorPhysical"		"2.000000"
+			"AttackRate"		"1.700000"
+		  	  "AttributePrimary" 		"DOTA_ATTRIBUTE_INTELLECT"
+			  "AttackAnimationPoint"		"0.4"
+			 // "AttackRate"				"1.0"
+			  "AttackRange"				"100"
+			  "MovementSpeed"			"300"
+			  "AttributeBaseStrength" "17" // Base strength
+			  "AttributeStrengthGain" "2" // Strength bonus per level.
+			  "AttributeBaseIntelligence" "15" // Base intelligence
+			  "AttributeIntelligenceGain" "1.4" // Intelligence bonus per level.
+			  "AttributeBaseAgility" "23" // Base agility
+			  "AttributeAgilityGain" "3.1" // Agility bonus per level.
+	
+		  	  "Village"			"kirigakure"
+		  	  "Gender"			"male"
+		}
+		"npc_dota_hero_storm_spirit" //sasuke
+		{
+		  "override_hero"   "npc_dota_hero_storm_spirit"
+		  "Model" 			"models/sasuke_new/sasuke.vmdl"
+		  "Ability1"        "sasuke_chidori_nagashi"
+		  "Ability2"        "sasuke_chidori_eiso" 
+		  "Ability3"        "sasuke_chidori_koken" 
+		  "Ability4"        "sasuke_kirin"
+		  "ArmorPhysical"		"0.000000"
+		"AttackDamageMin"		"25"
+		"AttackDamageMax"		"35"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		  "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+  "Role"			"Carry,Escape,Nuker,Initiator,Disabler"
+		"Rolelevels"	"2,1,3,1,2"
+		"AttackRate"		"1.700000"		  
+		  "AttackAnimationPoint"   "0.4"
+		 // "AttackRate"				"0.7"
+		  "AttackRange"				"100"
+		  "MovementSpeed"			"310"
+		  "AttributeBaseStrength" "19" // Base strength
+		  "AttributeStrengthGain" "1.75" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "21" // Base intelligence
+		  "AttributeIntelligenceGain" "2.7" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "16" // Base agility
+		  "AttributeAgilityGain" "2.1" // Agility bonus per level.
+		 // "ModelScale"		"0.72"
+		 //"LoadoutScale"		"0.72" 
+		 "ModelScale"		"0.85"
+		 "LoadoutScale"		"0.85" 
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Village"			"konoha_scarred"
+	  	  "Gender"			"male"
+		}
+		"npc_dota_hero_shadow_shaman"  //Shikamaru
+		{
+		  "override_hero"   "npc_dota_hero_shadow_shaman" 
+		  "Model" 		"models/shikamaru_new/shika.vmdl"
+		  "Ability1"         "shikamaru_kage_kubishibari"
+		  "Ability2"         "shikamaru_explosive_kunai" 
+		  "Ability3"         "shikamaru_meditation" 
+		  "Ability4"         "shikamaru_kage_nui"
+		  //"ModelScale"		"0.50"
+		//"LoadoutScale"		"0.50" 
+		  "ModelScale"		"0.60"
+		"LoadoutScale"		"0.60" 
+		"ArmorPhysical"		"-1.000000"
+		"AttackDamageMin"		"22"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.700000"		  
+		  "AttackAnimationPoint"   "0.4"
+		  	"Role"			"Support,Pusher,Disabler,Nuker,Initiator"
+		"Rolelevels"	"2,3,3,2,1"
+		 // "AttackRate"				"0.7"
+		  "AttackRange"				"500"
+		"AttackDamageMin"			"20"	// Damage range min.
+		"AttackDamageMax"			"30"	// Damage range max.
+		  "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+		  "MovementSpeed"			"290"
+		  "AttributeBaseStrength" "17" // Base strength
+		  "AttributeStrengthGain" "1.8" // Strength bonus per level.
+		  "AttributeBaseAgility" "15" // Base agility
+		  "AttributeAgilityGain" "1.5" // Agility bonus per level.
+		"AttributeBaseIntelligence" "23" // Base intelligence
+		  "AttributeIntelligenceGain" "3" // Intelligence bonus per level.
+		  
+	 	  "ItemSlots"
+	  	  { }
+
+	  	  "Village"			"konoha"
+		}
+	"npc_dota_hero_enchantress" //Temari
+	{
+	  "override_hero"   "npc_dota_hero_enchantress"
+	  "Ability1"        "temari_fusajin_no_jutsu"
+	  "Ability2"        "temari_kamaitachi_no_jutsu"
+	  "Ability3"        "temari_sheer_wind" 
+	  "Ability4"        "temari_kuchiyose_kirikiri_mai"
+	//  "ModelScale"		"1.75"
+	 // "LoadoutScale"	"1.75" 
+	  "ModelScale"    "2.0"
+	  "LoadoutScale"  "2.0" 
+	  "Model" 		"models/temari/temari.vmdl"
+	  "ItemSlots"
+	  { }
+	    "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+	  "ArmorPhysical"   "1.000000"
+	    "AttackDamageMin"   "19"
+	    "Role"      "Support,Carry,Nuker,Disabler"
+	    "Rolelevels"  "1,1,3,1"
+	    "AttackDamageMax"   "23"
+	
+	"ProjectileModel"   "particles/units/heroes/temari/temari_base_attack_core.vpcf"
+	
+	    "AttackRate"    "1.700000"
+	  "AttackAnimationPoint"		"0.4"
+	 // "AttackRate"				"1.0"
+	  "AttackRange"				"575"
+	  "MovementSpeed"			"295"
+	  "AttributeBaseStrength" "17" // Base strength
+	  "AttributeStrengthGain" "1.7" // Strength bonus per level.
+	  "AttributeBaseIntelligence" "27" // Base intelligence
+	  "AttributeIntelligenceGain" "3.2" // Intelligence bonus per level.
+	  "AttributeBaseAgility" "16" // Base agility
+	  "AttributeAgilityGain" "1.5" // Agility bonus per level.
+	
+	  "Village"			"kirigakure"
+	  "Gender"      "sunagakure"  
+	}	
+		"npc_dota_hero_legion_commander" 
+		{
+		  "override_hero"   "npc_dota_hero_legion_commander"
+		  "Model" 			"models/tsunade/tsunade.vmdl"
+		  "Ability1"        "tsunade_heaven_spear_kick"
+		  "Ability2"        "tsunade_heavenly_foot_of_pain" 
+		  "Ability3"        "tsunade_summon_katsuyu" 
+		  "Ability4"        "tsunade_immense_network_healing"
+		  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+		  "ArmorPhysical"		"1.000000"
+		//"ModelScale"		"0.88"
+		//"LoadoutScale"		"0.88"
+		"ModelScale"		"1.0"
+		"LoadoutScale"		"1.0" 
+		"AttackDamageMin"		"26"
+		"Role"			"Support,Disabler,Initiator"
+		"Rolelevels"	"2,1,1"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.700000"
+		  "AttackAnimationPoint"   "0.4"
+		 // "AttackRate"				"0.7"
+		  "AttackRange"				"100"
+		 
+  		"StatusHealthRegen"   "0.300000"
+		  "MovementSpeed"			"308"
+		  "AttributeBaseStrength" "25" // Base strength
+		  "AttributeStrengthGain" "2.3" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "23" // Base intelligence
+		  "AttributeIntelligenceGain" "1.8" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "16" // Base agility
+		  "AttributeAgilityGain" "1.2" // Agility bonus per level.
+	 	  "ItemSlots"
+	  	  { }
+	  	  "Village"			"konoha"
+
+	  	  "Gender"			"female"
+		}
+	"npc_dota_hero_juggernaut" //yondaime
+	{
+		"override_hero"		"npc_dota_hero_juggernaut"
+		"Model"				"models/yondaime_new/yondaime_new.vmdl"
+		//"ModelScale"		"0.5"
+		
+		"AbilityLayout"	"5"
+		"Ability1"		"yondaime_marked_kunai"
+		"Ability2"		"yondaime_rasengan" 
+		"Ability3"		"yondaime_agile_speed" 
+		"Ability5"		"yondaime_body_flicker"
+		"Ability6"		"yondaime_hiraishin_jump"
+		"Ability4"		"attribute_bonus"
+	
+		"AttackDamageMin"	"28"
+		"AttackDamageMax"	"34"
+		"StatusHealth"    	"145"
+		"StatusHealthRegen"	"0.300000"
+		"AttackRate"		"1.700000"		
+		"ArmorPhysical"		"1.000000"
+		"AttackAnimationPoint"   "0.4"
+		"AttackRange"		"100"
+		"MovementSpeed"		"310"
+		"MovementTurnRate""1.000000"
+	
+	  "ModelScale"    "0.95"
+	  "LoadoutScale"  "0.95" 
+	
+		"AttributePrimary" 		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"19"	// Base strength
+		"AttributeStrengthGain"		"1.9"	// Strength bonus per level.
+		"AttributeBaseAgility"		"23"	// Base agility
+		"AttributeAgilityGain"		"2.7"	// Agility bonus per level.
+		"AttributeBaseIntelligence" "16" 	// Base intelligence
+		"AttributeIntelligenceGain" "1.6"	// Intelligence bonus per level.
+	
+		"Village"			"konoha"
+		"Gender"			"male"
+	
+		"ItemSlots"
+		{ }
+	}
+	"npc_dota_hero_bloodseeker" //zabuza
+			{
+			  "override_hero"   "npc_dota_hero_bloodseeker"
+			  "Ability1"        "zabuza_water_dragon_bullet"
+			  "Ability2"        "zabuza_kirigakure_no_jutsu_new"
+			  "Ability3"        "zabuza_executioners_blade"
+			  "Ability4"        "zabuza_demon_of_the_hidden_mist" 
+			//  "ModelScale"		"0.90"
+			//  "LoadoutScale"		"0.90"
+			  "ModelScale"		"1.0"
+			  "LoadoutScale"	"1.0" 
+			  "Model" 			"models/zabuza/zabuza.vmdl"
+		 	  "ItemSlots"
+		  	  { }
+		  	    "StatusHealth"    "145"
+	  "StatusHealthRegen"   "0.300000"
+			"AttackDamageMin"		"29"
+			"AttackDamageMax"		"33"
+			"Role"			"Carry"
+			"Rolelevels"	"1"
+			"ArmorPhysical"		"1.100000"
+			"AttackRate"		"1.700000"
+		  	  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+			  "AttackAnimationPoint"		"0.4"
+			 // "AttackRate"				"1.0"
+			  "AttackRange"				"100"
+			  "MovementSpeed"			"295"
+			  "AttributeBaseStrength" "23" // Base strength
+			  "AttributeStrengthGain" "2.5" // Strength bonus per level.
+			  "AttributeBaseIntelligence" "18" // Base intelligence
+			  "AttributeIntelligenceGain" "1.7" // Intelligence bonus per level.
+			  "AttributeBaseAgility" "16" // Base agility
+			  "AttributeAgilityGain" "1.8" // Agility bonus per level.
+	
+		  	  "Village"			"kirigakure"
+		  	  "Gender"			"male"
+			}
+}

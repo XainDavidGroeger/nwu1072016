@@ -1,0 +1,50 @@
+#embedded_reroll_popup2
+{
+	flow-children: none;
+}
+
+#nodename
+{
+	position: 0px 32px 0;
+	width: 657px;
+	height: 18px;
+	color: #FFFFFF;
+	z-index: 2;
+	font-size: 13;
+	font-weight: bold;
+	text-align: left;
+}
+
+#description
+{
+	position: 0px 0px 0;
+	width: 723px;
+	height: 526px;
+	color: #FFFFFF;
+	z-index: 2;
+	font-size: 13;
+	font-weight: bold;
+	text-align: left;
+}
+
+#bg_diamond
+{
+	position: 0px 0px 0;
+	width: 32px;
+	height: 32px;
+}
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 65px;
+	height: 36px;
+}
+
+#rule
+{
+	position: 0px 26px 0;
+	width: 394px;
+	height: 1px;
+}
+

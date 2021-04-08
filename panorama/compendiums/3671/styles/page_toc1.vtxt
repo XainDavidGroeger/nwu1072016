@@ -1,0 +1,84 @@
+#page_TOC1
+{
+	flow-children: none;
+}
+
+#table_of
+{
+	position: 110px 90px 0;
+	width: 263px;
+	height: 78px;
+	color: #333333;
+	font-size: 55;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+#contents
+{
+	position: 110px 130px 0;
+	width: 673px;
+	height: 105px;
+	color: #4a5d2c;
+	font-size: 70;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.toc_subheader_title
+{
+	color: #cbc7bd;
+	margin-left: 40px;
+	margin-top: 3px;
+}
+
+.toc_pagenum
+{
+	color: #4a5d2c;
+    line-height: 24px;
+}
+
+.toc_pagedesc
+{
+	margin-left: 6px;
+	color: #333333;
+    line-height: 24px;
+}
+.toc_pagedesc:hover
+{
+	text-decoration: underline;
+}
+
+
+.toc_updated
+{
+	visibility: collapse;
+}
+
+#list_table
+{
+	flow-children: down;
+	position: 78px 226px 0;
+}
+
+.boxout
+{
+	width: 500px;
+	height: 26px;
+}
+
+.toc_pagelink
+{
+	margin-left: 40px;
+	flow-children: right;
+}
+
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 673px;
+	height: 757px;
+	z-index: -1;
+}
+

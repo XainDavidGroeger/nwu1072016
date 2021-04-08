@@ -1,0 +1,12 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_ALPHA_TEST"	"1"
+	"g_flAlphaTestReference"	"0.7"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/units/eliteanbu/eliteanbu_2_tga_44720d9.vtex"
+	"RepresentativeTextureWidth"	"1"
+	"RepresentativeTextureHeight"	"1"
+}

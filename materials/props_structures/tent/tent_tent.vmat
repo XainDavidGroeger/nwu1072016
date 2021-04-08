@@ -1,0 +1,11 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_RENDER_BACKFACES"	"1"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/props_structures/tent/tent_tent_tga_7bbbc238.vtex"
+	"RepresentativeTextureWidth"	"2048"
+	"RepresentativeTextureHeight"	"2048"
+}

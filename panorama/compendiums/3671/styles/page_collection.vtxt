@@ -1,0 +1,164 @@
+#page_collection
+{
+	flow-children: none;
+}
+
+.subheader_title
+{
+	color: #cbc7bd;
+	margin-left: 14px;
+	margin-top: 5px;
+	z-index: 3;
+	font-size: 15;
+    horizontal-align: middle;
+}
+.boxout
+{
+	margin-left: 2px;
+	width: 440px;
+	height: 26px;
+	z-index: 2;
+}
+
+.reward
+{
+	width: 106px;
+	height: 106px;
+	z-index: 3;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+}
+
+.reward_unowned
+{
+	width: 106px;
+	height: 106px;
+	z-index: 2;
+	saturation: 0.0;
+	brightness: 0.2;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+}
+
+#tribute1
+{
+		position: 110px 110px 0;
+}
+#tribute1_rare
+{
+	margin-top: 60px;
+	horizontal-align: center;
+}
+
+#tribute1_reward1
+{
+	margin-top: 212px;
+	margin-left: 23px;
+}
+#tribute1_reward2
+{
+	margin-top: 212px;
+	margin-left: 170px;
+}
+#tribute1_reward3
+{
+	margin-top: 212px;
+	margin-left: 318px;
+}
+
+#tribute1_reward4
+{
+	margin-top: 362px;
+	margin-left: 96px;
+	margin-bottom: 18px;
+}
+#tribute1_reward5
+{
+	margin-top: 362px;
+	margin-left: 242px;
+	margin-bottom: 18px;
+}
+
+.tribute_bg
+{
+	margin-top: 26px;
+	width: 445px;
+	height: 477px;
+	z-index: 0;
+}
+	
+
+#infuser
+{
+	vertical-align: bottom;
+	margin-left: 50px;
+	margin-bottom: 15px;
+	width: 230px;
+	height: 210px;
+}
+#infuser_count
+{
+	color: #333333;
+	vertical-align: bottom;
+	margin-bottom: 60px;
+	font-size: 60;
+	margin-left: 186px;
+	text-align: right;
+	width: 100px;
+    text-shadow: 2px 2px 4px 1.0 #333333b0;
+}
+#tui
+{
+	color: #333333;
+	vertical-align: bottom;
+	margin-bottom: 100px;
+	font-size: 20;
+	margin-left: 292px;
+	text-shadow: 2px 2px 4px 1.0 #333333b0;
+}
+#inventory
+{
+	color: #333333;
+	vertical-align: bottom;
+	margin-bottom: 80px;
+	font-size: 16;
+	margin-left: 292px;
+	text-transform: uppercase;
+}
+
+#infusing
+{
+	vertical-align:bottom;
+	margin-bottom: 40px;
+	margin-left: 292px;
+	z-index: 1;
+}
+
+#infusing-apply_btn
+{
+	horizontal-align: center;
+	width: 190px;
+	height: 36px;
+	box-shadow: fill #000000aa 0px 8px 6px 0px;
+	transition-property: box-shadow;
+	transition-delay: 0.0s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+#infusing-apply_btn:hover
+{
+	box-shadow: fill #a3e43faa -6px -6px 6px 12px;
+}
+
+#infusing-apply_text
+{
+	margin-top: 2px;
+	horizontal-align: center;
+	width: 160px;
+	color: #cbc7bd;
+	z-index: 2;
+	font-size: 15;
+	text-align: center;
+	line-height: 12;
+}
+

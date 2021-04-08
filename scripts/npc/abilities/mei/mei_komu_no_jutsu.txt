@@ -1,0 +1,154 @@
+"mei_komu_no_jutsu"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+	"FightRecapLevel"				"2"
+	"AbilityTextureName"			"mei_komu_no_jutsu"
+
+	// Precache
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+		//"soundfile"			"soundevents/game_sounds_heroes/game_sounds_faceless_void.vsndevts"
+		"particle"			"particles/units/heroes/hero_riki/riki_smokebomb.vpcf"
+		"particle"			"particles/generic_gameplay/generic_silence.vpcf"
+	}
+	
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastRange"				"450 500 550 600"
+	"AbilityCastPoint"				"0.35 0.35 0.35"
+
+	// Time		
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"				"15 14 13 12"
+
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"100 150 200 250"
+
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"radius"				"250"
+		}
+		"02"
+		{
+			"var_type"				"FIELD_FLOAT"
+			"duration"				"4"
+		}
+		"03"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"mr_reduction"			"28 40 52 64"
+		}
+		"04"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"cast_range"			"450 500 550 600"
+		}
+		"05"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"mr_start"				"-1"
+		}
+		"06"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"mr_remove_per_second"	"7 10 13 16"
+		}
+	}
+
+	"OnSpellStart"
+	{
+		"FireSound"
+		{
+			"EffectName"		"Hero_FacelessVoid.Chronosphere"
+			"Target"			"CASTER"
+		}
+
+		"RunScript"
+		{
+			"ScriptFile"		"heroes/mei/komu_no_jutsu.lua"
+			"Function"			"Chronosphere"
+			"Target"			"POINT"
+			"dummy_aura"		"modifier_chronosphere_aura_datadriven"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_chronosphere_tooltip_datadriven"
+		{
+			"IsDebuff"		"1"
+			"IsPurgable"	"0"
+		}
+
+		"modifier_chronosphere_aura_datadriven"
+		{
+			"OnCreated"
+			{
+				"AttachEffect"
+				{
+					"EffectName"	"particles/units/heroes/hero_riki/riki_smokebomb.vpcf"
+					"EffectAttachType"	"attach_origin"
+					"Target"		"TARGET"
+
+					"ControlPoints"
+					{
+						"01"	"%radius %radius 0"
+					}
+				}
+			}
+			
+			"ThinkInterval"		"0.1"
+
+			"OnIntervalThink"
+			{
+				"RunScript"
+				{
+					"ScriptFile"		"heroes/mei/komu_no_jutsu.lua"
+					"Function"			"applyModifier"
+					"Target"			"POINT"
+				}
+			}
+
+			"States"
+			{
+				"MODIFIER_STATE_INVULNERABLE" 	"MODIFIER_STATE_VALUE_ENABLED"
+				"MODIFIER_STATE_NO_HEALTH_BAR" 	"MODIFIER_STATE_VALUE_ENABLED"				
+				"MODIFIER_STATE_NOT_ON_MINIMAP" "MODIFIER_STATE_VALUE_ENABLED"
+				"MODIFIER_STATE_UNSELECTABLE" 	"MODIFIER_STATE_VALUE_ENABLED"
+			}
+		}
+
+		"modifier_mei_komu_mr_reduction"
+		{
+			"IsDebuff"	"1"
+
+
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS"	"%mr_start"
+			}
+
+			"ThinkInterval"  "1.0"
+			"OnIntervalThink"
+			{
+				"RunScript"
+				{
+					"ScriptFile"		"heroes/mei/komu_no_jutsu.lua"
+					"Function"			"reduceMR"
+				}
+			}
+			
+		}
+	}
+}

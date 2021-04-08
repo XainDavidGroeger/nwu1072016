@@ -1,0 +1,12 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_DO_NOT_CAST_SHADOWS"	"1"
+	"F_FULLBRIGHT"	"1"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/asuma/asuma_tga_5706dd92.vtex"
+	"RepresentativeTextureWidth"	"256"
+	"RepresentativeTextureHeight"	"256"
+}

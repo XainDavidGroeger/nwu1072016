@@ -1,0 +1,17 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_NORMAL_MAP"	"1"
+	"F_ADDITIVE_BLEND"	"1"
+	"F_TRANSLUCENT"	"1"
+	"g_flBumpStrength"	"1"
+	"g_flOpacityScale"	"0.65"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"TextureTranslucency"	"[1 1 1 0]"
+	"g_tColor"	"materials/kisame/kisame_shark_body_color_tga_230ac20c.vtex"
+	"g_tNormal"	"materials/kisame/kisame_shark_body_normal_tga_7981a6a0.vtex"
+	"RepresentativeTextureWidth"	"128"
+	"RepresentativeTextureHeight"	"128"
+}

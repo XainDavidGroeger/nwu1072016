@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/heroes/shopkeeper_dire/shopkeeper_dire_head_tga_2da574e.vtex"
+	"RepresentativeTextureWidth"	"32"
+	"RepresentativeTextureHeight"	"32"
+}

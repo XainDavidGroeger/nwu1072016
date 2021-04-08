@@ -1,0 +1,43 @@
+"npc_dota_hero_ursa" //kimimaro
+{
+	"override_hero"			"npc_dota_hero_ursa"
+	"Model"					"models/kimi/kimi_no_cs.vmdl"
+	"Ability1"				"kimi_clematis_dance"
+	"Ability2"				"kimi_dance_of_the_willow"
+	"Ability3"				"kimi_cursed_seal"
+	"Ability5"				"attribute_bonus"
+	"Ability6"				"kimi_sawarabi_no_mai"
+
+	"ModelScale"		"1.2"
+	"LoadoutScale"		"1.2" 
+
+	// Unit attribute
+	"AttackRange"					"100"
+	"AttackAnimationPoint"			"0.4"
+
+	"Role"			"Carry"
+	"Rolelevels"	"3"
+
+	"AttackDamageMin"   "23"
+	"AttackDamageMax"   "30"
+	"AttackRate"    "1.700000"
+	"ArmorPhysical"		"0.000000"
+    // Movement
+    //----------------------------------------------------------------
+	"MovementSpeed"					"315"
+	"StatusHealth"    "145"
+  	"StatusHealthRegen"   "0.300000"
+    // Attibutes
+    //----------------------------------------------------------------
+	"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+	"AttributeBaseStrength"			"17"
+	"AttributeStrengthGain"			"2"
+	"AttributeBaseIntelligence"		"17"
+	"AttributeIntelligenceGain"		"1.5"
+	"AttributeBaseAgility"			"21"
+	"AttributeAgilityGain"			"2.6"
+
+	"ItemSlots"	{ }
+	"Village"			"otogakure"
+	"Gender"			"male"
+}

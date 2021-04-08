@@ -1,0 +1,2568 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CRenderMesh"
+	m_sceneObjects = 
+	[
+		{
+			_class = "CSceneObjectData"
+			m_vMinBounds = 
+			[
+				-24.616598,
+				-34.915920,
+				2.781250,
+			]
+			m_vMaxBounds = 
+			[
+				20.400187,
+				35.106583,
+				133.000015,
+			]
+			m_drawCalls = 
+			[
+				{
+					_class = "CMaterialDrawDescriptor"
+					m_nPrimitiveType = "RENDER_PRIM_TRIANGLES"
+					m_nBaseVertex = 0
+					m_nVertexCount = 1335
+					m_nStartIndex = 0
+					m_nIndexCount = 3900
+					m_nStartInstance = 0
+					m_nInstanceCount = 0
+					m_flUvDensity = 106.153038
+					m_nFlags = "MESH_DRAW_FLAGS_USE_COMPRESSED_NORMAL_TANGENT"
+					m_vTintColor = 
+					[
+						1.000000,
+						1.000000,
+						1.000000,
+					]
+					m_indexBuffer = 
+					{
+						_class = "RenderBufferBinding_t"
+						m_hBuffer = 0
+						m_nBindOffsetBytes = 0
+					}
+					m_material = resource:"materials/naruto/naruto.vmat"
+					m_vertexBuffers = 
+					[
+						{
+							m_hBuffer = 0
+							m_nBindOffsetBytes = 0
+						},
+					]
+				},
+			]
+			m_vTintColor = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+		},
+	]
+	m_morphSet = null
+	m_constraints = 
+	[
+	]
+	m_skeleton = 
+	{
+		_class = "CRenderSkeleton"
+		m_bones = 
+		[
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "m3bone_root"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.000000,
+					-1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-0.000000,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 0.000000
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Bone_waist"
+				m_parentName = "m3bone_root"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					0.126906,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-1.208210,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-70.912094,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 0.000000
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Bone_Rhand2"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					13.855826,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-0.360609,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-101.949417,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 0.000000
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Bone_Lhand"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-19.405872,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-1.150614,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-84.489853,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 0.000000
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object18"
+				m_parentName = "Bone_Rhand2"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242900,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607052,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677338,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-20.930397,
+						-19.005493,
+						-22.427334,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						5.187499,
+						4.398438,
+						9.250004,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 45.970295
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object06"
+				m_parentName = "Bone_Lhand"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242898,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607054,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677338,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						21.007099,
+						-19.005495,
+						-22.677334,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						5.125000,
+						4.398438,
+						9.500004,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 45.978100
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object02"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-1.643309,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-4.951638,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-117.856125,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.431887,
+						2.329606,
+						-4.856117,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						1.706054,
+						2.593750,
+						4.500000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 10.575269
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object03"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					1.093159,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-5.379091,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-117.779053,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-0.245708,
+						1.902153,
+						-4.779045,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						1.708008,
+						2.593750,
+						4.500000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 10.319622
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_mid_1"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.131183,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-13.183354,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-71.722519,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-0.412434,
+						2.070934,
+						-17.930420,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						14.468748,
+						3.004292,
+						10.707901,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 29.084557
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_left_1"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					14.342355,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-11.460357,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-71.352463,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-3.905476,
+						-8.674818,
+						-17.602457,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						3.497832,
+						11.223040,
+						10.750002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 30.862717
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_right_1"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-13.505813,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-11.328063,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-71.229233,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						4.265726,
+						-8.542524,
+						-17.479227,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						3.584041,
+						11.223040,
+						10.750002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 30.818810
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_right_front_1"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-14.080117,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					8.353816,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-71.303635,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						2.285172,
+						-4.239933,
+						-17.553629,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						4.115291,
+						4.156249,
+						10.750002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 29.677345
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_left_front_1"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					13.936306,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					8.326606,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-71.337509,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-2.874024,
+						-4.267144,
+						-17.587503,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						4.060332,
+						4.156249,
+						10.750002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 29.761765
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object17"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242894,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607054,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677338,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.007106,
+						-20.719532,
+						-20.927334,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						12.562498,
+						8.424973,
+						11.250004,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 42.910099
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object12"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242893,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607054,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677322,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-7.895177,
+						-20.341431,
+						-40.052315,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						7.900331,
+						8.046874,
+						15.375002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 61.355072
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object14"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242895,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607054,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677322,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-8.254613,
+						-20.028931,
+						-69.739822,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						6.113280,
+						5.484375,
+						15.562502,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 89.238205
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object20"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					9.374961,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					0.270694,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-12.159908,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-0.484413,
+						-4.369931,
+						-4.581783,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						4.390625,
+						10.921874,
+						4.796875,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 17.826208
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object11"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242895,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607052,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677322,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						7.128198,
+						-20.341431,
+						-40.052315,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						7.128905,
+						8.046874,
+						15.375002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 61.356995
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object13"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242893,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607056,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677322,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						8.264918,
+						-20.028931,
+						-69.739822,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						6.117187,
+						5.484374,
+						15.562502,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 89.240242
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object16"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-10.061674,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					0.371284,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-12.038479,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.297699,
+						-4.269341,
+						-4.460353,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						4.390625,
+						10.921874,
+						4.796875,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 17.671534
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object07"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242894,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607054,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677338,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-0.147562,
+						-14.553740,
+						-8.216187,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						35.011246,
+						18.563272,
+						22.660995,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 44.405773
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object10"
+				m_parentName = "Bone_Rhand2"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242897,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607052,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677322,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-18.086643,
+						-19.700806,
+						-3.427315,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						5.906249,
+						6.937500,
+						12.250000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 34.276096
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object15"
+				m_parentName = "Object18"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					21.544870,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-1.395269,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-67.619003,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.044874,
+						-0.684334,
+						-3.868998,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						3.000000,
+						3.695312,
+						4.250002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 8.152165
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object09"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242895,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607054,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677338,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						17.572842,
+						-19.881668,
+						-2.744469,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						6.809258,
+						7.118361,
+						12.932861,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 34.367107
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object21"
+				m_parentName = "Object06"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-23.883099,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-1.542330,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-67.823105,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-1.633102,
+						-0.831395,
+						-4.448099,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						3.000000,
+						3.695312,
+						4.125002,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 8.876842
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object01"
+				m_parentName = "Bone_waist"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.242894,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-20.607052,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-97.677338,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.100856,
+						-22.513308,
+						22.822674,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						8.718748,
+						9.968748,
+						12.500004,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 45.824116
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object04"
+				m_parentName = "Object02"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-2.878546,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-9.906957,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-108.544464,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.367547,
+						0.968037,
+						-5.544456,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						1.847656,
+						1.562500,
+						5.500000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 11.424457
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "Object05"
+				m_parentName = "Object03"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					1.818663,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-9.792527,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-108.852966,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-0.702821,
+						1.082467,
+						-5.852959,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						1.853515,
+						1.562500,
+						5.500000,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 11.811214
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_mid_2"
+				m_parentName = "mantle_mid_1"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					0.000000,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-18.454298,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-42.803734,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						0.767250,
+						-0.483706,
+						-11.043763,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						17.644329,
+						3.962014,
+						11.324227,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 28.781199
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_left_2"
+				m_parentName = "mantle_left_1"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					15.357396,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-13.840341,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-43.096577,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-5.828974,
+						-10.036308,
+						-11.411551,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						5.690709,
+						13.022457,
+						11.399172,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 34.333363
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_right_2"
+				m_parentName = "mantle_right_1"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-15.716514,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					-13.840339,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-42.976860,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						6.042066,
+						-9.995522,
+						-11.176158,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						6.028000,
+						13.022457,
+						11.283496,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 34.346645
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_right_front_2"
+				m_parentName = "mantle_right_front_1"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-20.364260,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					8.841005,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-43.100300,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						2.081820,
+						-5.807447,
+						-11.501439,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						5.340500,
+						5.710951,
+						11.401143,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 26.036127
+			},
+			{
+				_class = "RenderSkeletonBone_t"
+				m_boneName = "mantle_left_front_2"
+				m_parentName = "mantle_left_front_1"
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					20.787441,
+					-1.000000,
+					0.000000,
+					-0.000000,
+					8.777243,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-43.049175,
+				]
+				m_bbox = 
+				{
+					_class = "SkeletonBoneBbox_t"
+					m_vecCenter = 
+					[
+						-1.211430,
+						-5.891602,
+						-11.565989,
+					]
+					m_pad0 = 0.000000
+					m_vecSize = 
+					[
+						4.628208,
+						5.731344,
+						11.516817,
+					]
+					m_pad1 = 0.000000
+				}
+				m_flSphereRadius = 26.027960
+			},
+		]
+		m_boneParents = 
+		[
+		]
+		m_nFlags = "RenderSkeletonData_t::FLAG_BLEND_WEIGHT_COUNT_SHIFT"
+		m_nBoneWeightCount = 3
+	}
+	m_attachments = 
+	[
+		{
+			key = "attach_origin"
+			value = 
+			{
+				m_name = "attach_origin"
+				m_influenceNames = 
+				[
+					"m3bone_root",
+					"",
+					"",
+				]
+				m_vInfluenceOffsets = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+				]
+				m_vInfluenceRotations = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+				]
+				m_influenceWeights = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+				]
+				m_influenceFlags = 
+				[
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+				]
+				m_nInfluences = 1
+			}
+		},
+		{
+			key = "attach_hitloc"
+			value = 
+			{
+				m_name = "attach_hitloc"
+				m_influenceNames = 
+				[
+					"Bone_waist",
+					"",
+					"",
+				]
+				m_vInfluenceOffsets = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+				]
+				m_vInfluenceRotations = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+				]
+				m_influenceWeights = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+				]
+				m_influenceFlags = 
+				[
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+				]
+				m_nInfluences = 1
+			}
+		},
+		{
+			key = "attach_right_hand"
+			value = 
+			{
+				m_name = "attach_right_hand"
+				m_influenceNames = 
+				[
+					"Bone_Rhand2",
+					"",
+					"",
+				]
+				m_vInfluenceOffsets = 
+				[
+					
+					[
+						-9.228947,
+						0.000000,
+						-40.695358,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+				]
+				m_vInfluenceRotations = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						-0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+				]
+				m_influenceWeights = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+				]
+				m_influenceFlags = 
+				[
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+				]
+				m_nInfluences = 1
+			}
+		},
+		{
+			key = "attach_left_hand"
+			value = 
+			{
+				m_name = "attach_left_hand"
+				m_influenceNames = 
+				[
+					"Bone_Lhand",
+					"",
+					"",
+				]
+				m_vInfluenceOffsets = 
+				[
+					
+					[
+						3.358358,
+						-0.000000,
+						-24.088440,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+				]
+				m_vInfluenceRotations = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						-0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+				]
+				m_influenceWeights = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+				]
+				m_influenceFlags = 
+				[
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+					"ATTACHMENT_INFLUENCE_FLAGS_NONE",
+				]
+				m_nInfluences = 1
+			}
+		},
+	]
+	m_hitboxsets = 
+	[
+		{
+			key = "default"
+			value = 
+			{
+				m_name = "default"
+				m_nNameHash = 1977497166
+				m_HitBoxes = 
+				[
+					{
+						_class = "CHitBox"
+						m_name = "Object18"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object18"
+						m_nBoneNameHash = 2782691313
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 0
+						m_vMinBounds = 
+						[
+							-26.117895,
+							-23.403931,
+							-31.677338,
+						]
+						m_vMaxBounds = 
+						[
+							-15.742899,
+							-14.607056,
+							-13.177330,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object06"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object06"
+						m_nBoneNameHash = 624114860
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 1
+						m_vMinBounds = 
+						[
+							15.882099,
+							-23.403933,
+							-32.177338,
+						]
+						m_vMaxBounds = 
+						[
+							26.132099,
+							-14.607058,
+							-13.177330,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object02"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object02"
+						m_nBoneNameHash = 820502594
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 2
+						m_vMinBounds = 
+						[
+							-1.274168,
+							-0.264143,
+							-9.356117,
+						]
+						m_vMaxBounds = 
+						[
+							2.137941,
+							4.923356,
+							-0.356117,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object03"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object03"
+						m_nBoneNameHash = 2749068745
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 3
+						m_vMinBounds = 
+						[
+							-1.953716,
+							-0.691597,
+							-9.279045,
+						]
+						m_vMaxBounds = 
+						[
+							1.462300,
+							4.495903,
+							-0.279045,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_mid_1"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_mid_1"
+						m_nBoneNameHash = 2359063509
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 4
+						m_vMinBounds = 
+						[
+							-14.881182,
+							-0.933358,
+							-28.638321,
+						]
+						m_vMaxBounds = 
+						[
+							14.056314,
+							5.075227,
+							-7.222519,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_left_1"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_left_1"
+						m_nBoneNameHash = 1690452811
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 5
+						m_vMinBounds = 
+						[
+							-7.403308,
+							-19.897858,
+							-28.352459,
+						]
+						m_vMaxBounds = 
+						[
+							-0.407643,
+							2.548222,
+							-6.852455,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_right_1"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_right_1"
+						m_nBoneNameHash = 2270714138
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 6
+						m_vMinBounds = 
+						[
+							0.681685,
+							-19.765564,
+							-28.229229,
+						]
+						m_vMaxBounds = 
+						[
+							7.849767,
+							2.680515,
+							-6.729225,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_right_front_1"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_right_front_1"
+						m_nBoneNameHash = 2175947132
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 7
+						m_vMinBounds = 
+						[
+							-1.830119,
+							-8.396182,
+							-28.303631,
+						]
+						m_vMaxBounds = 
+						[
+							6.400462,
+							-0.083685,
+							-6.803627,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_left_front_1"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_left_front_1"
+						m_nBoneNameHash = 2988088221
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 8
+						m_vMinBounds = 
+						[
+							-6.934357,
+							-8.423392,
+							-28.337505,
+						]
+						m_vMaxBounds = 
+						[
+							1.186308,
+							-0.110895,
+							-6.837502,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object17"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object17"
+						m_nBoneNameHash = 2913566509
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 9
+						m_vMinBounds = 
+						[
+							-12.555392,
+							-29.144505,
+							-32.177338,
+						]
+						m_vMaxBounds = 
+						[
+							12.569604,
+							-12.294559,
+							-9.677330,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object12"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object12"
+						m_nBoneNameHash = 1309421464
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 10
+						m_vMinBounds = 
+						[
+							-15.795507,
+							-28.388306,
+							-55.427315,
+						]
+						m_vMaxBounds = 
+						[
+							0.005154,
+							-12.294557,
+							-24.677313,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object14"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object14"
+						m_nBoneNameHash = 2953862713
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 11
+						m_vMinBounds = 
+						[
+							-14.367893,
+							-25.513306,
+							-85.302322,
+						]
+						m_vMaxBounds = 
+						[
+							-2.141333,
+							-14.544556,
+							-54.177322,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object20"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object20"
+						m_nBoneNameHash = 1899584681
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 12
+						m_vMinBounds = 
+						[
+							-4.875037,
+							-15.291805,
+							-9.378658,
+						]
+						m_vMaxBounds = 
+						[
+							3.906212,
+							6.551943,
+							0.215093,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object11"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object11"
+						m_nBoneNameHash = 3164605294
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 13
+						m_vMinBounds = 
+						[
+							-0.000708,
+							-28.388306,
+							-55.427315,
+						]
+						m_vMaxBounds = 
+						[
+							14.257103,
+							-12.294557,
+							-24.677313,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object13"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object13"
+						m_nBoneNameHash = 830921515
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 14
+						m_vMinBounds = 
+						[
+							2.147732,
+							-25.513306,
+							-85.302322,
+						]
+						m_vMaxBounds = 
+						[
+							14.382105,
+							-14.544557,
+							-54.177322,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object16"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object16"
+						m_nBoneNameHash = 4164413569
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 15
+						m_vMinBounds = 
+						[
+							-4.092925,
+							-15.191216,
+							-9.257229,
+						]
+						m_vMaxBounds = 
+						[
+							4.688324,
+							6.652533,
+							0.336522,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object07"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object07"
+						m_nBoneNameHash = 3963233554
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 16
+						m_vMinBounds = 
+						[
+							-50.158798,
+							-75.116997,
+							-100.876999,
+						]
+						m_vMaxBounds = 
+						[
+							50.863701,
+							30.009501,
+							30.444799,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object10"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object10"
+						m_nBoneNameHash = 1993324693
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 17
+						m_vMinBounds = 
+						[
+							-23.992893,
+							-26.638306,
+							-15.677315,
+						]
+						m_vMaxBounds = 
+						[
+							-12.180394,
+							-12.763306,
+							8.822685,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object15"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object15"
+						m_nBoneNameHash = 3477449524
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 18
+						m_vMinBounds = 
+						[
+							-2.955126,
+							-4.379646,
+							-8.118999,
+						]
+						m_vMaxBounds = 
+						[
+							3.044874,
+							3.010978,
+							0.381004,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object09"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object09"
+						m_nBoneNameHash = 4121860473
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 19
+						m_vMinBounds = 
+						[
+							10.763583,
+							-27.000031,
+							-15.677330,
+						]
+						m_vMaxBounds = 
+						[
+							24.382099,
+							-12.763307,
+							10.188393,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object21"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object21"
+						m_nBoneNameHash = 2009133410
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 20
+						m_vMinBounds = 
+						[
+							-4.633102,
+							-4.526708,
+							-8.573101,
+						]
+						m_vMaxBounds = 
+						[
+							1.366898,
+							2.863917,
+							-0.323097,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object01"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object01"
+						m_nBoneNameHash = 2295071550
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 21
+						m_vMinBounds = 
+						[
+							-8.617892,
+							-32.482056,
+							10.322670,
+						]
+						m_vMaxBounds = 
+						[
+							8.819604,
+							-12.544559,
+							35.322678,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object04"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object04"
+						m_nBoneNameHash = 3765954048
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 22
+						m_vMinBounds = 
+						[
+							-1.480108,
+							-0.594463,
+							-11.044456,
+						]
+						m_vMaxBounds = 
+						[
+							2.215203,
+							2.530538,
+							-0.044456,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "Object05"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "Object05"
+						m_nBoneNameHash = 190801489
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 23
+						m_vMinBounds = 
+						[
+							-2.556336,
+							-0.480034,
+							-11.352959,
+						]
+						m_vMaxBounds = 
+						[
+							1.150694,
+							2.644967,
+							-0.352959,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_mid_2"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_mid_2"
+						m_nBoneNameHash = 144128808
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 24
+						m_vMinBounds = 
+						[
+							-16.877079,
+							-4.445721,
+							-22.367990,
+						]
+						m_vMaxBounds = 
+						[
+							18.411579,
+							3.478308,
+							0.280464,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_left_2"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_left_2"
+						m_nBoneNameHash = 3512857669
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 25
+						m_vMinBounds = 
+						[
+							-11.519683,
+							-23.058765,
+							-22.810722,
+						]
+						m_vMaxBounds = 
+						[
+							-0.138266,
+							2.986149,
+							-0.012379,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_right_2"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_right_2"
+						m_nBoneNameHash = 1814906065
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 26
+						m_vMinBounds = 
+						[
+							0.014066,
+							-23.017979,
+							-22.459654,
+						]
+						m_vMaxBounds = 
+						[
+							12.070065,
+							3.026936,
+							0.107338,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_right_front_2"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_right_front_2"
+						m_nBoneNameHash = 2305955467
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 27
+						m_vMinBounds = 
+						[
+							-3.258680,
+							-11.518398,
+							-22.902582,
+						]
+						m_vMaxBounds = 
+						[
+							7.422319,
+							-0.096496,
+							-0.100296,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					{
+						_class = "CHitBox"
+						m_name = "mantle_left_front_2"
+						m_sSurfaceProperty = ""
+						m_sBoneName = "mantle_left_front_2"
+						m_nBoneNameHash = 1991978709
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							0,
+							0,
+							0,
+							0,
+						]
+						m_nHitBoxIndex = 28
+						m_vMinBounds = 
+						[
+							-5.839638,
+							-11.622946,
+							-23.082806,
+						]
+						m_vMaxBounds = 
+						[
+							3.416779,
+							-0.160258,
+							-0.049171,
+						]
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+				]
+				m_SourceFilename = ""
+			}
+		},
+	]
+}

@@ -1,0 +1,13 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_ADDITIVE_BLEND"	"1"
+	"F_TRANSLUCENT"	"1"
+	"g_flOpacityScale"	"1"
+	"g_vColorTint"	"[0.764706 1 0.737255 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"particles/units/heroes/neji/baguam 2_png_a2c2be3f.vtex"
+	"RepresentativeTextureWidth"	"0"
+	"RepresentativeTextureHeight"	"0"
+}

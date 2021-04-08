@@ -1,0 +1,127 @@
+
+"mei_yokai_no_jutsu"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+	"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+	"FightRecapLevel"				"2"
+	"AbilityTextureName"			"mei_yokai_no_jutsu"
+
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastRange"				"600"
+	"AbilityCastPoint"				"0.65 0.65 0.65 0.65"
+
+	// Time		
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"				"15 14 13 12"
+
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"115 160 205 250"		
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"tooltip_duration"			"2.5"
+		}
+		"02"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"damage"					"130 180 230 280"
+		}
+		"03"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"cast_range"				"600"					
+		}
+		"04"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"duration"					"2.5"
+		}			
+		"05"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"path_radius"				"240"
+		}			
+		"06"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"slow_percent_per_stack"	"10.0"
+		}
+		"07"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"slow_start"	"-1"
+		}	
+		"08"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"max_debuff_stack"	"1 1 2 3"
+		}		
+	}
+	
+	// Data driven
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+		"soundfile"					"soundevents/game_sounds_heroes/game_sounds_jakiro.vsndevts"
+		"particle"					"particles/units/heroes/hero_jakiro/jakiro_macropyre.vpcf"
+	}
+	
+	"OnSpellStart"
+	{
+		"FireSound"
+		{
+			"EffectName"		"Hero_Jakiro.Macropyre.Cast"
+			"Target"			"CASTER"
+		}
+		
+		"RunScript"
+		{
+			"ScriptFile"		"heroes/mei/yokai_no_jutsu.lua"
+			"Function"			"FireMacropyre"
+			
+			"cast_range"		"%cast_range"
+			"path_radius"		"%path_radius"
+			"duration"			"1"
+		}
+	}
+	
+	"OnProjectileHitUnit"
+	{
+		"DeleteOnHit"		"0"
+		
+		"RunScript"
+		{
+			"ScriptFile"		"heroes/mei/yokai_no_jutsu.lua"
+			"Function"			"applyDamage"
+			"Target"			"TARGET"
+			"damageAmount"		"%damage"
+		}
+	}
+	
+	"Modifiers"
+	{
+		"modifier_mei_yokai_ms_slow"
+		{
+			"IsDebuff"	"1"
+			"duration"	"%duration"
+
+			"Properties"
+			{
+			    "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%slow_start" 
+			}
+		}
+	}
+}

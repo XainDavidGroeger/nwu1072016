@@ -1,0 +1,67 @@
+"mei_pressence"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"AbilityTextureName"			"mei_pressence"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+	"AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"bonus_int_per_stack"			"10 20 30"
+		}
+		"02"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"max_stacks"					"3 4 5"
+		}
+		"03"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"stack_start"					"1"
+		}
+		"04"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"duration"					"6"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_mei_pressence_oncast"
+		{
+			"Passive"                   "1"
+            "IsHidden"                  "1"
+            "IsPurgable"                "0"
+
+          	"OnAbilityExecuted"
+          	// Any ability (including items) was used by the unit with this modifier.
+          	{
+          		"RunScript"
+          		{
+          			"ScriptFile"	"heroes/mei/pressence.lua"
+          			"Function"		"stackInt"
+          		}
+          	}
+		}
+
+		"modifier_mei_pressence"
+		{
+			"Passive"                   "0"
+            "IsHidden"                  "0"
+            "IsPurgable"                "0"
+        
+          	"Properties"
+          	{
+          		"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%stack_start"
+          	}
+		}
+	}
+}

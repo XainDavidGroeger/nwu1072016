@@ -1,0 +1,55 @@
+#page_venue2
+{
+	flow-children: none;
+}
+
+#frankfurt
+{
+	position: 0px 0px 0;
+	height: 105px;
+	color: #d9dbd9;
+	z-index: 1;
+	font-size: 74;
+	letter-spacing: 4px;
+	text-align: right;
+	horizontal-align: right;
+	margin-right: 136px;
+	margin-top: 51px;
+}
+
+#main_event
+{
+	letter-spacing: 3px;
+	position: 10px 130px 0;
+	width: 620px;
+	height: 20px;
+	color: #d9dbd9;
+	z-index: 1;
+	font-size: 16;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#prizepool
+{
+	letter-spacing: 3px;
+	position: 10px 150px 0;
+	width: 620px;
+	height: 20px;
+	color: #d9dbd9;
+	z-index: 1;
+	font-size: 16;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#desc
+{
+	position: 106px 600px 0;
+	color: #d9dbd9;
+	font-size: 16px;
+    line-height: 20px;
+	width: 450px;
+    text-shadow: 2px 2px 4px 2.0 #333333b0;
+    letter-spacing: 0.5px;
+}

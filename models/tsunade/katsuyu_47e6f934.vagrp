@@ -1,0 +1,302 @@
+AnimationGroupResourceData_t
+{
+	uint32 m_nFlags = 0x00000000
+	CResourceString m_name = ""
+	ExternalReference m_localHAnimArray[7] =
+	[
+		resource:"models/tsunade/47e6f934/katsuyu_ani.vanim"
+		resource:"models/tsunade/47e6f934/katsu_run.vanim"
+		resource:"models/tsunade/47e6f934/katsu_idle.vanim"
+		resource:"models/tsunade/47e6f934/katsu_die.vanim"
+		resource:"models/tsunade/47e6f934/katsu_attack.vanim"
+		resource:"models/tsunade/47e6f934/katsu_spell.vanim"
+		resource:"models/tsunade/47e6f934/katsu_spell_2.vanim"
+	]
+	ExternalReference m_includedGroupArray[0] =
+	[
+	]
+	ExternalReference m_directHSeqGroup = NULL
+	Struct m_decodeKey = AnimationKeyResourceData_t
+	{
+		CResourceString m_name = ""
+		Struct m_boneArray[14] =
+		[
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Object001"
+				int32 m_parent = -1
+				Vector m_pos = (0.000000, 0.000000, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Object06"
+				int32 m_parent = -1
+				Vector m_pos = (-0.963122, -0.000000, -2.298350)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone07"
+				int32 m_parent = -1
+				Vector m_pos = (-24.439301, -0.000001, 31.393101)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone08"
+				int32 m_parent = 2
+				Vector m_pos = (0.000000, 13.134500, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone09"
+				int32 m_parent = 3
+				Vector m_pos = (0.000000, 12.780400, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone10"
+				int32 m_parent = 4
+				Vector m_pos = (0.000000, 19.531700, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone05"
+				int32 m_parent = -1
+				Vector m_pos = (5.265410, 0.000000, 31.393101)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "body"
+				int32 m_parent = 6
+				Vector m_pos = (2.869060, 6.899950, -5.631020)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone04"
+				int32 m_parent = 6
+				Vector m_pos = (0.000000, -17.250601, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone03"
+				int32 m_parent = 8
+				Vector m_pos = (0.000000, -16.593800, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "Bone02"
+				int32 m_parent = 9
+				Vector m_pos = (0.000000, -17.629801, 0.000000)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "overhead"
+				int32 m_parent = 10
+				Vector m_pos = (2.869060, -5.059230, 16.383499)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "head"
+				int32 m_parent = 10
+				Vector m_pos = (2.869060, -10.479300, 4.003040)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+			AnimResourceBone_t
+			{
+				CResourceString m_name = "origin"
+				int32 m_parent = -1
+				Vector m_pos = (0.122596, 2.726960, 3.207680)
+				Quaternion m_quat = {x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+				Quaternion m_qAlignment = {x: 0.00, y: 0.00, z: 0.00, w: 0.00}
+				int32 m_flags = 0
+			}
+		]
+		Struct m_userArray[0] =
+		[
+		]
+		CResourceString m_morphArray[0] =
+		[
+		]
+		Struct m_IKChainArray[0] =
+		[
+		]
+		int32 m_nChannelElements = 28
+		Struct m_dataChannelArray[2] =
+		[
+			AnimResourceDataChannel_t
+			{
+				CResourceString m_szChannelClass = "BoneChannel"
+				CResourceString m_szVariableName = "Position"
+				int32 m_nFlags = 0
+				int32 m_nType = 3
+				CResourceString m_szGrouping = ""
+				CResourceString m_szDescription = ""
+				CResourceString m_szElementNameArray[14] =
+				[
+					"Object001"
+					"Object06"
+					"Bone07"
+					"Bone08"
+					"Bone09"
+					"Bone10"
+					"Bone05"
+					"body"
+					"Bone04"
+					"Bone03"
+					"Bone02"
+					"overhead"
+					"head"
+					"origin"
+				]
+				int32 m_nElementIndexArray[14] =
+				[
+					0
+					1
+					2
+					3
+					4
+					5
+					6
+					7
+					8
+					9
+					10
+					11
+					12
+					13
+				]
+				uint32 m_nElementMaskArray[14] =
+				[
+					0x00000001
+					0x00000004
+					0x00000010
+					0x00000040
+					0x00000200
+					0x00000800
+					0x00002000
+					0x00010000
+					0x00040000
+					0x00100000
+					0x00400000
+					0x02000000
+					0x08000000
+					0x20000000
+				]
+			}
+			AnimResourceDataChannel_t
+			{
+				CResourceString m_szChannelClass = "BoneChannel"
+				CResourceString m_szVariableName = "Angle"
+				int32 m_nFlags = 0
+				int32 m_nType = 4
+				CResourceString m_szGrouping = ""
+				CResourceString m_szDescription = ""
+				CResourceString m_szElementNameArray[14] =
+				[
+					"Object001"
+					"Object06"
+					"Bone07"
+					"Bone08"
+					"Bone09"
+					"Bone10"
+					"Bone05"
+					"body"
+					"Bone04"
+					"Bone03"
+					"Bone02"
+					"overhead"
+					"head"
+					"origin"
+				]
+				int32 m_nElementIndexArray[14] =
+				[
+					14
+					15
+					16
+					17
+					18
+					19
+					20
+					21
+					22
+					23
+					24
+					25
+					26
+					27
+				]
+				uint32 m_nElementMaskArray[14] =
+				[
+					0x00000001
+					0x00000004
+					0x00000010
+					0x00000040
+					0x00000200
+					0x00000800
+					0x00002000
+					0x00010000
+					0x00040000
+					0x00100000
+					0x00400000
+					0x02000000
+					0x08000000
+					0x20000000
+				]
+			}
+		]
+	}
+	Struct m_retarget = AnimationRetargetData_t
+	{
+		int32 m_bEnableRetarget = 0
+		int32 m_nRetargetStyle = 0
+		Struct m_element[0] =
+		[
+		]
+		Struct m_chain[0] =
+		[
+		]
+		CResourceString m_replicated[0] =
+		[
+		]
+	}
+	CResourceString m_szScripts[0] =
+	[
+	]
+}

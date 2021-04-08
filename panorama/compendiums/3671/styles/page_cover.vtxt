@@ -1,0 +1,82 @@
+#page_cover
+{
+	flow-children: none;
+}
+
+#fall_season_2015
+{
+	margin-top: 46px;
+	text-align: center;
+	color: #94ba26;
+	horizontal-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+#compendium
+{
+	margin-top: 70px;
+	text-align: center;
+	color: #ffffff;
+	horizontal-align: center;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	font-size: 40;
+}
+
+
+#fletcher
+{
+	margin-top: 170px;
+	text-align: center;
+	color: #ffffff;
+	horizontal-align: center;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	font-size: 100;
+}
+
+#date
+{
+	margin-bottom: 30px;
+	margin-left: 180px;
+	text-align: left;
+	color: #556051;
+	vertical-align: bottom;
+	font-size: 13;
+	letter-spacing: 1px;
+}
+
+#prizepool
+{
+	margin-bottom: 12px;
+	margin-left: 180px;
+	text-align: left;
+	color: #556051;
+	vertical-align: bottom;
+	font-size: 13;
+	letter-spacing: 1px;
+}
+
+#location
+{
+	margin-bottom: 30px;
+	margin-left: 344px;
+	text-align: left;
+	color: #556051;
+	vertical-align: bottom;
+	font-size: 13;
+	letter-spacing: 1px;
+}
+
+#esl
+{
+	margin-bottom: 12px;
+	margin-left: 344px;
+	text-align: left;
+	color: #556051;
+	vertical-align: bottom;
+	font-size: 13;
+	letter-spacing: 1px;
+}
+

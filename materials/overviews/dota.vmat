@@ -1,0 +1,9 @@
+"Layer0"
+{
+	"shader"	"ui.vfx"
+	"F_STENCIL_MASKING"	"1"
+	"F_TRANSLUCENT"	"0"
+	"g_tColor"	"materials/overviews/dota_tga_d8178876.vtex"
+	"RepresentativeTextureWidth"	"512"
+	"RepresentativeTextureHeight"	"512"
+}

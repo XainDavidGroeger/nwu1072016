@@ -1,0 +1,14 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/styles/custom_game/game_info.vcss_c" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/game_info.vjs_c" /> 
+    </scripts>
+    <Panel class="GameInfo">
+        <Panel class="GameInfo" id="GameInfoPanel">
+        
+        </Panel>
+    </Panel>
+</root>

@@ -1,0 +1,198 @@
+Label.TitleFont, TextEntry.TitleFont
+{
+	font-family: Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#title
+{
+	margin-top: 35px;
+	width: 673px;
+	height: 39px;
+	color: #cbc7bd;
+	font-size: 27;
+	letter-spacing: 1px;
+	text-align: center;
+}
+#title_bg
+{
+	margin-left: 23px;
+	margin-top: 10px;
+	width: 627px;
+	height: 101px;
+}
+
+
+.a-PtsA
+{
+	position: 184px 50px 0;
+	width: 65px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	font-weight: bold;
+	text-align: right;
+}
+
+.a-PtsB
+{
+	position: 252px 50px 0;
+	width: 263px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	text-align: left;
+}
+
+.ac-PtsA
+{
+	position: 124px 50px 0;
+	width: 65px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	font-weight: bold;
+	text-align: right;
+}
+
+.ac-PtsB
+{
+	position: 192px 50px 0;
+	width: 263px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	text-align: left;
+}
+.ac-CompleteA
+{
+	position: 244px 50px 0;
+	width: 65px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	font-weight: bold;
+	text-align: right;
+}
+
+.ac-CompleteB
+{
+	position: 312px 50px 0;
+	width: 263px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	text-align: left;
+}
+
+.ac-CoinsA
+{
+	position: 244px 50px 0;
+	width: 65px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	font-weight: bold;
+	text-align: right;
+}
+
+.ac-CoinsB
+{
+	position: 312px 50px 0;
+	width: 263px;
+	height: 26px;
+	color: #6d9d23;
+	z-index: 2;
+	font-size: 15;
+	text-align: left;
+}
+
+#chapter_end
+{
+	position: 300px 640px 0;
+	width: 75px;
+	height: 75px;
+}
+
+.ruler_top
+{
+	position: 26px 585px 0;
+	width: 620px;
+	height: 12px;
+}
+
+.description
+{
+	width: 522px;
+	color: #333333;
+	z-index: 1;
+	font-size: 14;
+	text-align: left;
+	line-height: 14px;
+}
+
+#description
+{
+	position: 76px 600px 0;
+}
+
+
+
+.ruler_bot
+{
+	transform: scaleY( -1.00 );
+	position: 26px 717px 0;
+	width: 620px;
+	height: 12px;
+}
+
+#timer
+{
+	position: 167px 646px 0;
+}
+
+#timer-countdown
+{
+	position: 38px 5px 0;
+	width: 263px;
+	height: 78px;
+	z-index: 1;
+}
+
+.TimerTitleLabel
+{
+	color: #cbc7bd;
+}
+
+.TimerTimeLabel
+{
+	color: #6d9d23;
+}
+
+.TimerTimeLabelSubtext
+{
+	color: #cbc7bd;
+}
+
+
+#timer-bg
+{
+	width: 340px;
+	height: 89px;
+}
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 673px;
+	height: 757px;
+	z-index: -1;
+}

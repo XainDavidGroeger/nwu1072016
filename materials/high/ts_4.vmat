@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/high/ntxr004_png_63d34b96.vtex"
+	"RepresentativeTextureWidth"	"0"
+	"RepresentativeTextureHeight"	"0"
+}

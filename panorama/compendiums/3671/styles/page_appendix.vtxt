@@ -1,0 +1,23 @@
+#page_appendix
+{
+	flow-children: none;
+}
+
+#title
+{
+	position: 0px 278px 0;
+	width: 673px;
+	height: 131px;
+	color: #6E5943;
+	font-size: 37;
+	text-align: center;
+}
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 673px;
+	height: 757px;
+	z-index: -1;
+}
+

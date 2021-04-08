@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/units/konohagakurecreep/konohagakurecreep_base_attack_tga_e88ca802.vtex"
+	"RepresentativeTextureWidth"	"64"
+	"RepresentativeTextureHeight"	"64"
+}

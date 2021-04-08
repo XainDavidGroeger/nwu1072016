@@ -1,0 +1,11 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_RENDER_BACKFACES"	"1"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/kunai/completeblc_tga_13b20db1.vtex"
+	"RepresentativeTextureWidth"	"512"
+	"RepresentativeTextureHeight"	"512"
+}

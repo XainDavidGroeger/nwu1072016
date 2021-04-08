@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/units/eliteanbu/eliteanbu_1_tga_82853205.vtex"
+	"RepresentativeTextureWidth"	"512"
+	"RepresentativeTextureHeight"	"256"
+}

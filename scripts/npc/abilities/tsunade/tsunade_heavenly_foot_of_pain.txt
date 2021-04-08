@@ -1,0 +1,165 @@
+//=================================================================================================================
+// Tsunade Heavenly Foot of Pain
+//=================================================================================================================
+"tsunade_heavenly_foot_of_pain"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"                     "ability_datadriven"
+	"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT"
+	"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	"AbilityUnitTargetFlags"        "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+	"AbilityUnitDamageType"         "DAMAGE_TYPE_PHYSICAL"   
+	"SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+	"FightRecapLevel"               "1"
+	"AbilityTextureName"            "tsunade_heavenly_foot_of_pain"
+
+	// Precache
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+		"soundfile"                 "soundevents/game_sounds_heroes/game_sounds_sven.vsndevts"
+		"soundfile"                 "soundevents/tsunade_w.vsndevts"
+		
+		"particle"                  "particles/units/heroes/hero_sven/sven_spell_storm_bolt.vpcf"
+		"particle"                  "particles/hero/sven/sven_ult_storm_bolt.vpcf"
+		"particle"                  "particles/units/heroes/hero_sven/sven_storm_bolt_projectile_explosion.vpcf"
+		"particle"                  "particles/generic_gameplay/generic_stunned.vpcf"
+		"soundfile"					"soundevents/game_sounds_heroes/game_sounds_centaur.vsndevts"
+		"particle"					"particles/units/heroes/hero_centaur/centaur_warstomp.vpcf"
+		"particle"					"particles/generic_gameplay/generic_stunned.vpcf"
+		"particle"					"particles/units/heroes/hero_brewmaster/brewmaster_thunder_clap_debuff.vpcf"
+	}
+	
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastRange"              "500"
+	"AbilityCastPoint"              "0.35 0.35 0.35 0.35"
+	"AbilityDamage"            "115 150 185 220"
+	// Time     
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCooldown"               "13 12 11 10"
+
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"               "80 95 110 125"
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"              "FIELD_INTEGER"
+			"speed"                 "1500"
+		}
+		"02"
+		{
+			"var_type"              "FIELD_INTEGER"
+			"damage"                "115 150 185 220"
+		}
+		"03"
+		{
+			"var_type"              "FIELD_FLOAT"
+			"duration"          "2.0 2.50 3.0 3.50"
+		}
+		"04"
+		{
+			"var_type"              "FIELD_INTEGER"
+			"radius_start"          "0"
+		}
+		"05"
+		{
+			"var_type"              "FIELD_INTEGER"
+			"radius_end"          "325"
+		}
+        "06"
+        {
+        	"var_type"              "FIELD_INTEGER"
+        	"range"         		"400"
+        }
+        "07"
+        {
+        	"var_type"              "FIELD_INTEGER"
+        	"slow"         		"-24 -30 -36 -42"
+        }
+	}
+
+	"OnAbilityPhaseStart"
+	{
+		"FireSound"
+		{
+			"EffectName"	"tsunade_w"
+			"Target" 		"CASTER"
+		}
+	}
+
+	"OnSpellStart"
+	{			
+		"RunScript"
+		{
+			"ScriptFile"	"heroes/tsunade/heavenly_foot_of_pain.lua"
+			"Function"		"launch"
+			"Target"		"POINT"
+			"wave_particle"	"particles/units/heroes/hero_vengeful/vengeful_wave_of_terror.vpcf"
+		}
+		"FireEffect"
+		{
+			"EffectName"		"particles/units/heroes/hero_centaur/centaur_warstomp.vpcf"
+			"EffectAttachType" 	"follow_origin"
+			"EffectRadius"		"%radius"
+			"Target" 			"CASTER"
+			"ControlPoints"
+			{
+				"01"	"%radius 0 %radius"
+			}
+		}
+
+	
+
+		"FireSound"
+		{
+			"EffectName"		"Hero_Centaur.HoofStomp"
+			"Target" 			"CASTER"
+		}
+	}
+
+	"OnProjectileHitUnit"
+	{
+		"DeleteOnHit"	"0"
+		"ApplyModifier"
+		{
+			"ModifierName"	"modifier_heavenly_foot_of_pain_debuff"
+			"Target" 		"TARGET"
+			"Duration"		"%duration"
+		}
+
+		"Damage"
+		{
+			"Target"		"TARGET"
+			"Type"			"DAMAGE_TYPE_MAGICAL"
+			"Damage"		"%damage"
+		}
+	}
+	
+	"Modifiers"
+	{
+		"modifier_heavenly_foot_of_pain_debuff"
+		{
+			"Passive"			"0"
+			"IsHidden"			"0"
+			"IsDebuff"			"1"
+			"Duration"			"%duration"
+
+			"EffectName"    "particles/units/heroes/hero_brewmaster/brewmaster_thunder_clap_debuff.vpcf"
+          "EffectAttachType"  "follow_origin"
+	
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%slow"
+				"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%slow"
+			}
+		}
+	}
+}

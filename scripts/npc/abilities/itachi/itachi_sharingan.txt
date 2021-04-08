@@ -1,0 +1,83 @@
+"itachi_sharingan"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"AbilityTextureName"			"itachi_sharingan"
+	
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"chance"			"18 20 22 24"
+		}
+		"01"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"duration"			"4"
+		}
+		"01"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"mr_reduction"		"-5 -10 -15 -20"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_itachi_sharingan"
+		{
+			"Passive"                   "1"
+            "IsHidden"                  "1"
+            "IsPurgable"                "0"
+        
+           "OnAttackLanded"
+           {
+          "Random"
+	          {
+	            "Chance" "%chance"
+	            "PseudoRandom" "DOTA_PSEUDO_RANDOM_PHANTOMASSASSIN_CRIT"
+	            "OnSuccess"
+	            {
+	              "RunScript"
+	              {
+	                "ScriptFile"  "heroes/itachi/sharingan.lua"
+	                "Function"    "sharingan"
+	              }
+	            }
+	          }
+        	}
+		}
+
+		"modifier_onoki_turn_to_dust_aura_debuff"
+		{
+			"Passive"				"1"
+			"IsHidden"				"1"
+			"IsBuff"				"1"
+			"Aura"					"modifier_itachi_sharingan_mr_reduce"
+			"Aura_Radius"			"900"
+			"Aura_Teams"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+			"Aura_Types"			"DOTA_UNIT_TARGET_HERO"
+			
+		}
+
+
+		"modifier_itachi_sharingan_mr_reduce"
+		{
+			"Passive"                   "0"
+            "IsHidden"                  "1"
+            "IsPurgable"                "0"
+            "IsDebuff"					"1"
+        
+          	"Properties"
+			{
+				"MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS"	"%mr_reduction"
+			}
+		}
+
+	}
+}

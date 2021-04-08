@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/shops/seller_one/seller_one_body_tga_57fad78d.vtex"
+	"RepresentativeTextureWidth"	"128"
+	"RepresentativeTextureHeight"	"128"
+}

@@ -1,0 +1,274 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/kankuro/kankuro.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/kankuro/kankuro.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[1] =
+	[
+		resource:"models/kankuro/kankuro_4e8ec610.vagrp"
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[26] =
+		[
+			"m3bone_root"
+			"bone_new0"
+			"bone_new0_1"
+			"bone_n_2"
+			"bone_koleno_2"
+			"bone_st_2"
+			"bone_n_1"
+			"bone_koleno_1"
+			"bone_st_1"
+			"bone_CHEST"
+			"bone_pl_2"
+			"bone_ruka_2"
+			"bone_kulak_2"
+			"bone_pl_1"
+			"bone_ruke_1"
+			"bone_kulak_1"
+			"bone_head"
+			"MilkshapeExported1"
+			"Origin Ref"
+			"Chest Ref"
+			"Weapon Ref"
+			"Overhead Ref"
+			"Head Ref"
+			"bone_null"
+			"bone_root"
+			"UNNAMED"
+		]
+		int16 m_nParent[26] =
+		[
+			-1
+			0
+			1
+			2
+			3
+			4
+			2
+			6
+			7
+			1
+			9
+			10
+			11
+			9
+			13
+			14
+			9
+			-1
+			0
+			9
+			12
+			16
+			16
+			0
+			0
+			0
+		]
+		float32 m_boneSphere[26] =
+		[
+			0.000000
+			0.000000
+			0.000000
+			30.106588
+			44.257530
+			18.319147
+			28.662107
+			43.489769
+			18.625233
+			46.224514
+			23.822468
+			24.091572
+			18.411665
+			23.685001
+			23.039007
+			16.703768
+			25.599260
+			0.000000
+			0.000000
+			0.000000
+			0.000000
+			0.000000
+			0.000000
+			0.000000
+			0.000000
+			0.000000
+		]
+		uint32 m_nFlag[26] =
+		[
+			0x0003FCE0
+			0x0003FC40
+			0x0003FC40
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+			0x00000040
+			0x00000040
+			0x00000040
+			0x00000040
+			0x00000040
+			0x00000040
+			0x00000040
+			0x00000040
+			0x00000040
+		]
+		Vector m_bonePosParent[26] =
+		[
+			(0.000000, 0.000000, 0.000000)
+			(-0.366081, -0.121825, 106.294998)
+			(0.040436, 0.121825, -4.391010)
+			(-7.080779, -0.000001, -7.523697)
+			(-0.171069, 0.000000, -38.444099)
+			(0.177611, 0.000000, -45.364899)
+			(7.565848, 0.000001, -7.131592)
+			(-0.228210, 0.000000, -39.613098)
+			(0.387898, 0.000000, -44.059502)
+			(-0.086204, 0.121825, 34.128006)
+			(-15.140697, 2.396289, -0.050995)
+			(-20.540588, -0.000000, -1.240997)
+			(-28.631077, 0.266259, -0.552002)
+			(16.093395, 2.928799, -0.332001)
+			(21.635786, -0.798760, -0.407990)
+			(29.242077, 0.532510, -1.104004)
+			(0.452285, 3.864739, 11.959000)
+			(0.000000, 0.000000, 0.000000)
+			(0.000000, 0.000000, 0.000000)
+			(0.452285, 0.000000, -25.384001)
+			(0.230484, 0.143290, -1.093020)
+			(0.000000, 0.344009, 32.102001)
+			(0.000000, -0.357440, 6.848970)
+			(0.000000, 0.000000, 0.000000)
+			(0.000000, 0.000000, 0.000000)
+			(0.000000, 0.000000, 0.000000)
+		]
+		Quaternion m_boneRotParent[26] =
+		[
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+		]
+	}
+	int16 m_remappingTable[29] =
+	[
+		0
+		9
+		3
+		6
+		10
+		13
+		4
+		7
+		11
+		14
+		5
+		8
+		12
+		15
+		16
+		9
+		3
+		6
+		10
+		13
+		4
+		7
+		11
+		14
+		5
+		8
+		12
+		15
+		16
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

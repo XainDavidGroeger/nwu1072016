@@ -1,0 +1,117 @@
+#page_collection2
+{
+	flow-children: none;
+}
+
+.subheader_title
+{
+	color: #cbc7bd;
+	margin-left: 14px;
+	margin-top: 5px;
+	z-index: 3;
+	font-size: 15;
+    horizontal-align: middle;
+}
+.boxout
+{
+	width: 520px;
+	height: 26px;
+	z-index: 2;
+}
+
+#coming_soon
+{
+	font-size: 40;
+	horizontal-align: center;
+	vertical-align: center;
+	color: #333333;
+	font-weight: bold;
+	
+}
+
+.reward
+{
+	width: 120px;
+	height: 120px;
+	z-index: 3;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+}
+
+.reward_unowned
+{
+	width: 120px;
+	height: 120px;
+	z-index: 2;
+	saturation: 0.0;
+	brightness: 0.2;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+}
+
+#tribute2
+{
+		position: 115px 26px 0;
+		width: 440px;
+}
+#tribute2_rare
+{
+	margin-top: 40px;
+	horizontal-align: center;
+}
+#tribute2_rare .reward
+{
+	width: 180px;
+	height: 180px;
+}
+
+#tribute2_reward1
+{
+	margin-top: 240px;
+	margin-left: 50px;
+}
+#tribute2_reward2
+{
+	margin-top: 240px;
+	margin-left: 200px;
+}
+#tribute2_reward3
+{
+	margin-top: 240px;
+	margin-left: 350px;
+}
+
+#tribute2_reward4
+{
+	margin-top: 380px;
+	margin-left: 125px;
+	margin-bottom: 16px;
+}
+#tribute2_reward5
+{
+	margin-top: 380px;
+	margin-left: 275px;
+	margin-bottom: 16px;
+}
+
+.tribute_bg
+{
+	width: 445px;
+	height: 477px;
+	z-index: 0;
+}
+
+#ruler_top
+{
+	position: 26px 520px 0;
+}
+
+#description
+{
+	position: 76px 538px 0;
+}
+
+#description2
+{
+	position: 76px 610px 0;
+}

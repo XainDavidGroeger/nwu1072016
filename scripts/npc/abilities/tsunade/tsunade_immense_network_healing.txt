@@ -1,0 +1,128 @@
+"tsunade_immense_network_healing"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+	"FightRecapLevel"				"1"
+	"AbilityTextureName"			"tsunade_immense_network_healing"
+	// Precache
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+				"particle"	"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_ally.vpcf"
+	}	
+
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastRange"				"650"
+	"AbilityCastPoint"				"0.1 0.1 0.1"
+
+	"AbilityCooldown"				"120"
+
+	// Cost
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityManaCost"				"150 130 110"		
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"						"FIELD_FLOAT"
+			"manacost_per_second"			"3 4 5"
+		}
+		"02"
+		{
+			"var_type"						"FIELD_FLOAT"
+			"heal_from_damage_percentage"	"30 40 50"
+		}
+		"03"
+		{
+			"var_type"						"FIELD_FLOAT"
+			"mana_restore_percentage"		"15 20 25"
+		}
+		"04"
+		{
+			"var_type"						"FIELD_FLOAT"
+			"duration"						"5"
+		}
+
+	}
+
+	"OnSpellStart"
+	{
+		"RunScript"
+		{
+			"ScriptFile"	"heroes/tsunade/immense_network_healing.lua"
+			"Function"		"applyModifier"
+			"modifier_name"	"tsunade_immense_network_healing_buff"
+		}
+
+		"ApplyModifier"
+		{
+			"ModifierName"	"tsunade_immense_network_healing_buff_caster"
+			"Target" 		"CASTER"
+		}
+
+		
+	}
+		
+	"Modifiers"
+	{
+		"tsunade_immense_network_healing_buff"
+		{
+			"IsHidden"			"0"
+			"IsBuff"			"1"
+			"Duration"			"%duration"
+			"EffectName"				"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_ally.vpcf"
+			"EffectAttachType"			"follow_origin"
+			
+			"OnTakeDamage"
+			// "%attack_damage" is set to the damage value after mitigation
+			{
+				"RunScript"
+				{
+					"ScriptFile"	"heroes/tsunade/immense_network_healing.lua"
+					"Function"		"healAllies"
+					"damage"		"%attack_damage"
+				}
+			}
+
+			"OnSpentMana"
+			// Example: Nether ward
+			{
+				"RunScript"
+				{
+					"ScriptFile"	"heroes/tsunade/immense_network_healing.lua"
+					"Function"		"restoreManaAllies"
+				}
+			}
+
+			
+		}
+
+		"tsunade_immense_network_healing_buff_caster"
+		{
+			"Duration"			"%duration"
+			"EffectName"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_halo_buff.vpcf"
+			"EffectAttachType"	"follow_overhead"
+
+			"ThinkInterval"  "0.1"
+			"OnIntervalThink"
+			{
+				"RunScript"
+				{
+					"ScriptFile"	"heroes/tsunade/immense_network_healing.lua"
+					"Function"		"manaCosts"
+				}
+			}
+		}
+	}
+}

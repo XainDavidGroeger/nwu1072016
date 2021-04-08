@@ -1,0 +1,86 @@
+#page_rewards2
+{
+	flow-children: none;
+}
+
+#reward_list
+{
+	flow-children: down;
+	position: 123px 50px 0;
+}
+
+.lr-locked_icon
+{
+	position: 0px 3px 0;
+	width: 15px;
+	height: 15px;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+}
+
+.lr-wrench_icon
+{
+	position: 0px 3px 0;
+	width: 15px;
+	height: 15px;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+}
+
+.lr-level_tick
+{
+	position: 21px 4px 0;
+	width: 13px;
+	height: 13px;
+}
+
+.lr-level
+{
+	position: 39px 0px 0;
+	width: 78px;
+	height: 18px;
+	color: #333333;
+	font-size: 18;
+	font-weight: bold;
+	text-align: right;
+}
+
+.lr-level_desc
+{
+	margin-left: 126px;
+	width: 394px;
+	height: 20px;
+	color: #333333;
+	font-size: 18;
+	text-align: left;
+}
+
+.lr-level_descdim
+{
+	margin-left: 126px;
+	width: 394px;
+	height: 20px;
+	color: #8C8C8C;
+	font-size: 18;
+	text-align: left;
+}
+
+.lr-ellipsis
+{
+	margin-left: 70px;
+	width: 394px;
+	height: 20px;
+	color: #333333;
+	font-size: 18;
+	text-align: left;
+}
+
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 673px;
+	height: 757px;
+	z-index: -1;
+}
+

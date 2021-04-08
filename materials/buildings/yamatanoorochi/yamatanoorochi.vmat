@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/buildings/yamatanoorochi/yamatanoorochi_tga_a55bc3e2.vtex"
+	"RepresentativeTextureWidth"	"512"
+	"RepresentativeTextureHeight"	"512"
+}

@@ -1,0 +1,9 @@
+"Layer0"
+{
+	"shader"	"ui.vfx"
+	"F_STENCIL_MASKING"	"1"
+	"F_TRANSLUCENT"	"0"
+	"g_tColor"	"materials/overviews/mid_tga_a7be94bb.vtex"
+	"RepresentativeTextureWidth"	"512"
+	"RepresentativeTextureHeight"	"512"
+}

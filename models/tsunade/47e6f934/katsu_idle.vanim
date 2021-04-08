@@ -1,0 +1,895 @@
+AnimationResourceData_t
+{
+	CResourceString m_name = ""
+	Struct m_frameData[1] =
+	[
+		AnimResourceEncodedFrames_t
+		{
+			CResourceString m_fileName = ""
+			int32 m_nFrames = 3
+			int32 m_nFramesPerBlock = 0
+			Struct m_frameblockArray[1] =
+			[
+				AnimResourceFrameBlockAnim_t
+				{
+					int32 m_nStartFrame = 0
+					int32 m_nEndFrame = 2
+					int32 m_segmentIndexArray[4] =
+					[
+						0
+						1
+						2
+						3
+					]
+				}
+			]
+			Struct m_usageDifferences = AnimResourceEncodeDifference_t
+			{
+				Struct m_boneArray[0] =
+				[
+				]
+				Struct m_morphArray[0] =
+				[
+				]
+				Struct m_userArray[0] =
+				[
+				]
+				uint8[14] m_bHasRotationBitArray =
+				[
+					FF
+					3F
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+				]
+				uint8[14] m_bHasMovementBitArray =
+				[
+					FF
+					3F
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+				]
+				uint8[0] m_bHasMorphBitArray =
+				[
+				]
+				uint8[0] m_bHasUserBitArray =
+				[
+				]
+			}
+		}
+	]
+	Struct m_animArray[1] =
+	[
+		AnimResourceAnimDesc_t
+		{
+			CResourceString m_name = "katsu_idle"
+			Struct m_flags = AnimResourceAnimDesc_t_Flag_t
+			{
+				bool m_bLooping = true
+				bool m_bAllZeros = false
+				bool m_bHidden = false
+				bool m_bDelta = false
+				bool m_bLegacyWorldspace = false
+			}
+			float32 fps = 30.000000
+			Struct m_pData* = (ptr) ->AnimResourceEncodedFrames_t
+			{
+				CResourceString m_fileName = ""
+				int32 m_nFrames = 3
+				int32 m_nFramesPerBlock = 0
+				Struct m_frameblockArray[1] =
+				[
+					AnimResourceFrameBlockAnim_t
+					{
+						int32 m_nStartFrame = 0
+						int32 m_nEndFrame = 2
+						int32 m_segmentIndexArray[4] =
+						[
+							0
+							1
+							2
+							3
+						]
+					}
+				]
+				Struct m_usageDifferences = AnimResourceEncodeDifference_t
+				{
+					Struct m_boneArray[0] =
+					[
+					]
+					Struct m_morphArray[0] =
+					[
+					]
+					Struct m_userArray[0] =
+					[
+					]
+					uint8[14] m_bHasRotationBitArray =
+					[
+						FF
+						3F
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+					]
+					uint8[14] m_bHasMovementBitArray =
+					[
+						FF
+						3F
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+					]
+					uint8[0] m_bHasMorphBitArray =
+					[
+					]
+					uint8[0] m_bHasUserBitArray =
+					[
+					]
+				}
+			}
+			Struct m_movementArray[0] =
+			[
+			]
+			Struct m_eventArray[0] =
+			[
+			]
+			Struct m_activityArray[1] =
+			[
+				AnimResourceActivity_t
+				{
+					CResourceString m_name = "ACT_DOTA_IDLE"
+					int32 m_nActivity = 0
+					int32 m_nFlags = 0
+					int32 m_nWeight = 1
+				}
+			]
+			Struct m_hierarchyArray[0] =
+			[
+			]
+			Struct m_IKRuleArray[0] =
+			[
+			]
+			Struct m_IKRuleZeroFrameArray[0] =
+			[
+			]
+			float32 framestalltime = 0.000000
+			Vector m_vecRootMin = (0.000000, 0.000000, 0.000000)
+			Vector m_vecRootMax = (0.000000, 0.000000, 0.000000)
+			Vector m_vecBoneWorldMin[14] =
+			[
+				(0.000000, 0.000000, 0.000000)
+				(-0.963122, -0.000000, -2.298350)
+				(-24.439301, -0.000001, 31.393101)
+				(-37.424950, -0.000002, 29.421280)
+				(-50.060505, -0.000002, 27.502619)
+				(-68.762741, -4.863026, 24.662756)
+				(5.265410, 0.000000, 31.393101)
+				(0.520958, 2.869060, 23.855993)
+				(21.615688, 0.000001, 36.893242)
+				(32.957497, 0.000001, 49.005939)
+				(44.203659, 0.000002, 62.582890)
+				(47.384575, 2.869062, 79.432114)
+				(54.165157, 2.869062, 67.741234)
+				(0.122596, 2.726960, 3.207680)
+			]
+			Vector m_vecBoneWorldMax[14] =
+			[
+				(0.000000, 0.000000, 0.000000)
+				(-0.963122, -0.000000, -2.298350)
+				(-24.439301, -0.000001, 31.393101)
+				(-37.424950, -0.000002, 29.421280)
+				(-50.060505, -0.000002, 27.502619)
+				(-68.762741, -4.863026, 24.662756)
+				(5.265410, 0.000000, 31.393101)
+				(0.520958, 2.869060, 23.855993)
+				(21.615688, 0.000001, 36.893242)
+				(32.957497, 0.000001, 49.005939)
+				(44.203663, 0.000002, 62.582893)
+				(47.384583, 2.869062, 79.432129)
+				(54.165157, 2.869062, 67.741241)
+				(0.122596, 2.726960, 3.207680)
+			]
+			Struct m_sequenceParams = AnimResourceSequenceParams_t
+			{
+				float32 m_flFadeInTime = 0.200000
+				float32 m_flFadeOutTime = 0.200000
+			}
+		}
+	]
+	Struct m_decoderArray[23] =
+	[
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticFloat"
+			int32 m_nVersion = 0
+			int32 m_nType = 1
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullFloat"
+			int32 m_nVersion = 0
+			int32 m_nType = 1
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticFullVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedAnimVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedDeltaVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticQuaternion"
+			int32 m_nVersion = 0
+			int32 m_nType = 4
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedAnimQuaternion"
+			int32 m_nVersion = 0
+			int32 m_nType = 4
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticChar"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullChar"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullShort"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticBool"
+			int32 m_nVersion = 0
+			int32 m_nType = 6
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullBool"
+			int32 m_nVersion = 0
+			int32 m_nType = 6
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticColor32"
+			int32 m_nVersion = 0
+			int32 m_nType = 9
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullColor32"
+			int32 m_nVersion = 0
+			int32 m_nType = 9
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector2D"
+			int32 m_nVersion = 0
+			int32 m_nType = 25
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector2D"
+			int32 m_nVersion = 0
+			int32 m_nType = 25
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector4D"
+			int32 m_nVersion = 0
+			int32 m_nType = 27
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector4D"
+			int32 m_nVersion = 0
+			int32 m_nType = 27
+		}
+	]
+	int32 m_nMaxUniqueFrameIndex = 8
+	Struct m_segmentArray[4] =
+	[
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 0
+			uint32 m_nLocalElementMasks = 0x20140801
+			int32 m_nLocalChannel = 0
+			uint8[48] m_container =
+			[
+				02
+				00
+				03
+				00
+				05
+				00
+				30
+				00
+				00
+				00
+				05
+				00
+				08
+				00
+				09
+				00
+				0D
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				E2
+				4C
+				00
+				00
+				00
+				00
+				50
+				CC
+				00
+				00
+				00
+				00
+				26
+				CC
+				40
+				80
+				D8
+				2F
+				74
+				41
+				6A
+				42
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 1
+			uint32 m_nLocalElementMasks = 0x0A412254
+			int32 m_nLocalChannel = 0
+			uint8[134] m_container =
+			[
+				03
+				00
+				03
+				00
+				09
+				00
+				86
+				00
+				01
+				00
+				02
+				00
+				03
+				00
+				04
+				00
+				06
+				00
+				07
+				00
+				0A
+				00
+				0B
+				00
+				0C
+				00
+				2A
+				8F
+				76
+				BF
+				C8
+				D0
+				34
+				B3
+				2B
+				18
+				13
+				C0
+				B0
+				83
+				C3
+				C1
+				AD
+				61
+				8F
+				B5
+				12
+				25
+				FB
+				41
+				00
+				00
+				00
+				00
+				EC
+				26
+				52
+				41
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				80
+				7C
+				4C
+				41
+				00
+				00
+				00
+				00
+				3D
+				7E
+				A8
+				40
+				74
+				21
+				77
+				34
+				12
+				25
+				FB
+				41
+				AE
+				9E
+				37
+				40
+				64
+				CC
+				DC
+				40
+				68
+				31
+				B4
+				C0
+				00
+				00
+				00
+				AA
+				D4
+				09
+				8D
+				C1
+				00
+				00
+				00
+				00
+				AE
+				9E
+				37
+				40
+				30
+				E5
+				A1
+				C0
+				66
+				11
+				83
+				41
+				AE
+				9E
+				37
+				40
+				30
+				AB
+				27
+				C1
+				E8
+				18
+				80
+				40
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 2
+			uint32 m_nLocalElementMasks = 0x00002A55
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				0E
+				00
+				0F
+				00
+				10
+				00
+				11
+				00
+				12
+				00
+				13
+				00
+				14
+				00
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				CF
+				FF
+				2F
+				BB
+				2F
+				3B
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				5B
+				4B
+				D7
+				3E
+				F0
+				3F
+				EA
+				44
+				27
+				FF
+				AA
+				B5
+				AA
+				35
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				CF
+				FF
+				2F
+				BB
+				2F
+				3B
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				5B
+				4B
+				CA
+				3E
+				F0
+				3F
+				E9
+				44
+				27
+				FF
+				AA
+				B5
+				AA
+				35
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				CF
+				FF
+				2F
+				BB
+				2F
+				3B
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				5B
+				4B
+				BD
+				3E
+				EF
+				3F
+				E8
+				44
+				27
+				FF
+				AA
+				B5
+				AA
+				35
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 5
+			uint32 m_nLocalElementMasks = 0x2A550000
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				15
+				00
+				16
+				00
+				17
+				00
+				18
+				00
+				19
+				00
+				1A
+				00
+				1B
+				00
+				00
+				40
+				00
+				40
+				00
+				40
+				E3
+				29
+				00
+				40
+				00
+				40
+				41
+				3D
+				00
+				40
+				00
+				40
+				D3
+				61
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				E3
+				29
+				00
+				40
+				00
+				40
+				41
+				3D
+				00
+				40
+				00
+				40
+				D3
+				61
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				E3
+				29
+				00
+				40
+				00
+				40
+				41
+				3D
+				00
+				40
+				00
+				40
+				D3
+				61
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+			]
+		}
+	]
+}

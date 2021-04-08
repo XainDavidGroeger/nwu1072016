@@ -1,0 +1,955 @@
+AnimationResourceData_t
+{
+	CResourceString m_name = ""
+	Struct m_frameData[1] =
+	[
+		AnimResourceEncodedFrames_t
+		{
+			CResourceString m_fileName = ""
+			int32 m_nFrames = 101
+			int32 m_nFramesPerBlock = 0
+			Struct m_frameblockArray[1] =
+			[
+				AnimResourceFrameBlockAnim_t
+				{
+					int32 m_nStartFrame = 0
+					int32 m_nEndFrame = 100
+					int32 m_segmentIndexArray[2] =
+					[
+						0
+						1
+					]
+				}
+			]
+			Struct m_usageDifferences = AnimResourceEncodeDifference_t
+			{
+				Struct m_boneArray[0] =
+				[
+				]
+				Struct m_morphArray[0] =
+				[
+				]
+				Struct m_userArray[0] =
+				[
+				]
+				uint8[1] m_bHasRotationBitArray =
+				[
+					01
+				]
+				uint8[1] m_bHasMovementBitArray =
+				[
+					01
+				]
+				uint8[0] m_bHasMorphBitArray =
+				[
+				]
+				uint8[0] m_bHasUserBitArray =
+				[
+				]
+			}
+		}
+	]
+	Struct m_animArray[1] =
+	[
+		AnimResourceAnimDesc_t
+		{
+			CResourceString m_name = "yondaimekunai_ani_copy"
+			Struct m_flags = AnimResourceAnimDesc_t_Flag_t
+			{
+				bool m_bLooping = true
+				bool m_bAllZeros = false
+				bool m_bHidden = false
+				bool m_bDelta = false
+				bool m_bLegacyWorldspace = false
+			}
+			float32 fps = 30.000000
+			Struct m_pData* = (ptr) ->AnimResourceEncodedFrames_t
+			{
+				CResourceString m_fileName = ""
+				int32 m_nFrames = 101
+				int32 m_nFramesPerBlock = 0
+				Struct m_frameblockArray[1] =
+				[
+					AnimResourceFrameBlockAnim_t
+					{
+						int32 m_nStartFrame = 0
+						int32 m_nEndFrame = 100
+						int32 m_segmentIndexArray[2] =
+						[
+							0
+							1
+						]
+					}
+				]
+				Struct m_usageDifferences = AnimResourceEncodeDifference_t
+				{
+					Struct m_boneArray[0] =
+					[
+					]
+					Struct m_morphArray[0] =
+					[
+					]
+					Struct m_userArray[0] =
+					[
+					]
+					uint8[1] m_bHasRotationBitArray =
+					[
+						01
+					]
+					uint8[1] m_bHasMovementBitArray =
+					[
+						01
+					]
+					uint8[0] m_bHasMorphBitArray =
+					[
+					]
+					uint8[0] m_bHasUserBitArray =
+					[
+					]
+				}
+			}
+			Struct m_movementArray[0] =
+			[
+			]
+			Struct m_eventArray[0] =
+			[
+			]
+			Struct m_activityArray[1] =
+			[
+				AnimResourceActivity_t
+				{
+					CResourceString m_name = "ACT_DOTA_IDLE"
+					int32 m_nActivity = 0
+					int32 m_nFlags = 0
+					int32 m_nWeight = 1
+				}
+			]
+			Struct m_hierarchyArray[0] =
+			[
+			]
+			Struct m_IKRuleArray[0] =
+			[
+			]
+			Struct m_IKRuleZeroFrameArray[0] =
+			[
+			]
+			float32 framestalltime = 0.000000
+			Vector m_vecRootMin = (0.044082, 0.000000, 10.396600)
+			Vector m_vecRootMax = (0.044082, 0.000000, 10.396600)
+			Vector m_vecBoneWorldMin[1] =
+			[
+				(0.044082, 0.000000, 10.396600)
+			]
+			Vector m_vecBoneWorldMax[1] =
+			[
+				(0.044082, 0.000000, 10.396600)
+			]
+			Struct m_sequenceParams = AnimResourceSequenceParams_t
+			{
+				float32 m_flFadeInTime = 0.200000
+				float32 m_flFadeOutTime = 0.200000
+			}
+		}
+	]
+	Struct m_decoderArray[23] =
+	[
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticFloat"
+			int32 m_nVersion = 0
+			int32 m_nType = 1
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullFloat"
+			int32 m_nVersion = 0
+			int32 m_nType = 1
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticFullVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedAnimVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedDeltaVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticQuaternion"
+			int32 m_nVersion = 0
+			int32 m_nType = 4
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedAnimQuaternion"
+			int32 m_nVersion = 0
+			int32 m_nType = 4
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticChar"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullChar"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullShort"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticBool"
+			int32 m_nVersion = 0
+			int32 m_nType = 6
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullBool"
+			int32 m_nVersion = 0
+			int32 m_nType = 6
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticColor32"
+			int32 m_nVersion = 0
+			int32 m_nType = 9
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullColor32"
+			int32 m_nVersion = 0
+			int32 m_nType = 9
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector2D"
+			int32 m_nVersion = 0
+			int32 m_nType = 25
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector2D"
+			int32 m_nVersion = 0
+			int32 m_nType = 25
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector4D"
+			int32 m_nVersion = 0
+			int32 m_nType = 27
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector4D"
+			int32 m_nVersion = 0
+			int32 m_nType = 27
+		}
+	]
+	int32 m_nMaxUniqueFrameIndex = 102
+	Struct m_segmentArray[2] =
+	[
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 0
+			uint32 m_nLocalElementMasks = 0x00000001
+			int32 m_nLocalChannel = 0
+			uint8[22] m_container =
+			[
+				03
+				00
+				03
+				00
+				01
+				00
+				16
+				00
+				00
+				00
+				6F
+				8F
+				34
+				3D
+				34
+				6A
+				04
+				31
+				79
+				58
+				26
+				41
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 1
+			uint32 m_nLocalElementMasks = 0x00000001
+			int32 m_nLocalChannel = 1
+			uint8[616] m_container =
+			[
+				08
+				00
+				04
+				00
+				01
+				00
+				68
+				02
+				01
+				00
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+			]
+		}
+	]
+}

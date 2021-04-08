@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/props_structures/tent/tent_sofa_tga_c8496eb2.vtex"
+	"RepresentativeTextureWidth"	"1024"
+	"RepresentativeTextureHeight"	"1024"
+}

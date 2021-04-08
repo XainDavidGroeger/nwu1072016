@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/valleyoftheend/tex45_png_fcb72e62.vtex"
+	"RepresentativeTextureWidth"	"0"
+	"RepresentativeTextureHeight"	"0"
+}

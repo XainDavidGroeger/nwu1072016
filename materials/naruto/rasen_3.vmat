@@ -1,0 +1,11 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_RENDER_BACKFACES"	"1"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"g_tColor"	"materials/naruto/rasen_body_tga_df7c464f.vtex"
+	"RepresentativeTextureWidth"	"16"
+	"RepresentativeTextureHeight"	"64"
+}

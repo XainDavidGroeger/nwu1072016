@@ -1,0 +1,39 @@
+"npc_dota_hero_enchantress" //Temari
+{
+  "override_hero"   "npc_dota_hero_enchantress"
+  "Ability1"        "temari_fusajin_no_jutsu"
+  "Ability2"        "temari_kamaitachi_no_jutsu"
+  "Ability3"        "temari_sheer_wind" 
+  "Ability4"        "temari_kuchiyose_kirikiri_mai"
+//  "ModelScale"		"1.75"
+ // "LoadoutScale"	"1.75" 
+  "ModelScale"    "2.0"
+  "LoadoutScale"  "2.0" 
+  "Model" 		"models/temari/temari.vmdl"
+  "ItemSlots"
+  { }
+    "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+  "ArmorPhysical"   "1.000000"
+    "AttackDamageMin"   "19"
+    "Role"      "Support,Carry,Nuker,Disabler"
+    "Rolelevels"  "1,1,3,1"
+    "AttackDamageMax"   "23"
+
+"ProjectileModel"   "particles/units/heroes/temari/temari_base_attack_core.vpcf"
+
+    "AttackRate"    "1.700000"
+  "AttackAnimationPoint"		"0.4"
+ // "AttackRate"				"1.0"
+  "AttackRange"				"575"
+  "MovementSpeed"			"295"
+  "AttributeBaseStrength" "17" // Base strength
+  "AttributeStrengthGain" "1.7" // Strength bonus per level.
+  "AttributeBaseIntelligence" "27" // Base intelligence
+  "AttributeIntelligenceGain" "3.2" // Intelligence bonus per level.
+  "AttributeBaseAgility" "16" // Base agility
+  "AttributeAgilityGain" "1.5" // Agility bonus per level.
+
+  "Village"			"kirigakure"
+  "Gender"      "sunagakure"  
+}	

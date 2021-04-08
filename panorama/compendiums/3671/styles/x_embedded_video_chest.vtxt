@@ -1,0 +1,23 @@
+#embedded_video_chest
+{
+	flow-children: none;
+}
+
+#title_bg
+{
+	position: 394px 625px 0;
+	width: 657px;
+	height: 39px;
+}
+
+#set_name
+{
+	position: 394px 631px 0;
+	width: 657px;
+	height: 131px;
+	color: #FFFFFF;
+	z-index: 5;
+	font-size: 27;
+	text-align: center;
+}
+

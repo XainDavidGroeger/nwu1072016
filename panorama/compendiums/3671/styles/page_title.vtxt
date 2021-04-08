@@ -1,0 +1,64 @@
+#page_title
+{
+	flow-children: none;
+}
+
+#ruler_top
+{
+	position: 42px 473px 0;
+	width: 589px;
+	height: 7px;
+	z-index: 1;
+}
+
+#top_teams
+{
+	position: 84px 493px 0;
+	width: 500px;
+	height: 81px;
+	color: #81373D;
+	z-index: 1;
+	font-size: 15;
+	letter-spacing: 3px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#main_event
+{
+	position: 218px 571px 0;
+	width: 236px;
+	height: 81px;
+	color: #3C3C3C;
+	z-index: 1;
+	font-size: 13;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 16px;
+	text-align: center;
+}
+
+#boxout
+{
+	position: 73px 481px 0;
+	width: 526px;
+	height: 157px;
+}
+
+#ruler_bot
+{
+	transform: scaleY( -1.00 );
+	position: 42px 640px 0;
+	width: 589px;
+	height: 7px;
+	z-index: 1;
+}
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 673px;
+	height: 757px;
+	z-index: -1;
+}
+

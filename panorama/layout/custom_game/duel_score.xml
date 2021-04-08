@@ -1,0 +1,31 @@
+<root>
+  <styles>
+    <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+    <include src="s2r://panorama/styles/custom_game/duel_score.vcss_c" />
+  </styles>
+  <scripts>
+    <include src="s2r://panorama/scripts/custom_game/duel_score.vjs_c" /> 
+  </scripts>
+  <Panel hittest="false" class="BaseHud">
+
+    <Panel hittest="false" class="Score">
+       <Panel hittest="false" id="PlayerOneMainscore">
+         <Panel hittest="false" class="NotificationLine" id="ScoreOneLine">
+          </Panel>
+      </Panel>
+      <Panel hittest="false" id="PlayerTwoMainscore">
+        <Panel hittest="false" class="NotificationLine" id="ScoreTwoLine">
+          </Panel>
+      </Panel>
+    </Panel>
+
+    <Panel hittest="false" class="TopNotifications">
+      <Panel hittest="false" id="TopNotifications">
+      </Panel>
+    </Panel>
+    <Panel hittest="false" class="BottomNotifications">
+      <Panel hittest="false" id="BottomNotifications">
+      </Panel>
+    </Panel>
+  </Panel>
+</root>

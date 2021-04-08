@@ -1,0 +1,119 @@
+#embedded_timer_allstar
+{
+	flow-children: none;
+}
+
+#time_limited
+{
+	position: 0px 0px 0;
+	width: 657px;
+	height: 18px;
+	color: #FFFFFF;
+	z-index: 2;
+	font-size: 13;
+	font-weight: bold;
+	text-align: left;
+}
+
+#countdown
+{
+	position: 26px 26px 0;
+	width: 131px;
+	height: 39px;
+	z-index: 2;
+}
+
+#countdown_Title_Active
+{
+	color: #FFFFFF;
+}
+
+#countdown_Days
+{
+}
+
+#countdown_Days Label
+{
+	color: #FFFFFF;
+}
+
+#countdown_Value_Days
+{
+}
+
+#countdown_SubText_Days
+{
+}
+
+#countdown_Hours
+{
+}
+
+#countdown_Hours Label
+{
+	color: #FFFFFF;
+}
+
+#countdown_Value_Hours
+{
+}
+
+#countdown_SubText_Hours
+{
+}
+
+#countdown_Minutes
+{
+}
+
+#countdown_Minutes Label
+{
+	color: #FFFFFF;
+}
+
+#countdown_Value_Minutes
+{
+}
+
+#countdown_SubText_Minutes
+{
+}
+
+#countdown_Seconds
+{
+}
+
+#countdown_Seconds Label
+{
+	color: #FFFFFF;
+}
+
+#countdown_Value_Seconds
+{
+}
+
+#countdown_SubText_Seconds
+{
+}
+
+#bg_diamond
+{
+	position: 0px 0px 0;
+	width: 32px;
+	height: 32px;
+}
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 65px;
+	height: 36px;
+}
+
+#rule
+{
+	position: 0px 26px 0;
+	width: 394px;
+	height: 1px;
+}
+

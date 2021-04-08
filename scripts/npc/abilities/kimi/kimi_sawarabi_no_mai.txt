@@ -1,0 +1,87 @@
+"kimi_sawarabi_no_mai"
+{
+    // General  
+    // ----------------------------------------------------------------------------------------
+    "BaseClass"              "ability_datadriven"
+    "AbilityBehavior"        "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+    "AbilityTextureName"     "kimi_sawarabi_no_mai"
+    "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+
+    "precache"
+    {
+        "soundfile" "soundevents/game_sounds_heroes/game_sounds_lion.vsndevts"
+        "particle"  "particles/units/heroes/kimimaro/ulti.vpcf"
+        "particle"  "particles/units/heroes/hidan/hidan_passive_a.vpcf"
+        
+        
+    }
+
+    "AbilityCastPoint"              "0.3 0.3 0.3"
+    "AbilityCooldown"               "75"
+    "AbilityManaCost"               "160 220 280"
+    "AbilityCastRange"                "350"
+
+    "AbilitySpecial"
+    {
+        "01"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "radius" "350"
+        }
+        "02"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "life_percentage_damage" "10 15 20"
+        }
+        "03"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "ms_slow" "-50 -65 -80"
+        }
+        "04"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "damage" "125 200 275"
+        }
+        "05"
+        { 
+            "var_type"  "FIELD_FLOAT"
+            "slow_duration" "2.5 3 3.5"
+        }
+    }
+
+    "OnAbilityPhaseStart"
+    {
+                
+    }  
+
+    "OnSpellStart"
+    {   
+        "RunScript"
+        {
+            "ScriptFile"    "heroes/kimi/sawarabi_no_mai.lua"
+            "Function"        "applyDamage"
+        }
+
+        "FireSound"
+        {
+            "EffectName"    "Hero_Lion.Impale"
+            "Target"         "CASTER"
+        }
+    }
+
+    "Modifiers"
+    {
+        "modifier_kimi_sawarabi_slow"
+        {
+            "Passive"            "0"
+            "IsHidden"            "0"
+            "IsDebuff"            "1"
+    
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%ms_slow" 
+            }
+        }
+    }
+}

@@ -1,0 +1,200 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/creeps/neutral_creeps/n_creep_golem_a/shukaku.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[1] =
+	[
+		resource:"models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a_a8c4f68f.vagrp"
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[14] =
+		[
+			"Object001"
+			"Bone_waist"
+			"Bone_weiba"
+			"Bone_weiba2"
+			"Bone_weiba3"
+			"Bone_Lfoot"
+			"Bone_Rfoot"
+			"Bone_chest"
+			"Bone_head"
+			"Mesh13"
+			"Bone_Lhand2"
+			"Bone_Lhand"
+			"Bone_Rhand2"
+			"Bone_Rhand"
+		]
+		int16 m_nParent[14] =
+		[
+			-1
+			-1
+			1
+			2
+			3
+			1
+			1
+			1
+			7
+			8
+			7
+			10
+			7
+			12
+		]
+		float32 m_boneSphere[14] =
+		[
+			0.000000
+			79.572121
+			82.058777
+			70.380379
+			144.238998
+			75.753181
+			77.378807
+			85.904510
+			57.871700
+			45.025604
+			58.994213
+			87.332245
+			53.380890
+			88.339455
+		]
+		uint32 m_nFlag[14] =
+		[
+			0x0003FCE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+		]
+		Vector m_bonePosParent[14] =
+		[
+			(0.000000, 0.000000, 0.000000)
+			(-28.918896, 2.242510, 83.047501)
+			(11.329897, 40.708870, -27.145203)
+			(0.715153, 44.484177, 48.529800)
+			(2.719015, 19.205254, 61.554001)
+			(24.376392, -20.202400, -11.524200)
+			(-28.561293, -26.649197, -12.140503)
+			(-0.589682, -10.818302, 37.898201)
+			(-1.335430, -44.146587, 56.738304)
+			(1.510400, 15.519000, 21.877701)
+			(43.420586, -25.658194, 33.843605)
+			(26.091480, 2.040170, -45.049599)
+			(-47.394585, -21.681396, 28.934608)
+			(-24.783779, -1.491799, -38.577599)
+		]
+		Quaternion m_boneRotParent[14] =
+		[
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+		]
+	}
+	int16 m_remappingTable[27] =
+	[
+		1
+		2
+		7
+		3
+		10
+		12
+		8
+		0
+		4
+		5
+		6
+		11
+		13
+		9
+		1
+		2
+		7
+		3
+		10
+		12
+		8
+		4
+		5
+		6
+		11
+		13
+		9
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

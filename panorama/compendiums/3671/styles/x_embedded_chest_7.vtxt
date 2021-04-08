@@ -1,0 +1,38 @@
+#embedded_chest_7
+{
+	flow-children: none;
+}
+
+#chest_image
+{
+	position: 0px 0px 0;
+	width: 526px;
+	height: 296px;
+	z-index: 5;
+}
+
+#bg_diamond
+{
+	position: 0px 0px 0;
+	width: 32px;
+	height: 32px;
+}
+
+#title_bg
+{
+	position: 0px 296px 0;
+	width: 526px;
+	height: 39px;
+}
+
+#set_name
+{
+	position: 0px 302px 0;
+	width: 526px;
+	height: 131px;
+	color: #FFFFFF;
+	z-index: 5;
+	font-size: 27;
+	text-align: center;
+}
+

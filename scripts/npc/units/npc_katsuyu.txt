@@ -1,0 +1,51 @@
+// Tsunade's summoning Katsuyu
+// Author: LearningDave
+// Date: 08.02.2016
+"npc_katsuyu"
+{
+		// General
+		//
+		"BaseClass"					"npc_dota_creature"	// Class of entity of link to.
+		"Model"						"models/tsunade/katsuyu.vmdl"	// Model.
+		"ModelScale"				"3.0"
+		
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"katsuyu_tongue_tooth_sticky_acid"			// Ability 1.
+		"Ability2"					"katsuyu_kuchiyose_no_jutsu"			// Ability 2.
+		"Ability3"					"katsuyu_physical_composition"	// Ability 3.
+		"Ability4"					"katsuyu_slug_great_division"	// Ability 4.
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"4"			// Physical protection.
+		"MagicalResistance"			"25"		// Magical protection (percentage).
+	
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK "
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"150"		// Experience earn.
+		"BountyGoldMin"				"100"		// Gold earned min.
+		"BountyGoldMax"				"100"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
+		"MovementSpeed"				"310"		// Speed
+		"MovementTurnRate"			"1.0"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"500"		// Base health.
+		"StatusHealthRegen"			"1"		// Health regeneration rate.
+
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+}

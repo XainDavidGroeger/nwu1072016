@@ -1,0 +1,148 @@
+"kimi_cursed_seal"
+{
+    // General  
+    // ----------------------------------------------------------------------------------------
+    "BaseClass"              "ability_datadriven"
+    "AbilityBehavior"        "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+    "AbilityTextureName"     "kimi_cursed_seal"
+
+    "precache"
+    {
+        "soundfile" "sounds/weapons/hero/storm_spirit/ball_orchid_01.vsnd"
+        "soundfile" "soundevents/kimi_e.vsndevts"
+        "soundfile" "soundevents/kimi_e_2.vsndevts"
+        "particle"  "particles/units/heroes/sasuke/chidori_nagashi.vpcf"
+        "particle"  "particles/units/heroes/hero_zuus/zuus_static_field.vpcf"
+        "model"                    "models/kimi/kimi_dance.vmdl"
+        "model"                    "models/kimi/kimi_model.vmdl"
+        "model"                    "models/kimi/kimi_cs_no_clemantis.vmdl"
+
+    }
+
+    "AbilityCastPoint"              "0.5 0.5 0.5"
+    "AbilityCooldown"               "15"
+    "AbilityManaCost"               "60 70 80 90"
+
+    "AbilitySpecial"
+    {
+        "01"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "ms_bonus" "20"
+        }
+        "02"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "duration" "10"
+        }
+        "03"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "agility_gain" "3 4 5 6"
+        }
+        "04"
+        { 
+            "var_type"  "FIELD_INTEGER"
+            "agility_bonus" "1"
+        }
+    }
+
+    "OnAbilityPhaseStart"
+    {
+        "RunScript"
+        {
+            "ScriptFile"            "heroes/kimi/cursed_seal.lua"
+            "Function"              "playSound"
+        }
+    }  
+
+    "OnSpellStart"
+    {   
+        "ApplyModifier"
+        {
+            "ModifierName"    "modifier_kimi_cursed_seal_agi_bonus"
+            "Target"         "CASTER"
+            "Duration"        "%duration"
+        }
+        "ApplyModifier"
+        {
+            "ModifierName"    "modifier_kimi_cursed_seal_ms_bonus"
+            "Target"         "CASTER"
+            "Duration"        "%duration"
+        }
+    }
+
+    "Modifiers"
+    {
+        "modifier_kimi_cursed_seal_agi_bonus"
+        {
+            "Duration"          "%duration"
+            "Passive"            "0"
+            "IsHidden"            "0"
+            "IsBuff"            "1"
+
+            "OnCreated"
+            {
+                "RunScript"
+                {
+                    "ScriptFile"            "heroes/kimi/cursed_seal.lua"
+                    "Function"              "ModelSwapStart"
+                    "model"                 "models/kimi/kimi_cs_no_clemantis.vmdl"
+                }
+
+                 "ApplyModifier"
+                {
+                    "ModifierName"    "modifier_kimi_cs_animation"
+                    "Target"         "CASTER"
+                    "Duration"        "1"
+                }
+            }
+
+            "OnDestroy"
+            {
+                "RunScript"
+                {
+                    "ScriptFile"            "heroes/kimi/cursed_seal.lua"
+                    "Function"      "ModelSwapEnd"
+                }
+
+            }
+
+            "OnAttackLanded"
+            // "%attack_damage" is set to the damage value before mitigation
+            {
+                "RunScript"
+                {
+                    "ScriptFile"    "heroes/kimi/cursed_seal.lua"
+                    "Function"        "agility_gain"
+                }
+            }
+    
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%agility_bonus" 
+            }
+        }
+
+        "modifier_kimi_cursed_seal_ms_bonus"
+        {
+            "Duration"          "%duration"
+            "Passive"            "0"
+            "IsHidden"            "1"
+            "IsBuff"            "1"
+
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "%ms_bonus" 
+            }
+        }
+
+         "modifier_kimi_cs_animation"
+        {
+            "IsHidden"  "1"
+            
+            "Priority"     "MODIFIER_PRIORITY_HIGH"
+            "OverrideAnimation"     "ACT_DOTA_CAST_ABILITY_3"
+        }
+    }
+}

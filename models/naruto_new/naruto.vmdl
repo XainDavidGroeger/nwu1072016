@@ -1,0 +1,280 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/naruto_new/naruto.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/naruto_new/naruto.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[1] =
+	[
+		resource:"models/naruto_new/naruto_05b42c9e.vagrp"
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[24] =
+		[
+			"Object001"
+			"bone_new40"
+			"bone_new45"
+			"bone_new44"
+			"bone_new43"
+			"bone_new42"
+			"bone_new48"
+			"bone_new47"
+			"bone_new46"
+			"bone_new41"
+			"bone_new39"
+			"bone_new36"
+			"bone_new37"
+			"bone_new38"
+			"bone_new35"
+			"bone_new34"
+			"bone_new33"
+			"bone_new17"
+			"bone_new16"
+			"bone_new15"
+			"bone_new76"
+			"bone_new73"
+			"bone_new77"
+			"bone_new74"
+		]
+		int16 m_nParent[24] =
+		[
+			-1
+			-1
+			1
+			2
+			3
+			4
+			1
+			6
+			7
+			8
+			1
+			10
+			11
+			12
+			11
+			14
+			15
+			11
+			17
+			18
+			-1
+			20
+			-1
+			22
+		]
+		float32 m_boneSphere[24] =
+		[
+			0.000000
+			28.018509
+			41.960945
+			62.075237
+			20.092699
+			10.058618
+			41.791500
+			62.363297
+			19.930077
+			9.819912
+			35.924595
+			38.463932
+			16.645460
+			34.249424
+			32.937660
+			34.218658
+			22.045713
+			34.178936
+			35.058521
+			22.640312
+			1.998054
+			22.371923
+			1.988329
+			23.087996
+		]
+		uint32 m_nFlag[24] =
+		[
+			0x0003FCE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDE0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+		]
+		Vector m_bonePosParent[24] =
+		[
+			(0.000000, 0.000000, 0.000000)
+			(-1.830350, 1.297830, 128.276001)
+			(-14.704096, 2.246388, -7.072998)
+			(3.879822, -1.191180, -42.570404)
+			(0.532471, 3.521038, -61.947800)
+			(0.352003, -18.020596, -10.902600)
+			(13.576396, 2.204679, -7.070000)
+			(-0.457502, -1.100190, -42.344101)
+			(-2.188901, 3.871719, -62.681000)
+			(0.037798, -18.586994, -10.946900)
+			(-0.076940, 1.814389, 13.973999)
+			(0.214290, 2.569489, 31.410995)
+			(-0.464418, -3.844000, 28.649002)
+			(-0.000155, 4.154808, 13.981995)
+			(-22.597092, 0.372649, 22.792999)
+			(-33.719490, 1.699398, -0.235992)
+			(-35.060581, -1.290051, -1.463013)
+			(21.912792, 0.087249, 23.113007)
+			(34.553585, 0.132709, 0.174011)
+			(34.806477, 0.416590, -2.037018)
+			(-21.910635, 4.517287, 220.145966)
+			(2.792579, 2.534895, -12.839005)
+			(-21.858734, -1.113792, 220.229980)
+			(-3.178558, 3.248297, -12.145996)
+		]
+		Quaternion m_boneRotParent[24] =
+		[
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+			{x: 0.00, y: 0.00, z: 0.71, w: 0.71}
+			{x: 0.00, y: 0.00, z: 0.00, w: 1.00}
+		]
+	}
+	int16 m_remappingTable[47] =
+	[
+		1
+		10
+		11
+		6
+		2
+		12
+		7
+		3
+		13
+		14
+		17
+		8
+		4
+		22
+		20
+		15
+		18
+		0
+		9
+		5
+		23
+		21
+		16
+		19
+		1
+		10
+		11
+		6
+		2
+		12
+		7
+		3
+		13
+		14
+		17
+		8
+		4
+		22
+		20
+		15
+		18
+		9
+		5
+		23
+		21
+		16
+		19
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

@@ -1,0 +1,5 @@
+"Layer0"
+{
+	"shader"	"projected_dota.vfx"
+	"g_tColor"	"materials/itachi/itachi_tsukuyomi_tga_555f5a7d.vtex"
+}

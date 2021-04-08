@@ -1,0 +1,52 @@
+"kimi_dance_of_the_willow"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"AbilityTextureName"			"kimi_dance_of_the_willow"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+	
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"chance"			"25"
+		}
+		"02"
+		{
+			"var_type"						"FIELD_INTEGER"
+			"agility_percent"			"80 100 120 140"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_kimi_dance_of_the_willow"
+		{
+			"Passive"                   "1"
+            "IsHidden"                  "1"
+            "IsPurgable"                "0"
+        
+           "OnAttackLanded"
+           {
+          "Random"
+	          {
+	            "Chance" "%chance"
+	            "PseudoRandom" "DOTA_PSEUDO_RANDOM_PHANTOMASSASSIN_CRIT"
+	            "OnSuccess"
+	            {
+	              "RunScript"
+	              {
+	                "ScriptFile"  "heroes/kimi/dance_of_the_willow.lua"
+	                "Function"    "appylDamage"
+	              }
+	            }
+	          }
+        	}
+		}
+	}
+}

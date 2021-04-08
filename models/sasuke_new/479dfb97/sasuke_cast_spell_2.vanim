@@ -1,0 +1,2240 @@
+AnimationResourceData_t
+{
+	CResourceString m_name = ""
+	Struct m_frameData[1] =
+	[
+		AnimResourceEncodedFrames_t
+		{
+			CResourceString m_fileName = ""
+			int32 m_nFrames = 3
+			int32 m_nFramesPerBlock = 0
+			Struct m_frameblockArray[1] =
+			[
+				AnimResourceFrameBlockAnim_t
+				{
+					int32 m_nStartFrame = 0
+					int32 m_nEndFrame = 2
+					int32 m_segmentIndexArray[13] =
+					[
+						0
+						1
+						2
+						3
+						4
+						5
+						6
+						7
+						8
+						9
+						10
+						11
+						12
+					]
+				}
+			]
+			Struct m_usageDifferences = AnimResourceEncodeDifference_t
+			{
+				Struct m_boneArray[0] =
+				[
+				]
+				Struct m_morphArray[0] =
+				[
+				]
+				Struct m_userArray[0] =
+				[
+				]
+				uint8[45] m_bHasRotationBitArray =
+				[
+					FF
+					FF
+					FF
+					FF
+					FF
+					1F
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+				]
+				uint8[45] m_bHasMovementBitArray =
+				[
+					FF
+					FF
+					FF
+					FF
+					FF
+					1F
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+					00
+				]
+				uint8[0] m_bHasMorphBitArray =
+				[
+				]
+				uint8[0] m_bHasUserBitArray =
+				[
+				]
+			}
+		}
+	]
+	Struct m_animArray[1] =
+	[
+		AnimResourceAnimDesc_t
+		{
+			CResourceString m_name = "sasuke_cast_spell_2"
+			Struct m_flags = AnimResourceAnimDesc_t_Flag_t
+			{
+				bool m_bLooping = false
+				bool m_bAllZeros = false
+				bool m_bHidden = false
+				bool m_bDelta = false
+				bool m_bLegacyWorldspace = false
+			}
+			float32 fps = 30.000000
+			Struct m_pData* = (ptr) ->AnimResourceEncodedFrames_t
+			{
+				CResourceString m_fileName = ""
+				int32 m_nFrames = 3
+				int32 m_nFramesPerBlock = 0
+				Struct m_frameblockArray[1] =
+				[
+					AnimResourceFrameBlockAnim_t
+					{
+						int32 m_nStartFrame = 0
+						int32 m_nEndFrame = 2
+						int32 m_segmentIndexArray[13] =
+						[
+							0
+							1
+							2
+							3
+							4
+							5
+							6
+							7
+							8
+							9
+							10
+							11
+							12
+						]
+					}
+				]
+				Struct m_usageDifferences = AnimResourceEncodeDifference_t
+				{
+					Struct m_boneArray[0] =
+					[
+					]
+					Struct m_morphArray[0] =
+					[
+					]
+					Struct m_userArray[0] =
+					[
+					]
+					uint8[45] m_bHasRotationBitArray =
+					[
+						FF
+						FF
+						FF
+						FF
+						FF
+						1F
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+					]
+					uint8[45] m_bHasMovementBitArray =
+					[
+						FF
+						FF
+						FF
+						FF
+						FF
+						1F
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+						00
+					]
+					uint8[0] m_bHasMorphBitArray =
+					[
+					]
+					uint8[0] m_bHasUserBitArray =
+					[
+					]
+				}
+			}
+			Struct m_movementArray[0] =
+			[
+			]
+			Struct m_eventArray[0] =
+			[
+			]
+			Struct m_activityArray[1] =
+			[
+				AnimResourceActivity_t
+				{
+					CResourceString m_name = "ACT_DOTA_CAST_ABILITY_2"
+					int32 m_nActivity = 0
+					int32 m_nFlags = 0
+					int32 m_nWeight = 1
+				}
+			]
+			Struct m_hierarchyArray[0] =
+			[
+			]
+			Struct m_IKRuleArray[0] =
+			[
+			]
+			Struct m_IKRuleZeroFrameArray[0] =
+			[
+			]
+			float32 framestalltime = 0.000000
+			Vector m_vecRootMin = (0.000000, 0.000000, 0.000000)
+			Vector m_vecRootMax = (0.000000, 0.000000, 0.000000)
+			Vector m_vecBoneWorldMin[45] =
+			[
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(-1.568481, -8.812500, 71.564095)
+				(-1.550146, -8.787252, 71.527237)
+				(14.563526, 0.726914, 74.178337)
+				(22.618113, 0.480727, 79.452156)
+				(31.896570, 5.191029, 88.236916)
+				(47.853607, 15.564264, 97.545982)
+				(50.835548, 18.047997, 103.566101)
+				(55.640907, 20.496935, 112.009697)
+				(29.635082, 21.746786, 93.690895)
+				(53.775848, 27.535627, 81.849747)
+				(61.897961, 7.511084, 91.430916)
+				(66.877922, -5.529050, 95.484383)
+				(20.844017, -23.407335, 127.319153)
+				(44.860374, -2.897333, 95.053955)
+				(70.331177, -4.285391, 95.011909)
+				(92.004768, 2.966377, 100.428741)
+				(103.730659, 11.373344, 99.270966)
+				(102.987564, 4.565094, 100.382439)
+				(34.268501, 6.724357, 89.465057)
+				(-1.262782, 8.748514, 64.944504)
+				(-20.789593, 6.946573, 66.250961)
+				(0.828859, -5.305461, 73.562187)
+				(-15.875423, -10.580032, 69.078224)
+				(13.719397, -11.519697, 56.114342)
+				(5.452175, -20.144022, 49.536034)
+				(23.414293, -3.055251, 62.585690)
+				(19.491865, -10.696892, 51.009907)
+				(5.551533, -10.212942, 81.657936)
+				(-1.903726, -12.403741, 52.163452)
+				(-23.890196, -12.395269, 33.396523)
+				(-67.694038, -11.145229, 17.282494)
+				(-9.276651, 2.621612, 58.787567)
+				(19.478149, 1.674680, 54.980026)
+				(32.674980, -1.481142, 10.504505)
+				(12.319600, -2.662849, 170.097000)
+			]
+			Vector m_vecBoneWorldMax[45] =
+			[
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(0.000000, 0.000000, 0.000000)
+				(-1.431577, -8.812500, 72.016472)
+				(-1.413237, -8.787248, 71.979607)
+				(14.700424, 0.726925, 74.630714)
+				(22.755001, 0.480738, 79.904533)
+				(32.033447, 5.191040, 88.689278)
+				(47.990490, 15.564276, 97.998344)
+				(50.963551, 18.053568, 104.011772)
+				(55.755047, 20.511166, 112.444962)
+				(29.771967, 21.746805, 94.143257)
+				(53.912727, 27.535669, 82.302101)
+				(62.034851, 7.511133, 91.883255)
+				(67.014824, -5.528995, 95.936714)
+				(20.980911, -23.407295, 127.771507)
+				(44.997261, -2.897307, 95.506317)
+				(70.493088, -3.998079, 96.255539)
+				(92.297775, 3.347896, 102.290253)
+				(103.955322, 11.811134, 101.458588)
+				(103.276169, 4.998026, 102.558876)
+				(34.405399, 6.724370, 89.917419)
+				(-1.125872, 8.748527, 65.396866)
+				(-20.652681, 6.946583, 66.703308)
+				(0.965769, -5.305456, 74.014565)
+				(-15.738516, -10.580029, 69.530609)
+				(13.856308, -11.519687, 56.566711)
+				(5.589090, -20.144014, 49.988407)
+				(23.551199, -3.055244, 63.038063)
+				(19.628765, -10.696882, 51.462288)
+				(5.688444, -10.212932, 82.110306)
+				(-1.766819, -12.403738, 52.615829)
+				(-23.872766, -11.957334, 33.675022)
+				(-67.481499, -10.255332, 18.125832)
+				(-9.139740, 2.621613, 59.239944)
+				(19.747936, 1.971695, 55.623131)
+				(34.124226, -1.271909, 11.508373)
+				(12.319600, -2.662849, 170.097000)
+			]
+			Struct m_sequenceParams = AnimResourceSequenceParams_t
+			{
+				float32 m_flFadeInTime = 0.200000
+				float32 m_flFadeOutTime = 0.200000
+			}
+		}
+	]
+	Struct m_decoderArray[23] =
+	[
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticFloat"
+			int32 m_nVersion = 0
+			int32 m_nType = 1
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullFloat"
+			int32 m_nVersion = 0
+			int32 m_nType = 1
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticFullVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedAnimVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedDeltaVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector3"
+			int32 m_nVersion = 0
+			int32 m_nType = 3
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticQuaternion"
+			int32 m_nVersion = 0
+			int32 m_nType = 4
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedAnimQuaternion"
+			int32 m_nVersion = 0
+			int32 m_nType = 4
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticChar"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullChar"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullShort"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullInt"
+			int32 m_nVersion = 0
+			int32 m_nType = 5
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticBool"
+			int32 m_nVersion = 0
+			int32 m_nType = 6
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullBool"
+			int32 m_nVersion = 0
+			int32 m_nType = 6
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticColor32"
+			int32 m_nVersion = 0
+			int32 m_nType = 9
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullColor32"
+			int32 m_nVersion = 0
+			int32 m_nType = 9
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector2D"
+			int32 m_nVersion = 0
+			int32 m_nType = 25
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector2D"
+			int32 m_nVersion = 0
+			int32 m_nType = 25
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedStaticVector4D"
+			int32 m_nVersion = 0
+			int32 m_nType = 27
+		}
+		AnimResourceDecoder_t
+		{
+			CResourceString m_szName = "CCompressedFullVector4D"
+			int32 m_nVersion = 0
+			int32 m_nType = 27
+		}
+	]
+	int32 m_nMaxUniqueFrameIndex = 29
+	Struct m_segmentArray[13] =
+	[
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 0
+			uint32 m_nLocalElementMasks = 0x0000007F
+			int32 m_nLocalChannel = 0
+			uint8[88] m_container =
+			[
+				02
+				00
+				03
+				00
+				0A
+				00
+				58
+				00
+				00
+				00
+				01
+				00
+				02
+				00
+				03
+				00
+				04
+				00
+				05
+				00
+				06
+				00
+				07
+				00
+				08
+				00
+				09
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+				00
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 1
+			uint32 m_nLocalElementMasks = 0x0003DD00
+			int32 m_nLocalChannel = 0
+			uint8[148] m_container =
+			[
+				03
+				00
+				03
+				00
+				0A
+				00
+				94
+				00
+				0C
+				00
+				0F
+				00
+				10
+				00
+				11
+				00
+				12
+				00
+				14
+				00
+				15
+				00
+				16
+				00
+				17
+				00
+				18
+				00
+				00
+				00
+				80
+				B6
+				BC
+				15
+				3C
+				C1
+				C8
+				C8
+				6C
+				41
+				00
+				00
+				C0
+				B6
+				00
+				00
+				20
+				C0
+				E0
+				4F
+				A8
+				41
+				00
+				00
+				00
+				00
+				20
+				00
+				C0
+				3F
+				F0
+				FF
+				DF
+				40
+				00
+				00
+				00
+				B6
+				00
+				FF
+				FF
+				3E
+				00
+				00
+				20
+				41
+				FF
+				FF
+				6F
+				41
+				C0
+				FF
+				BF
+				3F
+				C0
+				9F
+				10
+				41
+				FC
+				FF
+				BB
+				41
+				28
+				00
+				20
+				C0
+				00
+				FF
+				FF
+				3E
+				90
+				E6
+				5D
+				41
+				40
+				7F
+				16
+				C0
+				A0
+				4D
+				6A
+				C0
+				00
+				2B
+				C1
+				BE
+				64
+				04
+				6B
+				C2
+				00
+				00
+				20
+				B8
+				FE
+				FF
+				5F
+				C1
+				E0
+				FF
+				BF
+				3F
+				C8
+				9F
+				10
+				41
+				FE
+				FF
+				CB
+				C1
+				80
+				FE
+				7F
+				3F
+				00
+				00
+				80
+				36
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 2
+			uint32 m_nLocalElementMasks = 0x03BE0000
+			int32 m_nLocalChannel = 0
+			uint8[148] m_container =
+			[
+				03
+				00
+				03
+				00
+				0A
+				00
+				94
+				00
+				19
+				00
+				1A
+				00
+				1B
+				00
+				1C
+				00
+				1D
+				00
+				1E
+				00
+				21
+				00
+				22
+				00
+				23
+				00
+				24
+				00
+				04
+				00
+				BC
+				C1
+				00
+				00
+				20
+				C0
+				00
+				00
+				00
+				3F
+				08
+				00
+				48
+				C1
+				64
+				55
+				D3
+				C0
+				E0
+				FF
+				3F
+				C0
+				F8
+				FF
+				2F
+				C1
+				00
+				00
+				00
+				B6
+				C0
+				FF
+				BF
+				BF
+				00
+				00
+				00
+				00
+				00
+				FF
+				FF
+				BE
+				E0
+				7E
+				42
+				40
+				00
+				C0
+				48
+				41
+				B0
+				55
+				5E
+				C1
+				00
+				74
+				21
+				BF
+				E8
+				FF
+				9F
+				40
+				60
+				00
+				00
+				3F
+				03
+				00
+				98
+				C1
+				02
+				00
+				60
+				C1
+				DC
+				0A
+				86
+				C1
+				00
+				BA
+				99
+				BF
+				00
+				00
+				80
+				C0
+				40
+				00
+				80
+				3F
+				02
+				00
+				50
+				C1
+				63
+				04
+				29
+				C1
+				D2
+				73
+				B0
+				C1
+				58
+				EC
+				3B
+				41
+				D0
+				DA
+				91
+				BF
+				E0
+				7C
+				27
+				C0
+				CC
+				10
+				62
+				C1
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 3
+			uint32 m_nLocalElementMasks = 0x58402280
+			int32 m_nLocalChannel = 0
+			uint8[80] m_container =
+			[
+				02
+				00
+				03
+				00
+				09
+				00
+				50
+				00
+				0B
+				00
+				0D
+				00
+				0E
+				00
+				13
+				00
+				1F
+				00
+				20
+				00
+				27
+				00
+				28
+				00
+				2B
+				00
+				20
+				00
+				2E
+				AA
+				00
+				00
+				00
+				B8
+				00
+				3E
+				C0
+				48
+				00
+				B8
+				FF
+				3F
+				BB
+				4A
+				E0
+				4E
+				FF
+				37
+				00
+				00
+				33
+				40
+				05
+				BF
+				99
+				43
+				99
+				3D
+				00
+				3C
+				80
+				CC
+				20
+				00
+				02
+				B9
+				40
+				CF
+				FF
+				BB
+				02
+				39
+				D0
+				D1
+				CC
+				34
+				1C
+				39
+				D0
+				D1
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 4
+			uint32 m_nLocalElementMasks = 0xAC000000
+			int32 m_nLocalChannel = 0
+			uint8[78] m_container =
+			[
+				03
+				00
+				03
+				00
+				05
+				00
+				4E
+				00
+				25
+				00
+				26
+				00
+				29
+				00
+				2A
+				00
+				2C
+				00
+				FC
+				7F
+				18
+				C0
+				20
+				6B
+				71
+				40
+				C8
+				08
+				3A
+				41
+				FF
+				FF
+				1F
+				C1
+				88
+				DB
+				4C
+				C1
+				44
+				37
+				33
+				C1
+				04
+				00
+				00
+				41
+				88
+				DB
+				4C
+				C1
+				46
+				37
+				33
+				C1
+				FF
+				FF
+				FF
+				3F
+				C0
+				86
+				23
+				BF
+				FF
+				FF
+				E7
+				C1
+				15
+				1D
+				45
+				41
+				20
+				6C
+				2A
+				C0
+				D5
+				18
+				2A
+				43
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 5
+			uint32 m_nLocalElementMasks = 0x00000080
+			int32 m_nLocalChannel = 0
+			uint8[40] m_container =
+			[
+				05
+				00
+				03
+				00
+				01
+				00
+				28
+				00
+				0A
+				00
+				F9
+				C3
+				C8
+				BF
+				00
+				00
+				0D
+				C1
+				6F
+				08
+				90
+				42
+				00
+				00
+				00
+				00
+				00
+				00
+				61
+				2C
+				00
+				00
+				3D
+				B3
+				61
+				30
+				00
+				00
+				3C
+				B7
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 8
+			uint32 m_nLocalElementMasks = 0x0000001F
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				2D
+				00
+				2E
+				00
+				2F
+				00
+				30
+				00
+				31
+				00
+				32
+				00
+				33
+				00
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 11
+			uint32 m_nLocalElementMasks = 0x000003F0
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				34
+				00
+				35
+				00
+				36
+				00
+				37
+				00
+				38
+				00
+				39
+				00
+				3A
+				00
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				02
+				E3
+				86
+				E2
+				FE
+				5A
+				2D
+				38
+				78
+				47
+				CC
+				3E
+				2F
+				44
+				5F
+				35
+				A4
+				5B
+				8C
+				46
+				3D
+				4B
+				66
+				16
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				02
+				E3
+				86
+				E2
+				FE
+				5A
+				2D
+				38
+				78
+				47
+				CC
+				3E
+				2F
+				44
+				5F
+				35
+				A4
+				5B
+				8C
+				46
+				3D
+				4B
+				66
+				16
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				02
+				E3
+				86
+				E2
+				FE
+				5A
+				2D
+				38
+				78
+				47
+				CC
+				3E
+				2F
+				44
+				5F
+				35
+				A4
+				5B
+				8C
+				46
+				3D
+				4B
+				66
+				16
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 14
+			uint32 m_nLocalElementMasks = 0x00007E00
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				3B
+				00
+				3C
+				00
+				3D
+				00
+				3E
+				00
+				3F
+				00
+				40
+				00
+				41
+				00
+				D8
+				3E
+				FD
+				42
+				A8
+				42
+				08
+				36
+				3A
+				3F
+				52
+				38
+				36
+				3A
+				C5
+				39
+				D7
+				38
+				00
+				40
+				00
+				40
+				00
+				40
+				E3
+				EA
+				54
+				9E
+				86
+				C9
+				18
+				56
+				99
+				4C
+				AA
+				03
+				9C
+				36
+				C0
+				3A
+				79
+				45
+				D8
+				3E
+				FD
+				42
+				A8
+				42
+				FE
+				35
+				36
+				3F
+				49
+				38
+				36
+				3A
+				C5
+				39
+				D7
+				38
+				00
+				40
+				00
+				40
+				00
+				40
+				E3
+				EA
+				54
+				9E
+				86
+				C9
+				18
+				56
+				99
+				4C
+				AA
+				03
+				9C
+				36
+				C0
+				3A
+				79
+				45
+				D8
+				3E
+				FD
+				42
+				A8
+				42
+				F4
+				35
+				32
+				3F
+				40
+				38
+				36
+				3A
+				C5
+				39
+				D7
+				38
+				00
+				40
+				00
+				40
+				00
+				40
+				E3
+				EA
+				54
+				9E
+				86
+				C9
+				18
+				56
+				99
+				4C
+				AA
+				03
+				9C
+				36
+				C0
+				3A
+				79
+				45
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 17
+			uint32 m_nLocalElementMasks = 0x000FC000
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				42
+				00
+				43
+				00
+				44
+				00
+				45
+				00
+				46
+				00
+				47
+				00
+				48
+				00
+				00
+				40
+				00
+				40
+				00
+				40
+				3F
+				6D
+				C0
+				12
+				C1
+				12
+				53
+				43
+				BD
+				EA
+				C1
+				ED
+				CB
+				25
+				1B
+				33
+				4E
+				4A
+				23
+				7B
+				D7
+				45
+				07
+				3A
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				3F
+				6D
+				C0
+				12
+				C1
+				12
+				C7
+				42
+				05
+				EB
+				06
+				EE
+				B0
+				25
+				47
+				33
+				4F
+				4A
+				23
+				7B
+				D7
+				45
+				07
+				3A
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				3F
+				6D
+				C0
+				12
+				C1
+				12
+				3A
+				42
+				4C
+				EB
+				4A
+				EE
+				94
+				25
+				73
+				33
+				50
+				4A
+				23
+				7B
+				D7
+				45
+				07
+				3A
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+				00
+				40
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 20
+			uint32 m_nLocalElementMasks = 0x01F80000
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				49
+				00
+				4A
+				00
+				4B
+				00
+				4C
+				00
+				4D
+				00
+				4E
+				00
+				4F
+				00
+				00
+				40
+				00
+				40
+				00
+				40
+				8A
+				40
+				3B
+				22
+				84
+				75
+				00
+				40
+				00
+				40
+				00
+				40
+				5F
+				53
+				E6
+				39
+				BC
+				43
+				AA
+				45
+				C2
+				41
+				0B
+				40
+				A0
+				48
+				EA
+				43
+				CB
+				33
+				52
+				43
+				14
+				3D
+				A1
+				37
+				00
+				40
+				00
+				40
+				00
+				40
+				8A
+				40
+				3B
+				22
+				84
+				75
+				00
+				40
+				00
+				40
+				00
+				40
+				5F
+				53
+				E6
+				39
+				BC
+				43
+				AA
+				45
+				C2
+				41
+				0B
+				40
+				A0
+				48
+				EA
+				43
+				CB
+				33
+				52
+				43
+				14
+				3D
+				A1
+				37
+				00
+				40
+				00
+				40
+				00
+				40
+				8A
+				40
+				3B
+				22
+				84
+				75
+				00
+				40
+				00
+				40
+				00
+				40
+				5F
+				53
+				E6
+				39
+				BC
+				43
+				AA
+				45
+				C2
+				41
+				0B
+				40
+				A0
+				48
+				EA
+				43
+				CB
+				33
+				52
+				43
+				14
+				3D
+				A1
+				37
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 23
+			uint32 m_nLocalElementMasks = 0x3F000000
+			int32 m_nLocalChannel = 1
+			uint8[148] m_container =
+			[
+				08
+				00
+				04
+				00
+				07
+				00
+				94
+				00
+				50
+				00
+				51
+				00
+				52
+				00
+				53
+				00
+				54
+				00
+				55
+				00
+				56
+				00
+				83
+				33
+				75
+				48
+				B0
+				0D
+				00
+				40
+				00
+				40
+				00
+				40
+				2C
+				4E
+				39
+				2D
+				02
+				4A
+				F6
+				38
+				67
+				39
+				89
+				21
+				22
+				4F
+				C6
+				3F
+				2D
+				40
+				25
+				56
+				25
+				3D
+				B6
+				45
+				0A
+				56
+				5A
+				AC
+				52
+				DC
+				83
+				33
+				75
+				48
+				B0
+				0D
+				00
+				40
+				00
+				40
+				00
+				40
+				2C
+				4E
+				39
+				2D
+				02
+				4A
+				18
+				39
+				0D
+				39
+				8A
+				21
+				9E
+				4E
+				C8
+				3F
+				2B
+				40
+				25
+				56
+				25
+				3D
+				B6
+				45
+				1B
+				56
+				48
+				AC
+				69
+				DB
+				83
+				33
+				75
+				48
+				B0
+				0D
+				00
+				40
+				00
+				40
+				00
+				40
+				2C
+				4E
+				39
+				2D
+				02
+				4A
+				22
+				39
+				B0
+				38
+				DD
+				21
+				2F
+				4E
+				CA
+				3F
+				29
+				40
+				25
+				56
+				25
+				3D
+				B6
+				45
+				2C
+				56
+				3A
+				AC
+				9B
+				DA
+			]
+		}
+		AnimResourceFrameSegment_t
+		{
+			int32 m_nUniqueFrameIndex = 26
+			uint32 m_nLocalElementMasks = 0xE0000000
+			int32 m_nLocalChannel = 1
+			uint8[68] m_container =
+			[
+				08
+				00
+				04
+				00
+				03
+				00
+				44
+				00
+				57
+				00
+				58
+				00
+				59
+				00
+				1E
+				6F
+				1D
+				42
+				3E
+				3F
+				AA
+				45
+				97
+				41
+				66
+				3E
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				88
+				6F
+				1E
+				42
+				3D
+				3F
+				AA
+				45
+				97
+				41
+				66
+				3E
+				FE
+				FF
+				00
+				C0
+				00
+				40
+				88
+				6F
+				1E
+				42
+				3B
+				3F
+				AA
+				45
+				97
+				41
+				66
+				3E
+				FE
+				FF
+				00
+				C0
+				00
+				40
+			]
+		}
+	]
+}

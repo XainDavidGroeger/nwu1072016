@@ -1,0 +1,40 @@
+<root>
+    <script>
+        $.Msg( "Images compiled" );
+    </script>     
+    <Panel hittest="false" class="ImagesRoot">
+	
+		<!-- Hero Portraits -->
+		<Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_ursa_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_antimage_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_axe_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_beastmaster_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_bloodseeker_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_centaur_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_doom_bringer_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_dragon_knight_png.vtex"/>
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_drow_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_drow_ranger_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_enchantress_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_juggernaut_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_kunkka_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_legion_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_legion_commander_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_lion_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_medusa_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_ogre_magi_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_phantom_assassin_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_sand_king_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_shadow_shaman_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_storm_spirit_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_sven_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/heroes/npc_dota_hero_warlock_png.vtex" />
+
+        <Image style="opacity:0;" src="s2r://panorama/images/team/shinobi_alliance_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/team/akatsuki_symbol_png.vtex" />
+
+        <Image style="opacity:0;" src="s2r://panorama/images/scoreboard/scoreboard_akat_png.vtex" />
+        <Image style="opacity:0;" src="s2r://panorama/images/scoreboard/scoreboard_shinobi_png.vtex" />
+
+    </Panel>
+</root>

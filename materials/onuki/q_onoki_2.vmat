@@ -1,0 +1,15 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_DO_NOT_CAST_SHADOWS"	"1"
+	"F_FULLBRIGHT"	"1"
+	"F_ALPHA_TEST"	"1"
+	"g_flAlphaTestReference"	"0.066"
+	"g_vColorTint"	"[1 1 1 1]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"TextureColor"	"[1 1 1 1]"
+	"g_tColor"	"materials/models/heroes/huskar/huskar_glow_detail_psd_ab82333c.vtex"
+	"RepresentativeTextureWidth"	"1"
+	"RepresentativeTextureHeight"	"1"
+}

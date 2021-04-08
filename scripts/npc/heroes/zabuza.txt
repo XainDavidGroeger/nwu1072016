@@ -1,0 +1,37 @@
+"npc_dota_hero_bloodseeker" //zabuza
+		{
+		  "override_hero"   "npc_dota_hero_bloodseeker"
+		  "Ability1"        "zabuza_water_dragon_bullet"
+		  "Ability2"        "zabuza_kirigakure_no_jutsu_new"
+		  "Ability3"        "zabuza_executioners_blade"
+		  "Ability4"        "zabuza_demon_of_the_hidden_mist" 
+		//  "ModelScale"		"0.90"
+		//  "LoadoutScale"		"0.90"
+		  "ModelScale"		"1.0"
+		  "LoadoutScale"	"1.0" 
+		  "Model" 			"models/zabuza/zabuza.vmdl"
+	 	  "ItemSlots"
+	  	  { }
+	  	    "StatusHealth"    "145"
+  "StatusHealthRegen"   "0.300000"
+		"AttackDamageMin"		"29"
+		"AttackDamageMax"		"33"
+		"Role"			"Carry"
+		"Rolelevels"	"1"
+		"ArmorPhysical"		"1.100000"
+		"AttackRate"		"1.700000"
+	  	  "AttributePrimary" 		"DOTA_ATTRIBUTE_STRENGTH"
+		  "AttackAnimationPoint"		"0.4"
+		 // "AttackRate"				"1.0"
+		  "AttackRange"				"100"
+		  "MovementSpeed"			"295"
+		  "AttributeBaseStrength" "23" // Base strength
+		  "AttributeStrengthGain" "2.5" // Strength bonus per level.
+		  "AttributeBaseIntelligence" "18" // Base intelligence
+		  "AttributeIntelligenceGain" "1.7" // Intelligence bonus per level.
+		  "AttributeBaseAgility" "16" // Base agility
+		  "AttributeAgilityGain" "1.8" // Agility bonus per level.
+
+	  	  "Village"			"kirigakure"
+	  	  "Gender"			"male"
+		}

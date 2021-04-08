@@ -1,0 +1,193 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/props_gameplay/donkey_dire_wings.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/props_gameplay/fcourier_ac2d9c96.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[1] =
+	[
+		resource:"models/props_gameplay/donkey_dire_wings_a7050d82.vagrp"
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[13] =
+		[
+			"fcourier_body00"
+			"fcourier_body01"
+			"fcourier_body02"
+			"fcourier_right_wing00"
+			"fcourier_right_wing01"
+			"fcourier_left_wing00"
+			"fcourier_left_wing01"
+			"fcourier_rleg00"
+			"fcourier_rleg01"
+			"fcourier_rleg02"
+			"fcourier_lleg00"
+			"fcourier_lleg01"
+			"fcourier_lleg02"
+		]
+		int16 m_nParent[13] =
+		[
+			-1
+			0
+			1
+			-1
+			3
+			-1
+			5
+			-1
+			7
+			8
+			-1
+			10
+			11
+		]
+		float32 m_boneSphere[13] =
+		[
+			18.499424
+			20.963337
+			17.319296
+			39.543865
+			31.880543
+			39.696602
+			32.061829
+			6.614810
+			6.278559
+			9.122370
+			6.613741
+			6.279451
+			9.123764
+		]
+		uint32 m_nFlag[13] =
+		[
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+			0x0003FDC0
+		]
+		Vector m_bonePosParent[13] =
+		[
+			(19.812435, -0.000008, 63.101818)
+			(14.211970, -0.000053, 0.000008)
+			(20.018745, -0.000015, 0.000007)
+			(7.311243, -3.056980, 66.522430)
+			(35.462044, 0.000003, 0.000000)
+			(7.311241, 2.874844, 66.522415)
+			(35.462032, 0.000005, 0.000015)
+			(0.910700, -3.764158, 61.873600)
+			(5.703480, 0.000012, -0.000002)
+			(4.622246, 0.000008, -0.000002)
+			(0.910703, 3.854948, 61.873596)
+			(5.703495, 0.000017, -0.000006)
+			(4.622246, 0.000004, -0.000005)
+		]
+		Quaternion m_boneRotParent[13] =
+		[
+			{x: -0.06, y: 0.70, z: -0.70, w: -0.06}
+			{x: -0.00, y: -0.00, z: 0.09, w: 1.00}
+			{x: 0.00, y: -0.00, z: 0.07, w: 1.00}
+			{x: -0.00, y: 0.00, z: -0.78, w: 0.62}
+			{x: 0.00, y: 0.00, z: 0.09, w: 1.00}
+			{x: 0.62, y: 0.78, z: -0.00, w: -0.00}
+			{x: -0.00, y: -0.00, z: 0.09, w: 1.00}
+			{x: -0.49, y: -0.51, z: 0.51, w: -0.49}
+			{x: -0.00, y: 0.00, z: 0.45, w: 0.89}
+			{x: -0.00, y: 0.00, z: 0.48, w: 0.88}
+			{x: -0.48, y: -0.51, z: 0.52, w: -0.49}
+			{x: -0.00, y: 0.00, z: 0.45, w: 0.89}
+			{x: -0.00, y: 0.00, z: 0.48, w: 0.88}
+		]
+	}
+	int16 m_remappingTable[26] =
+	[
+		0
+		7
+		10
+		1
+		3
+		5
+		8
+		11
+		2
+		4
+		6
+		9
+		12
+		0
+		7
+		10
+		1
+		3
+		5
+		8
+		11
+		2
+		4
+		6
+		9
+		12
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

@@ -1,0 +1,112 @@
+PermModelData_t
+{
+	CResourceString m_name = "models/valleyoftheend.vmdl"
+	Struct m_modelInfo = PermModelInfo_t
+	{
+		uint32 m_nFlags = 0x00000400
+		Vector m_vHullMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vHullMax = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMin = (0.000000, 0.000000, 0.000000)
+		Vector m_vViewMax = (0.000000, 0.000000, 0.000000)
+		float32 m_flMass = 0.000000
+		Vector m_vEyePosition = (0.000000, 0.000000, 0.000000)
+		float32 m_flMaxEyeDeflection = 0.000000
+		CResourceString m_sSurfaceProperty = ""
+		CResourceString m_keyValueText = ""
+	}
+	Struct m_ExtParts[0] =
+	[
+	]
+	ExternalReference m_refMeshes[1] =
+	[
+		resource:"models/valleyoftheend.vmesh"
+	]
+	uint64 m_refMeshGroupMasks[1] =
+	[
+		0xFFFFFFFFFFFFFFFF
+	]
+	uint64 m_refPhysGroupMasks[0] =
+	[
+	]
+	uint8[1] m_refLODGroupMasks =
+	[
+		FF
+	]
+	float32 m_lodGroupSwitchDistances[0] =
+	[
+	]
+	ExternalReference m_refPhysicsData[0] =
+	[
+	]
+	ExternalReference m_refPhysicsHitboxData[0] =
+	[
+	]
+	ExternalReference m_refAnimGroups[0] =
+	[
+	]
+	ExternalReference m_refSequenceGroups[0] =
+	[
+	]
+	CResourceString m_meshGroups[0] =
+	[
+	]
+	Struct m_materialGroups[0] =
+	[
+	]
+	uint64 m_nDefaultMeshGroupMask = 0xFFFFFFFFFFFFFFFF
+	Struct m_modelSkeleton = ModelSkeletonData_t
+	{
+		CResourceString m_boneName[3] =
+		[
+			"root ground"
+			"clouds 2"
+			"Mesh_0042"
+		]
+		int16 m_nParent[3] =
+		[
+			-1
+			0
+			0
+		]
+		float32 m_boneSphere[3] =
+		[
+			3211.715820
+			2291.945801
+			2625.218262
+		]
+		uint32 m_nFlag[3] =
+		[
+			0x0003FD80
+			0x0003FD80
+			0x0003FD80
+		]
+		Vector m_bonePosParent[3] =
+		[
+			(0.000000, 0.000000, 0.000000)
+			(1094.530396, 0.000122, 269.810089)
+			(924.106567, -0.000000, -40.583424)
+		]
+		Quaternion m_boneRotParent[3] =
+		[
+			{x: -0.00, y: -0.72, z: -0.00, w: 0.69}
+			{x: -0.00, y: -0.12, z: -0.00, w: 0.99}
+			{x: 0.00, y: 0.02, z: 0.00, w: 1.00}
+		]
+	}
+	int16 m_remappingTable[6] =
+	[
+		0
+		1
+		2
+		1
+		2
+		0
+	]
+	uint16 m_remappingTableStarts[1] =
+	[
+		0x0000
+	]
+	Struct m_boneFlexDrivers[0] =
+	[
+	]
+}

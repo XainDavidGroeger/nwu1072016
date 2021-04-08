@@ -1,0 +1,14 @@
+"Layer0"
+{
+	"shader"	"global_lit_simple.vfx"
+	"F_ADDITIVE_BLEND"	"1"
+	"F_TRANSLUCENT"	"1"
+	"g_flOpacityScale"	"0.4"
+	"g_vColorTint"	"[1 1 1 0]"
+	"g_vTexCoordOffset"	"[0 0 0 0]"
+	"g_vTexCoordScale"	"[1 1 0 0]"
+	"TextureColor"	"[1 1 1 1]"
+	"g_tColor"	"materials/onuki/sphere_vmat_g_tcolor_7ced3158.vtex"
+	"RepresentativeTextureWidth"	"1"
+	"RepresentativeTextureHeight"	"1"
+}

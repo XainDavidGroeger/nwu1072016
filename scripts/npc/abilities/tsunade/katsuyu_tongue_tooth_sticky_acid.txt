@@ -1,0 +1,93 @@
+"katsuyu_tongue_tooth_sticky_acid"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"	
+	"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+	"FightRecapLevel"				"1"
+	"AbilityTextureName"			"katsuyu_tongue_tooth_sticky_acid"
+	
+	// Precache
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+		"soundfile"		"soundevents/game_sounds_heroes/game_sounds_invoker.vsndevts"
+		"particle"		"particles/units/heroes/hero_invoker/invoker_forge_spirit_ambient.vpcf"
+		"particle"		"particles/units/heroes/hero_invoker/invoker_forge_spirit_death.vpcf"
+		"particle"		"particles/units/heroes/hero_invoker/invoker_forged_spirit_projectile.vpcf"
+		"particle"		"particles/items2_fx/orb_of_venom.vpcf"
+	}
+
+	
+	// Cast Range
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastRange"				"500"
+
+	// Stats
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityModifierSupportValue"	"0.5"	// Primarily about the summon
+	
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"duration"			"30"
+		}
+		"02"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"damage_per_second"			"15 20 25 30"
+		}
+		"03"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"damage_reduction_percentage"			"-17 -20 -23 -26"
+		}
+		"04"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"radius"			"500"
+		}
+	}
+	
+	"Modifiers"
+    {
+      "katsuyu_poison"
+      {
+         "Passive"				"1"
+			"IsHidden"				"1"
+			"IsBuff"				"0"
+			"Aura"					"katsuyu_poison_debuff"
+			"Aura_Radius"			"%radius"
+			"Aura_Teams"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+			"Aura_Types"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+      }
+
+      "katsuyu_poison_debuff"
+      {
+      	"IsDebuff"			"1"
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE" "%damage_reduction_percentage"
+			}
+
+        "EffectName"    "particles/items2_fx/orb_of_venom.vpcf"
+        "EffectAttachType"  "attach_hitloc"
+  
+        "ThinkInterval"   "1.0"
+        "OnIntervalThink"
+        {
+          "Damage"
+          {
+            "Target"    "TARGET"
+            "Type"      "DAMAGE_TYPE_MAGICAL"
+            "Damage"    "%damage_per_second"
+          }
+        }
+      }
+    }
+}

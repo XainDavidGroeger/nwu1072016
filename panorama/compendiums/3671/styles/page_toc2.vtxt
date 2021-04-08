@@ -1,0 +1,50 @@
+#page_TOC2
+{
+	flow-children: none;
+}
+
+#list_table
+{
+	flow-children: down;
+	position: 78px 100px 0;
+}
+
+.subheader
+{
+	visibility: collapse;
+}
+
+.toc_pagelink
+{
+	visibility: collapse;
+	flow-children: right;
+}
+
+#whiskey
+{
+	margin-top: 680px;
+	margin-left: 40px;
+	color: #d1daaf;
+	text-shadow: 2px 2px 8px 3 #22222222;
+	font-size: 24;
+	text-align: left;
+}
+
+#prestige
+{
+	margin-top: 708px;
+	margin-left: 40px;
+	color: #eeeeee;
+	text-shadow: 2px 2px 8px 3.0 #22222222;
+	font-size: 15;
+	text-align: left;
+}
+
+
+#bg
+{
+	position: 0px 0px 0;
+	width: 673px;
+	height: 757px;
+	z-index: -1;
+}

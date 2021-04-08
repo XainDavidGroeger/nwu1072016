@@ -1,0 +1,42 @@
+"addon"
+{
+	"Unassigned"      								"Unassigned Team"
+	"Spectator"       								"Spectator Team"
+	"Neutrals"        								"Neutral Team"
+	"NoTeam"          								"No Team"
+
+	"DOTA_CUSTOM1"									"Bots"
+	"DOTA_CUSTOM2"									"Shinobi Alliance"
+	"DOTA_CUSTOM3"									"Akatsuki Force"
+	"DOTA_GoodGuys"   								"Shinobi Alliance"
+	"DOTA_BadGuys"    								"Akatsuki Force"
+	
+	"addonname"										"Naruto Wars Reborn"
+
+	"duelName"										"NWR - Duel"
+
+	"game_info_header_objective"					"Objective"
+	"brief_description"								"1v1 - Best of 3. Win 2 out of 3 rounds to win the game."
+
+	"game_info_rounds_header"						"Rounds"
+	"game_info_round1"								"1st Round: Both players play the hero they chose in the hero selection."
+	"game_info_round2"								"2nd Round: Heroes will be swapped."
+	"game_info_round3"								"3rd Round: Both players will receive the same randomed hero."
+
+	"game_info_condition_header"					"Win Conditions"
+	"game_info_condition1"							"-Kill the enemy hero"
+	"game_info_condition2"							"-Farm 100 CS"
+	"game_info_condition3"							"-Destroy an enemy tower"
+
+	"game_info_tips_header"							"Tips"
+	"game_info_tip01"								"Each 2nd minute a rune spawns at the valley of the death:"
+
+	"scoreboard_damage_taken"						"DT"
+	"scoreboard_damage_dealt"						"DD"
+	"custom_end_screen_legend_kills"				"K"
+	"custom_end_screen_legend_deaths"				"D"
+	"custom_end_screen_legend_assists"				"A"
+	"scoreboard_last_hits"							"LH"
+	"scoreboard_denies"								"D"
+
+}

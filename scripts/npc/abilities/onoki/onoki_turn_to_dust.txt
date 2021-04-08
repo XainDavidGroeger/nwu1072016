@@ -1,0 +1,88 @@
+"onoki_turn_to_dust"
+{
+	"BaseClass"			 		"ability_datadriven"
+	"AbilityTextureName"			"onoki_turn_to_dust"
+	"MaxLevel" 						"4"
+
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+	"AbilityCastRange"				"350"
+
+	"precache"
+	{
+		"particle"			"particles/units/heroes/onoki/aura_speed_buff.vpcf"
+		"particle"			"particles/units/heroes/onoki/aura_slow_debuf_core.vpcf"
+	}
+
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"				"FIELD_FLOAT"
+			"ms_debuff"	"-6 -12 -18 -24"
+		}
+		"02"
+		{
+			"var_type"				"FIELD_FLOAT"
+			"ms_buff"	"4 5 6 7"
+		}
+		"03"
+		{
+			"var_type"				"FIELD_FLOAT"
+			"aura_radius"	"350"
+		}
+	}
+
+	"Modifiers"
+	{
+
+		"modifier_onoki_turn_to_dust_aura_debuff"
+		{
+			"Passive"				"1"
+			"IsHidden"				"1"
+			"IsBuff"				"1"
+			"Aura"					"modifier_turn_to_dust_debuff"
+			"Aura_Radius"			"350"
+			"Aura_Teams"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+			"Aura_Types"			"DOTA_UNIT_TARGET_HERO"
+			
+		}
+
+		"modifier_turn_to_dust_debuff"
+		{
+			"IsDebuff"			"1"
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%ms_debuff"
+			}
+			"EffectName"		"particles/units/heroes/onoki/aura_slow_debuf_core.vpcf"
+			"EffectAttachType"  "follow_origin" 
+		}
+
+		"modifier_onoki_turn_to_dust_aura_buff"
+		{
+			"Passive"				"1"
+			"IsHidden"				"1"
+			"IsBuff"				"1"
+			"Aura"					"modifier_turn_to_dust_buff"
+			"Aura_Radius"			"350"
+			"Aura_Teams"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+			"Aura_Types"			"DOTA_UNIT_TARGET_HERO"
+			 
+		}
+
+		"modifier_turn_to_dust_buff"
+		{
+			"IsBuff"			"1"
+			"Properties"
+			{
+				"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%ms_buff"
+			}
+			"EffectName"		"particles/units/heroes/onoki/aura_speed_buff.vpcf"
+			"EffectAttachType"  "follow_origin"
+		}
+
+	}
+}

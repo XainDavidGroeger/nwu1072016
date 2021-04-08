@@ -1,0 +1,160 @@
+"kimi_clematis_dance"
+{
+    // General  
+    // ----------------------------------------------------------------------------------------
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityUnitDamageType"     "DAMAGE_TYPE_PHYSICAL" 
+    "SpellImmunityType"         "SPELL_IMMUNITY_ENEMIES_NO"
+    "AbilityTextureName"        "kimi_clematis_dance"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastRange"              "0"
+
+
+    // Time     
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"               "10 8 6 4"
+    "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"               "30"
+
+    // Precache
+    //-------------------------------------------------------------------------------------------------------------
+     "precache"
+    {
+     "soundfile"                 "soundevents/game_sounds_heroes/game_sounds_tusk.vsndevts"
+     "soundfile" "soundevents/kimi_q.vsndevts"
+     "soundfile" "soundevents/kimi_q_2.vsndevts"
+     "particle"                    "particles/units/heroes/kimimaro/clemantis.vpcf"
+     "model"                    "models/kimi/kimi_dance.vmdl"
+     "model"                    "models/kimi/kimi_model.vmdl"
+     "model"                    "models/kimi/kimi_cs_no_clemantis.vmdl"
+     "soundfile"                 "soundevents/game_sounds_heroes/game_sounds_nyx_assassin.vsndevts"
+    }
+
+    "AbilitySpecial"
+    {
+        "01"
+        { 
+            "var_type" "FIELD_FLOAT"
+            "duration" "8"
+        }
+        "02"
+        {
+            "var_type" "FIELD_FLOAT"
+            "hits" "3"
+        }
+        "03"
+        {
+            "var_type" "FIELD_FLOAT"
+            "stun_duration" "1"
+        }
+        "04"
+        {
+            "var_type" "FIELD_FLOAT"
+            "as_bonus" "500"
+        }
+        "06"
+        {
+            "var_type" "FIELD_FLOAT"
+            "bonus_dmg" "1"
+        }
+        "05"
+        {
+            "var_type" "FIELD_FLOAT"
+            "bonus_dmg_percentage" "15 25 35 45"
+        }
+    }
+
+    "OnSpellStart"
+    {           
+
+        "RunScript"
+        {
+            "ScriptFile"            "heroes/kimi/clematis_dance.lua"
+            "Function"              "playSound"
+        }
+
+         "ApplyModifier"
+        {
+            "ModifierName"          "modifier_kimi_clematis_dance"
+            "Target"                "CASTER"
+        }
+         "ApplyModifier"
+        {
+            "ModifierName"          "modifier_kimi_clematis_dance_dmg"
+            "Target"                "CASTER"
+        }
+
+        "FireSound"
+        {
+            "EffectName"    "Hero_NyxAssassin.SpikedCarapace"
+            "Target"         "CASTER"
+        }
+
+        "RunScript"
+        {
+            "ScriptFile"    "heroes/kimi/clematis_dance.lua"
+            "Function"        "applyBonusDmg"
+        }
+
+        "RunScript"
+        {
+            "ScriptFile"    "heroes/kimi/clematis_dance.lua"
+            "Function"        "applyModel"
+            "modelname"     "models/kimi/kimi_dance.vmdl"
+            "modelnamecs"     "models/kimi/kimi_model.vmdl"
+        }
+    }
+
+
+    "Modifiers"
+    {
+         "modifier_kimi_clematis_dance"
+        {
+            "Passive"   "0"
+            "Duration"  "%duration"
+            "IsHidden"  "1"
+            "OnAttackLanded"
+            // "%attack_damage" is set to the damage value before mitigation
+            {
+                "RunScript"
+                {
+                   "ScriptFile"    "heroes/kimi/clematis_dance.lua"
+                    "Function"      "countStun"
+                }
+            }
+
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%as_bonus"
+            }
+
+            "OnDestroy"
+            {
+                "RunScript"
+                {
+                    "ScriptFile"    "heroes/kimi/clematis_dance.lua"
+                    "Function"        "ModelSwapEnd"
+                }
+            }
+        }
+
+         "modifier_kimi_clematis_dance_dmg"
+        {
+            "Passive"   "0"
+            "IsHidden"  "0"
+            "Duration"  "%duration"
+            "IsBuff"   "1"
+            "Properties"
+            {
+
+                "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_dmg"
+            }
+        }
+
+
+    }
+
+}

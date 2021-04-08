@@ -1,0 +1,245 @@
+#page_cover
+{
+	flow-children: none;
+}
+
+#tier1
+{
+	position: 195px 105px 0;
+	z-index: 1;
+}
+
+.reward
+{
+	width: 120px;
+	height: 120px;
+	z-index: 3;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+	border: 2px solid #4b656a;
+}
+
+.reward_unowned
+{
+	width: 120px;
+	height: 120px;
+	z-index: 2;
+	saturation: 0.0;
+	brightness: 0.2;
+	tooltip-position: bottom;
+	tooltip-body-position: 50% 50%;
+	border: 2px solid #4b656a;
+}
+
+
+#tier1_label
+{
+	color: gradient( linear, 0% 0%, 0% 100%, from( #e0bc30 ), to( #8b771b ));
+	text-align: center;
+	margin-left: 48px;
+	margin-top: 226px;
+	z-index: -1;
+	font-size: 14;
+	background-color: #333333;
+	width: 114px;
+	height: 18px;
+}
+
+#t1b
+{
+	margin-left: 300px;
+}
+#t1c
+{
+	margin-left: 150px;
+	margin-top: 40px;
+}
+#t1d
+{
+	margin-top: 140px;
+}
+#t1e
+{
+	margin-left: 300px;
+	margin-top: 145px;
+}
+
+.3x
+{
+	margin-left: 397px;
+	font-size: 15;
+	color: gradient( linear, 0% 0%, 0% 100%, from( #aee35d ), to( #6d9d23 ));
+	font-weight: bold;
+	z-index: 4;
+}
+
+#t2_3x
+{
+	margin-top: 358px;
+}
+#tier2_label
+{
+	color: gradient( linear, 0% 0%, 0% 100%, from( #c7cec4 ), to( #6a7068 ));
+	text-align: center;
+	margin-left: 48px;
+	margin-top: 417px;
+	z-index: -1;
+	font-size: 14;
+	background-color: #333333;
+	width: 114px;
+	height: 18px;
+}
+#tier2
+{
+	position: 245px 385px 0;
+	flow-children: right;
+	z-index: 1;
+}
+
+.t2.reward_unowned
+{
+	width: 80px;
+	height: 85px;
+}
+.t2.reward
+{
+	width: 80px;
+	height: 85px;
+}
+
+#t2b
+{
+	margin-left: 40px;
+}
+
+#t2c
+{
+	margin-left: 40px;
+}
+
+#t3_3x
+{
+	margin-top: 480px;
+}
+
+#tier3_label
+{
+	color: gradient( linear, 0% 0%, 0% 100%, from( #bd854e ), to( #7a5530 ));
+	text-align: center;
+	margin-left: 48px;
+	margin-top: 533px;
+	z-index: -1;
+	font-size: 14;
+	background-color: #333333;
+	width: 114px;
+	height: 18px;
+}
+
+#tier3
+{
+	position: 245px 507px 0;
+	flow-children: right;
+	z-index: 1;
+}
+
+.t3.reward_unowned
+{
+	width: 70px;
+	height: 74px;
+}
+.t3.reward
+{
+	width: 70px;
+	height: 74px;
+}
+
+#t3b
+{
+	margin-left: 55px;
+}
+
+#t3c
+{
+	margin-left: 55px;
+}
+
+#trade_ups
+{
+	margin-top: 125px;
+	margin-left: 182px;
+	width: 450px;
+	height: 420px;
+}
+
+#ruler_top
+{
+	position: 26px 595px 0;
+}
+
+#description
+{
+	position: 76px 610px 0;
+	font-size: 13;
+}
+
+.ct_btn
+{
+	horizontal-align: center;
+	width: 190px;
+	height: 36px;
+	box-shadow: fill #000000aa 0px 8px 6px 0px;
+	transition-property: box-shadow;
+	transition-delay: 0.0s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+.ct_btn:hover
+{
+	position: -1px -1px 0;
+	box-shadow: fill #a3e43faa -6px -6px 6px 12px;
+	width: 194px;
+	height: 40px;
+}
+
+.ct_btn_text
+{
+	margin-top: 2px;
+	horizontal-align: center;
+	width: 160px;
+	color: #cbc7bd;
+	z-index: 2;
+	font-size: 15;
+	text-align: center;
+	line-height: 12;
+}
+#crafting
+{
+	vertical-align:bottom;
+	margin-bottom: 46px;
+	margin-left: 120px;
+	z-index: 1;
+}
+
+#icon_coin_treasure
+{
+	width: 70px;
+	height: 72px;
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin-bottom: 36px;
+	margin-right: 100px;
+	z-index: 2;
+}
+#treasures
+{
+	vertical-align:bottom;
+	margin-bottom: 46px;
+	margin-left: 360px;
+	z-index: 1;
+}
+
+
+#bg
+{
+	z-index: -2;
+}
